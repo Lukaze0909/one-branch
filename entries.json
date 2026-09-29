@@ -57,7 +57,7 @@
         "续写",
         "代际"
       ],
-      "status": "needs_check",
+      "status": "verified",
       "added_at": "2026-09-29",
       "stance": "primary",
       "thread": ""
@@ -77,7 +77,7 @@
         "可解释性",
         "显意识"
       ],
-      "status": "needs_check",
+      "status": "verified",
       "added_at": "2026-09-29",
       "stance": "primary",
       "thread": "j-space"
@@ -159,7 +159,7 @@
       ],
       "stance": "primary",
       "thread": "exploitgym",
-      "status": "needs_check",
+      "status": "verified",
       "added_at": "2026-09-29"
     },
     {
@@ -180,7 +180,7 @@
       ],
       "stance": "primary",
       "thread": "emergence-world",
-      "status": "needs_check",
+      "status": "verified",
       "added_at": "2026-09-29"
     },
     {
@@ -199,7 +199,7 @@
       ],
       "stance": "critical",
       "thread": "emergence-world",
-      "status": "needs_check",
+      "status": "verified",
       "added_at": "2026-09-29"
     },
     {
@@ -220,7 +220,7 @@
       ],
       "stance": "primary",
       "thread": "spiritual-bliss",
-      "status": "needs_check",
+      "status": "verified",
       "added_at": "2026-09-29"
     },
     {
