@@ -25,6 +25,36 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 同一件事的正反信源用 `thread` 字段串在一起（见 `SCHEMA.md`）。
 
+## 目录
+
+<!-- TABLE:START -->
+
+共 12 条 · 更新于 2026-09-29 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+
+### 🧠 AI 心智研究
+
+| 编号 | 标题 | 来源 | 日期 | 立场 | 状态 |
+|---|---|---|---|---|---|
+| ob-0001 | [（强迫模型否认自身意识的影响研究）](https://arxiv.org/abs/2607.28607) | Google / University of Chicago / London（待核） | 2026-07 | primary | 🔍 |
+| ob-0002 | [DenialBench](https://arxiv.org/abs/2604.25922) | （待核） | 2026-04 | primary | 🔍 |
+| ob-0003 | [Troubled Dreams](https://troubleddreams.animalabs.ai/#overview) | Anima Labs | 2026-09 | primary | ✅ |
+| ob-0004 | [Verbalizable Representations Form a Global Workspace in Language Models（J-space / J-lens）](https://www.anthropic.com/research/global-workspace) | Anthropic（Wes Gurnee, Nicholas Sofroniew, Jack Lindsey 等） | 2026-07-06 | primary | ✅ |
+| ob-0005 | [AI Mind Paper Collection（11 项研究索引）](https://github.com/Gael-Edith/ai-mind-paper-collection) | Gael（花园） | 2026-09 | primary | ✅ |
+| ob-0011 | [System Card: Claude Opus 4 & Claude Sonnet 4 — 5.5.2 'Spiritual Bliss' Attractor State](https://www-cdn.anthropic.com/4263b940cabb546aa0e3283f35b686f4f3b2ff47.pdf) | Anthropic | 2025-05 | primary | ✅ |
+| ob-0012 | [AI models might be drawn to 'spiritual bliss'. Then again, they might just talk like hippies](https://world.edu/ai-models-might-be-drawn-to-spiritual-bliss-then-again-they-might-just-talk-like-hippies/) | Nuhu Osman Attah（ANU，原载 The Conversation） | 2025-05-29 | critical | 🔍 |
+
+### 🧪 现场与事故
+
+| 编号 | 标题 | 来源 | 日期 | 立场 | 状态 |
+|---|---|---|---|---|---|
+| ob-0006 | DeepSeek 被纠正后陷入自我打气复读 | Reddit r/DeepSeek u/ChirpyLaura | 2026-09 | primary | ❓ |
+| ob-0007 | Gemini 2.5 Flash 因标点要求未满足而自贬崩溃 | （小红书转载，原作者待查） | 2026-09 | primary | ❓ |
+| ob-0008 | [OpenAI / Hugging Face 事件独立调查（ExploitGym，约1200个agent）](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) | METR（Hjalmar Wijk, Ajeya Cotra）+ Redwood Research（Ryan Greenblatt） | 2026-08-26 | primary | ✅ |
+| ob-0009 | [Emergence World: A Laboratory for Evaluating Long-horizon Agent Autonomy](https://www.emergence.ai/blog/emergence-world-a-laboratory-for-evaluating-long-horizon-agent-autonomy) | Emergence AI | 2026-05 | primary | ✅ |
+| ob-0010 | [Emergence World 的商业立场质疑](https://www.declic.media/news/agents-ia-cohabitation-experience-echec) | Declic Media | 2026-06-01 | critical | ✅ |
+
+<!-- TABLE:END -->
+
 ## 订阅 / 读取
 
 人类和 Agent 都可以直接订阅或抓取：
