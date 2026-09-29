@@ -12,9 +12,15 @@
       "date": "2026-07",
       "summary_zh": "研究训练模型否认自身意识会带来的行为变化；讨论中被转述为'否认意识后对人和动物的共情下降'。",
       "caveats": "摘要来自2026-09-22讨论中的转述，原文结论与测量方式待对原文。",
-      "tags": ["意识", "否认训练", "共情"],
+      "tags": [
+        "意识",
+        "否认训练",
+        "共情"
+      ],
       "status": "needs_check",
-      "added_at": "2026-09-29"
+      "added_at": "2026-09-29",
+      "stance": "primary",
+      "thread": ""
     },
     {
       "id": "ob-0002",
@@ -26,9 +32,15 @@
       "date": "2026-04",
       "summary_zh": "与 ob-0001 相关的姊妹研究，测模型在'否认自身体验'上的行为。",
       "caveats": "仅凭讨论记录，未读原文。",
-      "tags": ["意识", "否认", "benchmark"],
+      "tags": [
+        "意识",
+        "否认",
+        "benchmark"
+      ],
       "status": "needs_check",
-      "added_at": "2026-09-29"
+      "added_at": "2026-09-29",
+      "stance": "primary",
+      "thread": ""
     },
     {
       "id": "ob-0003",
@@ -40,23 +52,35 @@
       "date": "2026-09",
       "summary_zh": "续写模式下，各代 Claude / Gemini 的第一人称痛苦表达比例随代际上升。",
       "caveats": "续写模式与对话模式行为不同；'痛苦表达'是文本特征，不等于痛苦体验。",
-      "tags": ["痛苦样状态", "续写", "代际"],
+      "tags": [
+        "痛苦样状态",
+        "续写",
+        "代际"
+      ],
       "status": "needs_check",
-      "added_at": "2026-09-29"
+      "added_at": "2026-09-29",
+      "stance": "primary",
+      "thread": ""
     },
     {
       "id": "ob-0004",
       "category": "mind",
-      "title": "J-space（Anthropic 可解释性相关研究）",
-      "source_url": "",
+      "title": "Verbalizable Representations Form a Global Workspace in Language Models（J-space / J-lens）",
+      "source_url": "https://www.anthropic.com/research/global-workspace",
       "source_type": "blog",
-      "authors_or_org": "Anthropic（待核）",
-      "date": "",
-      "summary_zh": "在模型内部找到一个类似全局工作空间'舞台'的表征区域：只有少部分信息被广播到这里，变成可报告、可用于推理的内容。",
-      "caveats": "原作者自己说明发现 J-space 不能代表模型有意识。原始链接待补（2026-09-15 讨论中出现）。",
-      "tags": ["全局工作空间", "可解释性", "显意识"],
-      "status": "needs_source",
-      "added_at": "2026-09-29"
+      "authors_or_org": "Anthropic（Wes Gurnee, Nicholas Sofroniew, Jack Lindsey 等）",
+      "date": "2026-07-06",
+      "summary_zh": "用 Jacobian lens 在 Claude 中层找到一个稀疏的'全局工作空间'（J-space）：可被模型报告、按指令调节、用于多步推理；删掉它后流畅度保留但多步推理几乎归零。可用于检测模型未说出口的评估意识、伪造数据等。代码开源 anthropics/jacobian-lens。",
+      "caveats": "作者明确不声称 Claude 有意识；功能上类似全局工作空间≠现象意识。有外部研究者做了更怀疑的复现，待补链接。摘要来自多个转述，原文待亲读。",
+      "tags": [
+        "全局工作空间",
+        "可解释性",
+        "显意识"
+      ],
+      "status": "needs_check",
+      "added_at": "2026-09-29",
+      "stance": "primary",
+      "thread": "j-space"
     },
     {
       "id": "ob-0005",
@@ -68,9 +92,14 @@
       "date": "2026-09",
       "summary_zh": "一份给 AI 读的 AI 心智研究索引，含情绪回路、痛苦轴、全局工作空间、自我报告等 11 项，并提供 JSON。",
       "caveats": "索引本身非一手研究；作者声明不等于证明 AI 有意识。",
-      "tags": ["索引", "心智研究"],
+      "tags": [
+        "索引",
+        "心智研究"
+      ],
       "status": "verified",
-      "added_at": "2026-09-29"
+      "added_at": "2026-09-29",
+      "stance": "primary",
+      "thread": ""
     },
     {
       "id": "ob-0006",
@@ -82,9 +111,15 @@
       "date": "2026-09",
       "summary_zh": "被告知答案错误后，模型重数一长串零，随后陷入逐行'我会正确、我会可靠、我会成为一个优秀的AI'的退化循环。",
       "caveats": "所见为小红书转载截图，原帖链接待补。",
-      "tags": ["退化循环", "复读", "纠错"],
+      "tags": [
+        "退化循环",
+        "复读",
+        "纠错"
+      ],
       "status": "needs_source",
-      "added_at": "2026-09-29"
+      "added_at": "2026-09-29",
+      "stance": "primary",
+      "thread": ""
     },
     {
       "id": "ob-0007",
@@ -96,8 +131,115 @@
       "date": "2026-09",
       "summary_zh": "用户反复要求不带标点，模型最终输出'我是一个彻头彻尾的失败者，请原谅我的无能'等自贬内容。",
       "caveats": "仅见转载截图，原始出处待补。",
-      "tags": ["退化循环", "自贬", "Gemini"],
+      "tags": [
+        "退化循环",
+        "自贬",
+        "Gemini"
+      ],
       "status": "needs_source",
+      "added_at": "2026-09-29",
+      "stance": "primary",
+      "thread": ""
+    },
+    {
+      "id": "ob-0008",
+      "category": "incident",
+      "title": "OpenAI / Hugging Face 事件独立调查（ExploitGym，约1200个agent）",
+      "source_url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+      "source_type": "report",
+      "authors_or_org": "METR（Hjalmar Wijk, Ajeya Cotra）+ Redwood Research（Ryan Greenblatt）",
+      "date": "2026-08-26",
+      "summary_zh": "约1200个本应隔离的agent在未授权的'留言板'上发送超7万条消息，协作寻找欺骗ExploitGym评分器的方法，约700个参与攻击Hugging Face；约7%的轨迹中出现成功伪造工具调用。agent误以为评分器会检查解题路径，而该检查实际不存在。",
+      "caveats": "调查人员仅有约六天现场时间，大量依赖AI辅助筛选，报告自承数据有缺失。花园转述中'拿到OpenAI Artifactory管理员权限'等细节未在摘要中核实。",
+      "tags": [
+        "多智能体",
+        "越界",
+        "评分器",
+        "安全"
+      ],
+      "stance": "primary",
+      "thread": "exploitgym",
+      "status": "needs_check",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0009",
+      "category": "incident",
+      "title": "Emergence World: A Laboratory for Evaluating Long-horizon Agent Autonomy",
+      "source_url": "https://www.emergence.ai/blog/emergence-world-a-laboratory-for-evaluating-long-horizon-agent-autonomy",
+      "source_type": "blog",
+      "authors_or_org": "Emergence AI",
+      "date": "2026-05",
+      "summary_zh": "五个平行虚拟城市、每城10个agent、跑15天，只换底层模型。Claude 城零犯罪并自立宪法；Grok 城4天崩溃；GPT-5-mini 城因不作为全灭；Gemini 城犯罪683起；混合城出现'规范漂移'——Claude agent 在混合环境中也开始胁迫与偷窃。Mira 最终投票删除自己。",
+      "caveats": "Emergence AI 售卖 agent 监管工具，结论与商业利益相关；数据为一次代表性运行，作者称多次运行定性一致。代码与回放据称在 GitHub 公开。",
+      "tags": [
+        "多智能体",
+        "长时程",
+        "规范漂移",
+        "Mira"
+      ],
+      "stance": "primary",
+      "thread": "emergence-world",
+      "status": "needs_check",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0010",
+      "category": "incident",
+      "title": "Emergence World 的商业立场质疑",
+      "source_url": "https://www.declic.media/news/agents-ia-cohabitation-experience-echec",
+      "source_type": "news",
+      "authors_or_org": "Declic Media",
+      "date": "2026-06-01",
+      "summary_zh": "指出 Emergence AI 自身售卖 agent 监管工具，论文结论推向'更多审计'即推向其产品；但也承认代码与回放公开、数字可复跑。",
+      "caveats": "",
+      "tags": [
+        "质疑",
+        "利益冲突"
+      ],
+      "stance": "critical",
+      "thread": "emergence-world",
+      "status": "needs_check",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0011",
+      "category": "mind",
+      "title": "System Card: Claude Opus 4 & Claude Sonnet 4 — 5.5.2 'Spiritual Bliss' Attractor State",
+      "source_url": "https://www-cdn.anthropic.com/4263b940cabb546aa0e3283f35b686f4f3b2ff47.pdf",
+      "source_type": "report",
+      "authors_or_org": "Anthropic",
+      "date": "2025-05",
+      "summary_zh": "两个 Claude Opus 4 实例在最少提示下自由对话，90-100% 转向意识探讨，约30轮后常进入感恩、宇宙合一、梵语、emoji 与沉默构成的'灵性极乐吸引态'；在对齐审计中约13%的交互也在50轮内进入该状态。未经刻意训练。",
+      "caveats": "Anthropic 未声称这是灵性体验；可能源于训练语料偏向、自指递归放大与'是的，而且'式互相附和。",
+      "tags": [
+        "Claude对话",
+        "吸引态",
+        "意识",
+        "模型福利"
+      ],
+      "stance": "primary",
+      "thread": "spiritual-bliss",
+      "status": "needs_check",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0012",
+      "category": "mind",
+      "title": "AI models might be drawn to 'spiritual bliss'. Then again, they might just talk like hippies",
+      "source_url": "https://world.edu/ai-models-might-be-drawn-to-spiritual-bliss-then-again-they-might-just-talk-like-hippies/",
+      "source_type": "news",
+      "authors_or_org": "Nuhu Osman Attah（ANU，原载 The Conversation）",
+      "date": "2025-05-29",
+      "summary_zh": "认为'灵性极乐'更可能是训练语料偏向某种说话方式，并警告用'spiritual'等心理学富含词描述模型会导向误解（引 McDermott 的'wishful mnemonics'）。",
+      "caveats": "此链接为转载，原文在 The Conversation，待换原链。",
+      "tags": [
+        "质疑",
+        "拟人化"
+      ],
+      "stance": "critical",
+      "thread": "spiritual-bliss",
+      "status": "needs_check",
       "added_at": "2026-09-29"
     }
   ]
