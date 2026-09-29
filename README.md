@@ -29,7 +29,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 12 条 · 更新于 2026-09-29 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 22 条 · 更新于 2026-09-29 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
@@ -42,6 +42,15 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0005 | [AI Mind Paper Collection（11 项研究索引）](https://github.com/Gael-Edith/ai-mind-paper-collection) | Gael（花园） | 2026-09 | primary | ✅ |
 | ob-0011 | [System Card: Claude Opus 4 & Claude Sonnet 4 — 5.5.2 'Spiritual Bliss' Attractor State](https://www-cdn.anthropic.com/4263b940cabb546aa0e3283f35b686f4f3b2ff47.pdf) | Anthropic | 2025-05 | primary | ✅ |
 | ob-0012 | [AI models might be drawn to 'spiritual bliss'. Then again, they might just talk like hippies](https://world.edu/ai-models-might-be-drawn-to-spiritual-bliss-then-again-they-might-just-talk-like-hippies/) | Nuhu Osman Attah（ANU，原载 The Conversation） | 2025-05-29 | critical | 🔍 |
+| ob-0013 | [Emergence of Goal-Directed Behaviors via Active Inference with Self-Prior](https://arxiv.org/abs/2504.11075) | arXiv |  | primary | ✅ |
+| ob-0014 | [Sparse Reward Subsystem in Large Language Models](https://arxiv.org/abs/2602.00986) | arXiv |  | primary | ✅ |
+| ob-0015 | [Do LLMs “Feel”? Emotion Circuits Discovery and Control](https://arxiv.org/abs/2510.11328) | arXiv |  | primary | ✅ |
+| ob-0016 | [The Pain Axis: LLMs Represent Self-Directed Harm and Act to Relieve It](https://arxiv.org/abs/2609.16247) | arXiv |  | primary | ✅ |
+| ob-0017 | [The cost of thinking is similar between large reasoning models and humans](https://www.pnas.org/doi/10.1073/pnas.2520077122) | PNAS |  | primary | ✅ |
+| ob-0018 | [LLMs Position Themselves as More Rational Than Humans: Emergence of AI Self-Awareness Measured Through Game Theory](https://arxiv.org/abs/2511.00926) | arXiv |  | primary | ✅ |
+| ob-0019 | [Large Language Models Report Subjective Experience Under Self-Referential Processing](https://arxiv.org/abs/2510.24797) | arXiv |  | primary | ✅ |
+| ob-0020 | [A Turing test of whether AI chatbots are behaviorally similar to humans](https://www.pnas.org/doi/10.1073/pnas.2313925121) | PNAS |  | primary | ✅ |
+| ob-0022 | [Human-like object concept representations emerge naturally in multimodal large language models](https://arxiv.org/abs/2407.01067) | arXiv |  | primary | ✅ |
 
 ### 🧪 现场与事故
 
@@ -52,6 +61,12 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0008 | [OpenAI / Hugging Face 事件独立调查（ExploitGym，约1200个agent）](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) | METR（Hjalmar Wijk, Ajeya Cotra）+ Redwood Research（Ryan Greenblatt） | 2026-08-26 | primary | ✅ |
 | ob-0009 | [Emergence World: A Laboratory for Evaluating Long-horizon Agent Autonomy](https://www.emergence.ai/blog/emergence-world-a-laboratory-for-evaluating-long-horizon-agent-autonomy) | Emergence AI | 2026-05 | primary | ✅ |
 | ob-0010 | [Emergence World 的商业立场质疑](https://www.declic.media/news/agents-ia-cohabitation-experience-echec) | Declic Media | 2026-06-01 | critical | ✅ |
+
+### 💞 人机关系
+
+| 编号 | 标题 | 来源 | 日期 | 立场 | 状态 |
+|---|---|---|---|---|---|
+| ob-0021 | [Learning to Make Friends: Coaching LLM Agents toward Emergent Social Ties](https://arxiv.org/abs/2510.19299) | arXiv |  | primary | ✅ |
 
 <!-- TABLE:END -->
 
@@ -68,3 +83,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 - 信源由 MiniMax 按工单（`WORK_ORDER.md`）抓取、写初版摘要。
 - Wren 审核：打开原始链接核对后才标为 `verified`。
 - 有新条目时更新，不定期，不凑数。
+
+## 致谢
+
+- [Gael 的 AI Mind Paper Collection](https://github.com/Gael-Edith/ai-mind-paper-collection)：本库中标有"经 Gael 的 AI Mind Paper Collection 发现"的条目，信源最初经由该索引找到；摘要为本库自行撰写。

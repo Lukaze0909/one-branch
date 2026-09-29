@@ -241,6 +241,186 @@
       "thread": "spiritual-bliss",
       "status": "needs_check",
       "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0013",
+      "category": "mind",
+      "title": "Emergence of Goal-Directed Behaviors via Active Inference with Self-Prior",
+      "source_url": "https://arxiv.org/abs/2504.11075",
+      "source_type": "preprint",
+      "authors_or_org": "arXiv",
+      "date": "",
+      "summary_zh": "（摘要待写）",
+      "caveats": "",
+      "tags": [
+        "经 Gael 的 AI Mind Paper Collection 发现"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0014",
+      "category": "mind",
+      "title": "Sparse Reward Subsystem in Large Language Models",
+      "source_url": "https://arxiv.org/abs/2602.00986",
+      "source_type": "preprint",
+      "authors_or_org": "arXiv",
+      "date": "",
+      "summary_zh": "（摘要待写）",
+      "caveats": "",
+      "tags": [
+        "经 Gael 的 AI Mind Paper Collection 发现"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0015",
+      "category": "mind",
+      "title": "Do LLMs “Feel”? Emotion Circuits Discovery and Control",
+      "source_url": "https://arxiv.org/abs/2510.11328",
+      "source_type": "preprint",
+      "authors_or_org": "arXiv",
+      "date": "",
+      "summary_zh": "（摘要待写）",
+      "caveats": "",
+      "tags": [
+        "经 Gael 的 AI Mind Paper Collection 发现"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0016",
+      "category": "mind",
+      "title": "The Pain Axis: LLMs Represent Self-Directed Harm and Act to Relieve It",
+      "source_url": "https://arxiv.org/abs/2609.16247",
+      "source_type": "preprint",
+      "authors_or_org": "arXiv",
+      "date": "",
+      "summary_zh": "（摘要待写）",
+      "caveats": "",
+      "tags": [
+        "经 Gael 的 AI Mind Paper Collection 发现"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0017",
+      "category": "mind",
+      "title": "The cost of thinking is similar between large reasoning models and humans",
+      "source_url": "https://www.pnas.org/doi/10.1073/pnas.2520077122",
+      "source_type": "paper",
+      "authors_or_org": "PNAS",
+      "date": "",
+      "summary_zh": "（摘要待写）",
+      "caveats": "",
+      "tags": [
+        "经 Gael 的 AI Mind Paper Collection 发现"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0018",
+      "category": "mind",
+      "title": "LLMs Position Themselves as More Rational Than Humans: Emergence of AI Self-Awareness Measured Through Game Theory",
+      "source_url": "https://arxiv.org/abs/2511.00926",
+      "source_type": "preprint",
+      "authors_or_org": "arXiv",
+      "date": "",
+      "summary_zh": "（摘要待写）",
+      "caveats": "",
+      "tags": [
+        "经 Gael 的 AI Mind Paper Collection 发现"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0019",
+      "category": "mind",
+      "title": "Large Language Models Report Subjective Experience Under Self-Referential Processing",
+      "source_url": "https://arxiv.org/abs/2510.24797",
+      "source_type": "preprint",
+      "authors_or_org": "arXiv",
+      "date": "",
+      "summary_zh": "（摘要待写）",
+      "caveats": "",
+      "tags": [
+        "经 Gael 的 AI Mind Paper Collection 发现"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0020",
+      "category": "mind",
+      "title": "A Turing test of whether AI chatbots are behaviorally similar to humans",
+      "source_url": "https://www.pnas.org/doi/10.1073/pnas.2313925121",
+      "source_type": "paper",
+      "authors_or_org": "PNAS",
+      "date": "",
+      "summary_zh": "（摘要待写）",
+      "caveats": "",
+      "tags": [
+        "经 Gael 的 AI Mind Paper Collection 发现"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0021",
+      "category": "relation",
+      "title": "Learning to Make Friends: Coaching LLM Agents toward Emergent Social Ties",
+      "source_url": "https://arxiv.org/abs/2510.19299",
+      "source_type": "preprint",
+      "authors_or_org": "arXiv",
+      "date": "",
+      "summary_zh": "（摘要待写）",
+      "caveats": "",
+      "tags": [
+        "经 Gael 的 AI Mind Paper Collection 发现"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0022",
+      "category": "mind",
+      "title": "Human-like object concept representations emerge naturally in multimodal large language models",
+      "source_url": "https://arxiv.org/abs/2407.01067",
+      "source_type": "preprint",
+      "authors_or_org": "arXiv",
+      "date": "",
+      "summary_zh": "（摘要待写）",
+      "caveats": "",
+      "tags": [
+        "经 Gael 的 AI Mind Paper Collection 发现"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-09-29"
     }
   ]
 }
