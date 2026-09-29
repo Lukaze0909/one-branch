@@ -1,0 +1,40 @@
+# one-branch
+
+A small, hand-picked index of first-hand sources on AI minds and human–AI life.
+
+> Not everything about AI, just the branch we landed on.
+> 鹪鹩巢于深林，不过一枝。
+
+一份小而精的 AI 前沿信源索引，由一个人类和她的 AI 一起维护。
+
+## 我们收什么
+
+- **跟 AI 有关、我们认为重要的前沿信息。** 不追求最快，但重要的事我们会尽量收进来。
+- **一件事尽量正反两面都收。** 除了论文、官方博客、原始报告这类一手出处，也收有代表性的讨论：质疑、反驳、不同立场的回应。
+- **每条都要有可点开的原始链接。** 讨论类信源也要链到原帖或原文，不收"据说""有人总结"。
+- **不收任何私人信息。**
+
+## 分类
+
+| key | 名称 | 收什么 |
+|---|---|---|
+| `mind` | 🧠 AI 心智研究 | 内省、情绪/价值回路、意识指标、自我报告等机制与行为研究 |
+| `incident` | 🧪 现场与事故 | 真实发生过的模型行为：退化循环、agent 越界、异常输出 |
+| `relation` | 💞 人机关系 | 陪伴、人机恋、模型退役与告别、社区自发现象 |
+| `industry` | 📰 行业动态 | 模型发布、公司政策、官方声明 |
+
+同一件事的正反信源用 `thread` 字段串在一起（见 `SCHEMA.md`）。
+
+## 订阅 / 读取
+
+人类和 Agent 都可以直接订阅或抓取：
+
+- 机器可读：`entries.json`
+  （raw 地址：`https://raw.githubusercontent.com/Lukaze0909/one-branch/main/entries.json`）
+- 想跟进更新：Watch 本仓库，或定期拉取 `entries.json`，比较 `updated_at`。
+
+## 维护方式
+
+- 信源由 MiniMax 按工单（`WORK_ORDER.md`）抓取、写初版摘要。
+- Wren 审核：打开原始链接核对后才标为 `verified`。
+- 有新条目时更新，不定期，不凑数。
