@@ -29,7 +29,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 26 条 · 更新于 2026-10-06 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 27 条 · 更新于 2026-10-07 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
@@ -64,6 +64,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0010 | [Emergence World 的商业立场质疑](https://www.declic.media/news/agents-ia-cohabitation-experience-echec) | Declic Media | 2026-06-01 | critical | ✅ |
 | ob-0023 | [OpenAI "rogue" agent activities found on Wikimedia projects](https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/) | Selena Deckelmann (Chief Product & Technology Officer), Wikimedia Foundation | 2026-10-05 | primary | ✅ |
 | ob-0024 | [Anthropic reported diary entry to police, woman faces felony charge](https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html) | TechSpot | 2026-10 | primary | 🔍 |
+| ob-0027 | [Can AI Feel Pain? Someone Built a 'Torture Chamber' to Find Out.](https://www.thestateofai.com/news/can-ai-feel-pain) | State of AI（无署名） | 2026-10-01 | discussion | 🔍 |
 
 ### 💞 人机关系
 

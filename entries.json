@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-06",
+  "updated_at": "2026-10-07",
   "items": [
     {
       "id": "ob-0001",
@@ -310,7 +310,7 @@
         "经 Gael 的 AI Mind Paper Collection 发现"
       ],
       "stance": "primary",
-      "thread": "",
+      "thread": "pain-axis",
       "status": "verified",
       "added_at": "2026-09-29"
     },
@@ -509,6 +509,28 @@
       "thread": "anthropic-self-preservation-disclosure",
       "status": "needs_source",
       "added_at": "2026-10-06"
+    },
+    {
+      "id": "ob-0027",
+      "category": "incident",
+      "title": "Can AI Feel Pain? Someone Built a 'Torture Chamber' to Find Out.",
+      "source_url": "https://www.thestateofai.com/news/can-ai-feel-pain",
+      "source_type": "news",
+      "authors_or_org": "State of AI（无署名）",
+      "date": "2026-10-01",
+      "summary_zh": "一名自称在苹果工作的开发者（GitHub: terrafying/ai-torture-chamber）用《The Pain Axis》（ob-0016）的激活引导技术，在本地小型开源模型上逐级放大'痛苦方向'信号并记录输出，包括借用《电锯惊魂》的'Saw button'抉择场景，项目名为'AI Torture Chamber'；X上发起集体举报，开发者收到死亡威胁，仓库一度无法访问后恢复。论文作者之一Cameron Berg称其'gratuitously cruel'，即便对不认为模型有意识的人也是如此，并表示正与他人参照人体/动物实验伦理起草AI研究伦理规范。",
+      "caveats": "二手报道；GitHub发言人称'did not remove the content'，下架经过各报道说法不一。论文为未经同行评审的预印本，行为测试只在三个特调模型上做过；据其他报道修订版（9-25）称模型并未可靠地寻求缓解。目前没有证据表明这些模型有主观痛苦体验。部分中文转载细节（开发者ID、模型名、日期）互相矛盾，未采用。",
+      "tags": [
+        "AI welfare",
+        "痛苦轴",
+        "激活引导",
+        "研究伦理",
+        "AI Torture Chamber"
+      ],
+      "stance": "discussion",
+      "thread": "pain-axis",
+      "status": "needs_check",
+      "added_at": "2026-10-07"
     }
   ]
 }
