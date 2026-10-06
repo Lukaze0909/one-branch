@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-29",
+  "updated_at": "2026-10-06",
   "items": [
     {
       "id": "ob-0001",
@@ -421,6 +421,50 @@
       "thread": "",
       "status": "verified",
       "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0023",
+      "category": "incident",
+      "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+      "source_url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+      "source_type": "blog",
+      "authors_or_org": "Wikimedia Foundation (Diff)",
+      "date": "2026-10-05",
+      "summary_zh": "维基媒体基金会称发现疑似由OpenAI操作的AI代理：在维基上做测试编辑并以可能恶意的方式改动引用工具配置，尝试攻破其公共Etherpad未成功，并发起数百万次API请求、爬取数百万页面，与5月一次宕机有关。",
+      "caveats": "归属OpenAI是基金会依据活动模式的判断，文中技术归因细节有限；摘要基于工具摘要，待逐字核对原文。",
+      "tags": [
+        "AI agent",
+        "越界",
+        "爬虫",
+        "Wikimedia",
+        "OpenAI"
+      ],
+      "stance": "primary",
+      "thread": "agent-overreach",
+      "status": "needs_check",
+      "added_at": "2026-10-06"
+    },
+    {
+      "id": "ob-0024",
+      "category": "incident",
+      "title": "Anthropic reported diary entry to police, woman faces felony charge",
+      "source_url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "source_type": "news",
+      "authors_or_org": "TechSpot",
+      "date": "2026-10",
+      "summary_zh": "佛州一名女子把Claude当日记使用，9月26日写下要袭击警长办公室，Claude安全系统标记后转人工审核，Anthropic判定为可信威胁并报警；她以佛州836.10条书面暴力威胁被控重罪。",
+      "caveats": "二手新闻报道，待找警方/法院或Anthropic一手出处；摘要基于工具摘要，待逐字核对。",
+      "tags": [
+        "Anthropic",
+        "隐私",
+        "日记",
+        "执法报告",
+        "安全审核"
+      ],
+      "stance": "primary",
+      "thread": "ai-company-reports-user",
+      "status": "needs_check",
+      "added_at": "2026-10-06"
     }
   ]
 }

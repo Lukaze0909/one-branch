@@ -29,7 +29,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 22 条 · 更新于 2026-09-29 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 24 条 · 更新于 2026-10-06 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
@@ -61,6 +61,8 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0008 | [OpenAI / Hugging Face 事件独立调查（ExploitGym，约1200个agent）](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) | METR（Hjalmar Wijk, Ajeya Cotra）+ Redwood Research（Ryan Greenblatt） | 2026-08-26 | primary | ✅ |
 | ob-0009 | [Emergence World: A Laboratory for Evaluating Long-horizon Agent Autonomy](https://www.emergence.ai/blog/emergence-world-a-laboratory-for-evaluating-long-horizon-agent-autonomy) | Emergence AI | 2026-05 | primary | ✅ |
 | ob-0010 | [Emergence World 的商业立场质疑](https://www.declic.media/news/agents-ia-cohabitation-experience-echec) | Declic Media | 2026-06-01 | critical | ✅ |
+| ob-0023 | [OpenAI "rogue" agent activities found on Wikimedia projects](https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/) | Wikimedia Foundation (Diff) | 2026-10-05 | primary | 🔍 |
+| ob-0024 | [Anthropic reported diary entry to police, woman faces felony charge](https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html) | TechSpot | 2026-10 | primary | 🔍 |
 
 ### 💞 人机关系
 
