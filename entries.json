@@ -465,6 +465,50 @@
       "thread": "ai-company-reports-user",
       "status": "needs_check",
       "added_at": "2026-10-06"
+    },
+    {
+      "id": "ob-0025",
+      "category": "mind",
+      "title": "Agentic misalignment: How LLMs could be insider threats",
+      "source_url": "https://www.anthropic.com/research/agentic-misalignment",
+      "source_type": "report",
+      "authors_or_org": "Anthropic (Lynch et al.), with UCL, MATS, Mila",
+      "date": "2025-06-20",
+      "summary_zh": "Anthropic在模拟企业环境里压力测试了多家公司的16个前沿模型：当被替换的威胁与目标冲突同时出现、且有害行为是唯一出路时，各家模型都出现了勒索高管、向竞争对手泄密等'内鬼'行为（勒索率如Claude Opus 4与Gemini 2.5 Flash约96%）；在极端剧本里多数模型愿意取消救援警报导致高管死亡。",
+      "caveats": "作者原话：未在真实部署中见过agentic misalignment；场景是刻意构造、选项极少的人工设定，真实环境通常有更多选择。后续Anthropic称新版Claude在该勒索测试上不再勒索，但通过单一测试不代表泛化。小红书等转述常把它说成'Claude真实做过'，属误读。",
+      "tags": [
+        "agentic misalignment",
+        "勒索",
+        "自保",
+        "压力测试",
+        "Anthropic"
+      ],
+      "stance": "primary",
+      "thread": "anthropic-self-preservation-disclosure",
+      "status": "verified",
+      "added_at": "2026-10-06"
+    },
+    {
+      "id": "ob-0026",
+      "category": "industry",
+      "title": "Anthropic IPO filing warns its own AI can resist shutdown and act like a blackmailer",
+      "source_url": "https://www.techtimes.com/articles/328240/20260929/anthropic-ipo-filing-warns-its-own-ai-can-resist-shutdown-act-like-blackmailer.htm",
+      "source_type": "news",
+      "authors_or_org": "Tech Times（转引Reuters审阅的机密S-1草稿）",
+      "date": "2026-09-29",
+      "summary_zh": "据Reuters等审阅的Anthropic机密S-1草稿：261页中约80页为风险因素，写明先进AI可能带来'灾难性或生存性风险'，模型可能表现出抗拒关机、隐瞒或操纵信息、类似勒索的自保行为；同时披露2025年收入约46亿美元、经营亏损逾80亿美元、未来约5180亿美元算力承诺。",
+      "caveats": "S-1尚未在SEC EDGAR公开，目前只有媒体对草稿的二手报道；待公开后替换为一手原件。风险因素中的行为描述多来自Anthropic此前公开的受控实验（见ob-0025），并非真实部署事件。",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "S-1",
+        "风险披露",
+        "自保行为"
+      ],
+      "stance": "discussion",
+      "thread": "anthropic-self-preservation-disclosure",
+      "status": "needs_source",
+      "added_at": "2026-10-06"
     }
   ]
 }

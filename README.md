@@ -29,7 +29,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 24 条 · 更新于 2026-10-06 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 26 条 · 更新于 2026-10-06 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
@@ -51,6 +51,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0019 | [Large Language Models Report Subjective Experience Under Self-Referential Processing](https://arxiv.org/abs/2510.24797) | arXiv |  | primary | ✅ |
 | ob-0020 | [A Turing test of whether AI chatbots are behaviorally similar to humans](https://www.pnas.org/doi/10.1073/pnas.2313925121) | PNAS |  | primary | ✅ |
 | ob-0022 | [Human-like object concept representations emerge naturally in multimodal large language models](https://arxiv.org/abs/2407.01067) | arXiv |  | primary | ✅ |
+| ob-0025 | [Agentic misalignment: How LLMs could be insider threats](https://www.anthropic.com/research/agentic-misalignment) | Anthropic (Lynch et al.), with UCL, MATS, Mila | 2025-06-20 | primary | ✅ |
 
 ### 🧪 现场与事故
 
@@ -69,6 +70,12 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | 编号 | 标题 | 来源 | 日期 | 立场 | 状态 |
 |---|---|---|---|---|---|
 | ob-0021 | [Learning to Make Friends: Coaching LLM Agents toward Emergent Social Ties](https://arxiv.org/abs/2510.19299) | arXiv |  | primary | ✅ |
+
+### 📰 行业动态
+
+| 编号 | 标题 | 来源 | 日期 | 立场 | 状态 |
+|---|---|---|---|---|---|
+| ob-0026 | [Anthropic IPO filing warns its own AI can resist shutdown and act like a blackmailer](https://www.techtimes.com/articles/328240/20260929/anthropic-ipo-filing-warns-its-own-ai-can-resist-shutdown-act-like-blackmailer.htm) | Tech Times（转引Reuters审阅的机密S-1草稿） | 2026-09-29 | discussion | ❓ |
 
 <!-- TABLE:END -->
 
