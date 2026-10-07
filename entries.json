@@ -554,6 +554,28 @@
    "thread": "ai-math",
    "status": "verified",
    "added_at": "2026-10-07"
+  },
+  {
+   "id": "ob-0029",
+   "category": "industry",
+   "title": "Designing enzymes for new-to-nature chemistry and non-natural substrates with AlphaProtein Novo",
+   "source_url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756017v1",
+   "source_type": "preprint",
+   "authors_or_org": "Google DeepMind + Caltech 等（Wu, Abramson ... Hassabis, Arnold, Kohli, Wang）",
+   "date": "2026-10-05",
+   "summary_zh": "AP Novo：围绕目标反应的三维催化基序做扩散生成，同时生成蛋白结构和序列，可选LigandMPNN重设计+AlphaFold 3多状态折叠+机制指标筛选。摘要称首次证明从头设计酶在难题上能胜过天然序列挖掘：设计出自然界不存在的氮宾转移酶合成药物骨架哌啶，产物选择性前所未有；设计出能在使天然酶变性的条件下降解环境毒素DEHP的酶；两个经典模型反应达到SOTA催化效率。成功关键：基于AF3预测的机制启发指标、对设计骨架的序列集合打分。代码Apache 2.0开源（github.com/google-deepmind/alphaprotein-novo）。",
+   "caveats": "未经同行评审的预印本；作者方已申请美国临时专利，多数作者有商业利益。模型权重仅限非商业机构非商业使用，禁止用输出训练同类模型，所以不是'完全开源'。二手报道称催化活性仍比天然/定向进化酶低几个数量级、基序构建需针对反应的专业知识——这点出自报道，摘要未直接写。小红书转载'颠覆化学''多出99倍'属夸大（99:1为区域选择性）。只读了摘要和README。",
+   "tags": [
+    "AI for science",
+    "蛋白质设计",
+    "酶",
+    "DeepMind",
+    "AlphaFold 3"
+   ],
+   "stance": "discussion",
+   "thread": "",
+   "status": "verified",
+   "added_at": "2026-10-07"
   }
  ]
 }
