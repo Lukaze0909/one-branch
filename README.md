@@ -29,7 +29,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 27 条 · 更新于 2026-10-07 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 28 条 · 更新于 2026-10-07 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
@@ -77,6 +77,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | 编号 | 标题 | 来源 | 日期 | 立场 | 状态 |
 |---|---|---|---|---|---|
 | ob-0026 | [Anthropic IPO filing warns its own AI can resist shutdown and act like a blackmailer](https://www.techtimes.com/articles/328240/20260929/anthropic-ipo-filing-warns-its-own-ai-can-resist-shutdown-act-like-blackmailer.htm) | Tech Times（转引Reuters审阅的机密S-1草稿） | 2026-09-29 | discussion | ❓ |
+| ob-0028 | [openai/math: 722 manuscripts from an unreleased internal model](https://github.com/openai/math) | OpenAI | 2026-10-06 | discussion | ✅ |
 
 <!-- TABLE:END -->
 
