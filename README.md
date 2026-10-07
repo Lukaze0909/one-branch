@@ -29,7 +29,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 29 条 · 更新于 2026-10-07 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 30 条 · 更新于 2026-10-07 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
@@ -79,6 +79,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0026 | [Anthropic IPO filing warns its own AI can resist shutdown and act like a blackmailer](https://www.techtimes.com/articles/328240/20260929/anthropic-ipo-filing-warns-its-own-ai-can-resist-shutdown-act-like-blackmailer.htm) | Tech Times（转引Reuters审阅的机密S-1草稿） | 2026-09-29 | discussion | ❓ |
 | ob-0028 | [openai/math: 722 manuscripts from an unreleased internal model](https://github.com/openai/math) | OpenAI | 2026-10-06 | discussion | ✅ |
 | ob-0029 | [Designing enzymes for new-to-nature chemistry and non-natural substrates with AlphaProtein Novo](https://www.biorxiv.org/content/10.64898/2026.10.01.756017v1) | Google DeepMind + Caltech 等（Wu, Abramson ... Hassabis, Arnold, Kohli, Wang） | 2026-10-05 | discussion | ✅ |
+| ob-0030 | [Two Room-Temperature Antiferromagnetic Semiconductor Candidates](https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors) | Vals AI（Geby Jaff + 90余个Claude Opus 5.5 agent） | 2026-10-04 | discussion | ✅ |
 
 <!-- TABLE:END -->
 

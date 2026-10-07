@@ -576,6 +576,29 @@
    "thread": "",
    "status": "verified",
    "added_at": "2026-10-07"
+  },
+  {
+   "id": "ob-0030",
+   "category": "industry",
+   "title": "Two Room-Temperature Antiferromagnetic Semiconductor Candidates",
+   "source_url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+   "source_type": "blog",
+   "authors_or_org": "Vals AI（Geby Jaff + 90余个Claude Opus 5.5 agent）",
+   "date": "2026-10-04",
+   "summary_zh": "人类研究者带一组Claude Opus 5.5 agent，用DFT（PBE+U与HSE06两级近似）计算搜寻'Luttinger补偿磁体'半导体：净磁矩为零、却能按自旋把电子能级分开，适合下一代自旋电子存储。两个候选：①agent自行设计的YBaMnFeO₅，预测带隙2.35 eV、自旋窗口空穴1.0/电子1.4 eV、磁序约420K（校准后490K），但Mn/Fe棋盘序约950K就会乱，常规900–1300°C烧结大概率做不出有序相；②1999年已合成的普鲁士蓝同族KV[Cr(CN)₆]，预测带隙约2.1 eV、自旋窗口2.6/1.6 eV，1999年样品实测磁序到376K（103°C），结构把两种金属锁在各自位点。输入、原始输出、分析代码、一键校验器公开在github.com/spicylemonade/compensated-magnet-ledger。",
+   "caveats": "全部是计算预测，没有做出或测量任何样品；带隙和自旋分选都未实测。KV[Cr(CN)₆]唯一样品是含水粉末、有0.125 μB残余磁矩，两种方法对水的影响结论不一致（PBE+U称空穴窗口缩一半以上）。2008年已有研究画出其同自旋能带边，本工作贡献是重新解读和量化。二手报道称独立复核发现agent记录有5处错误/遗漏，仓库已记修正。小红书转载'内存提速1000倍''103°C实现自旋滤波'属误读：1000倍是反铁磁翻转速度的一般说法，376K是磁序温度而非自旋滤波实测。",
+   "tags": [
+    "AI for science",
+    "agent科研",
+    "材料",
+    "自旋电子学",
+    "Claude Opus 5.5",
+    "DFT"
+   ],
+   "stance": "discussion",
+   "thread": "",
+   "status": "verified",
+   "added_at": "2026-10-07"
   }
  ]
 }
