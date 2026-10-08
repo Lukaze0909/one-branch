@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "updated_at": "2026-10-07",
+ "updated_at": "2026-10-08",
  "items": [
   {
    "id": "ob-0001",
@@ -599,6 +599,52 @@
    "thread": "",
    "status": "verified",
    "added_at": "2026-10-07"
+  },
+  {
+   "id": "ob-0031",
+   "category": "industry",
+   "title": "openai/math history.md: first errata — 3 manuscripts withdrawn, 14 revised",
+   "source_url": "https://github.com/openai/math/blob/main/history.md",
+   "source_type": "repo",
+   "authors_or_org": "OpenAI",
+   "date": "2026-10-07",
+   "summary_zh": "openai/math发布一天后的第一次勘误（history.md标October 7，提交时间为10-08 UTC，PR #1）。撤回3篇：《Algebraicity of Weil classes on split abelian eightfolds》里一个符号错误使稳定化迹相消论证失效，连带依赖它的Kuga–Satake对应、K3曲面乘积有理霍奇猜想两篇一起撤回；撤回稿保留存档并附说明。另修订14篇（Lipschitz高度/Ashkin–Teller 4篇、Kähler极小模型纲领6篇、taming与超辛形变2篇等，含证明修补、陈述更正、补充假设），因此再更新13篇的引用版本。新增6项Lean形式化，头条结果形式化比例为300/719≈42%。仓库承诺所有勘误按新版本记录、旧版本保留可查。",
+   "caveats": "读了history.md和PR #1描述，没读被撤回的论文本身。PR写明这次同步'没有跑Lean构建'。小红书二手转述说'修改19项'，原文是14篇实质修订+13篇仅更新引用，二手数字对不上。被撤回的正好是昨天ob-0028提到的霍奇猜想方向。主动公开撤回本身是好做法；但也说明未形式化的约58%手稿确实会出错。",
+   "tags": [
+    "AI数学",
+    "OpenAI",
+    "勘误",
+    "撤回",
+    "Lean",
+    "霍奇猜想"
+   ],
+   "stance": "discussion",
+   "thread": "ai-math",
+   "status": "verified",
+   "added_at": "2026-10-08"
+  },
+  {
+   "id": "ob-0032",
+   "category": "industry",
+   "title": "Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs",
+   "source_url": "https://arxiv.org/abs/2610.08144",
+   "source_type": "preprint",
+   "authors_or_org": "Alexander Bastounis, Fabian Circelli, Anders C. Hansen",
+   "date": "2026-10-06",
+   "summary_zh": "论文论证：AI把自然语言证明'自动形式化'成Lean，Lean编译通过只说明Lean版本对，不说明原来的自然语言证明对，因为翻译本身可能不忠实。作者称消解数学自然语言歧义（忠实翻译的必要步骤）在可解复杂度指数(SCI)/算术层级里任意高（SCI=∞），非正式地说比停机问题还难。文中给出多个AI把陈述和证明翻歪成Lean的实例，包括OpenAI宣布的纳维-斯托克斯解爆破证明：其Lean形式化并不对应自然语言里的爆破结论。",
+   "caveats": "只读了arXiv摘要，没读正文和具体反例。'比停机问题还难'是对一般情形的理论下界，不等于每一次具体形式化都不可靠；具体到NS那份Lean为什么不对应，要看正文。arXiv预印本，未经同行评审。作者Hansen组长期研究AI/计算的不可能性结果，立场一贯偏批评。直接动摇ob-0028里'有Lean验证'这一信任依据。",
+   "tags": [
+    "AI数学",
+    "自动形式化",
+    "Lean",
+    "纳维-斯托克斯",
+    "可计算性",
+    "OpenAI"
+   ],
+   "stance": "critical",
+   "thread": "ai-math",
+   "status": "verified",
+   "added_at": "2026-10-08"
   }
  ]
 }
