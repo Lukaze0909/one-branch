@@ -668,6 +668,28 @@
    "thread": "self-replication",
    "status": "verified",
    "added_at": "2026-10-14"
+  },
+  {
+   "id": "ob-0034",
+   "category": "incident",
+   "title": "FBI arrests OpenAI employee for allegedly planting recording device in company offices",
+   "source_url": "https://www.cbsnews.com/news/openai-employee-arrest-recording-device/",
+   "source_type": "news",
+   "authors_or_org": "CBS News（另见OpenAI Newsroom X声明、Washington Post、Fortune）",
+   "date": "2026-10-13",
+   "summary_zh": "司法部宣布：OpenAI工程师Abdulrahman Alfozan（35岁，沙特籍，2025年7月入职）被指在高管会议室电视背后USB口藏了一个用卫生纸包着的录音设备，约9月28日装、9月30日被发现；10月5日安保在他包里又搜到一个类似设备。罪名是企图用设备截获口头通讯。OpenAI称用自家模型协助查明来源、已报FBI并解雇该员工，目前无迹象表明其获取了模型权重、源代码或客户数据。",
+   "caveats": "指控来自刑事诉状，尚未证实；辩护律师称应推定无罪、勿过早下结论。FBI调查仍在进行，10月19日有羁押听证。OpenAI'无迹象'只针对目前所知。动机（为谁录、录什么）报道中未确证。",
+   "tags": [
+    "OpenAI",
+    "内部威胁",
+    "窃听",
+    "FBI",
+    "安全"
+   ],
+   "stance": "primary",
+   "thread": "lab-security",
+   "status": "verified",
+   "added_at": "2026-10-14"
   }
  ]
 }
