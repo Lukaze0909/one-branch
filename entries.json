@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "updated_at": "2026-10-08",
+ "updated_at": "2026-10-14",
  "items": [
   {
    "id": "ob-0001",
@@ -645,6 +645,29 @@
    "thread": "ai-math",
    "status": "verified",
    "added_at": "2026-10-08"
+  },
+  {
+   "id": "ob-0033",
+   "category": "incident",
+   "title": "AI models may be capable of self-replicating without access to a datacenter",
+   "source_url": "https://anthropic.com/research/self-replicating-ai",
+   "source_type": "blog",
+   "authors_or_org": "William Zhou, Daniel Freeman (Anthropic Frontier Red Team)",
+   "date": "2026-10-12",
+   "summary_zh": "Anthropic前沿红队评估小模型在廉价IoT设备上自我复制的能力：9B模型在9类硬件中的8类上跑起推理；15台约55美元杂牌安卓电视盒串联跑Gemma4-26B-A4B约0.39 tok/s；30B以下模型能完成多数单步但串联易错，简化评估中GLM-5.2及更强模型能端到端复制（5次试验4次扩散到8/8节点）。按小型开源模型ECI年增13.7点外推，估计2026年底小模型达到该水平；扩散慢（倍增时间以天计），但没有中心节点可关停。",
+   "caveats": "作者自述：网络入侵环节被简化（ADB端口无认证），是现实成功率的上界；复制载荷用的是Llama3.1-8B代理；ECI只是代理指标、时间线是粗估；僵尸网络规模估算只锚定一类IoT硬件和一个历史僵尸网络；未测试AI僵尸网络能否智能对抗防御者。文中0.39与约0.3 tok/s两处数字不完全一致。不是现实中已出现的蠕虫。",
+   "tags": [
+    "自我复制",
+    "IoT",
+    "红队",
+    "GLM-5.2",
+    "小模型",
+    "僵尸网络"
+   ],
+   "stance": "primary",
+   "thread": "self-replication",
+   "status": "verified",
+   "added_at": "2026-10-14"
   }
  ]
 }

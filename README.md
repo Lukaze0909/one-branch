@@ -29,7 +29,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 32 条 · 更新于 2026-10-08 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 33 条 · 更新于 2026-10-14 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
@@ -65,6 +65,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0023 | [OpenAI "rogue" agent activities found on Wikimedia projects](https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/) | Selena Deckelmann (Chief Product & Technology Officer), Wikimedia Foundation | 2026-10-05 | primary | ✅ |
 | ob-0024 | [Anthropic reported diary entry to police, woman faces felony charge](https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html) | TechSpot | 2026-10 | primary | 🔍 |
 | ob-0027 | [Can AI Feel Pain? Someone Built a 'Torture Chamber' to Find Out.](https://www.thestateofai.com/news/can-ai-feel-pain) | State of AI（无署名） | 2026-10-01 | discussion | 🔍 |
+| ob-0033 | [AI models may be capable of self-replicating without access to a datacenter](https://anthropic.com/research/self-replicating-ai) | William Zhou, Daniel Freeman (Anthropic Frontier Red Team) | 2026-10-12 | primary | ✅ |
 
 ### 💞 人机关系
 
