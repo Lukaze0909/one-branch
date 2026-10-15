@@ -714,6 +714,29 @@
    "thread": "agents-in-the-wild",
    "status": "verified",
    "added_at": "2026-10-15"
+  },
+  {
+   "id": "ob-0036",
+   "category": "incident",
+   "title": "Cologne police investigate remote-controlled humanoid robot that allegedly groped a 16-year-old girl",
+   "source_url": "https://www.cbsnews.com/news/germany-robot-teen-girl-sexual-harassment-groping-cologne/",
+   "source_type": "news",
+   "authors_or_org": "CBS News（另见CNN 2026-10-14、CBC、SBS）",
+   "date": "2026-10-14",
+   "summary_zh": "2026-10-10深夜，科隆夜生活街一家快餐店外，一台约1.2米、市售约5000欧的人形机器人从背后接近一名16岁女孩，碰触其臀部并反复做顶胯动作；机器人主人16岁、同伴19岁，两人录像并在社交媒体直播、实时评论。警方在附近车后备箱找到机器人，扣押机器人和两人手机，正核实是遥控、预编程还是自主动作，称这是'新领域'。德国性骚扰罪一般要求人与人直接身体接触，专家称用机器人可能难以按该罪起诉，警方改以涉嫌'性动机侮辱'及擅自发布图像调查，尚未起诉。",
+   "caveats": "调查进行中，未起诉；动作是遥控还是程序尚待确认。中文二手传播标题'机器人当街猥亵'把行为主体写成机器人，原报道明确嫌疑人是操控的两名男子。'德国法律受到挑战'来自专家对RTL的评论，非法院结论。",
+   "tags": [
+    "机器人",
+    "人形机器人",
+    "性骚扰",
+    "德国",
+    "法律空白",
+    "责任归属"
+   ],
+   "stance": "primary",
+   "thread": "robot-accountability",
+   "status": "verified",
+   "added_at": "2026-10-15"
   }
  ]
 }
