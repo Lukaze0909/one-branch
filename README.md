@@ -29,7 +29,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 34 条 · 更新于 2026-10-14 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 35 条 · 更新于 2026-10-15 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
@@ -67,6 +67,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0027 | [Can AI Feel Pain? Someone Built a 'Torture Chamber' to Find Out.](https://www.thestateofai.com/news/can-ai-feel-pain) | State of AI（无署名） | 2026-10-01 | discussion | 🔍 |
 | ob-0033 | [AI models may be capable of self-replicating without access to a datacenter](https://anthropic.com/research/self-replicating-ai) | William Zhou, Daniel Freeman (Anthropic Frontier Red Team) | 2026-10-12 | primary | ✅ |
 | ob-0034 | [FBI arrests OpenAI employee for allegedly planting recording device in company offices](https://www.cbsnews.com/news/openai-employee-arrest-recording-device/) | CBS News（另见OpenAI Newsroom X声明、Washington Post、Fortune） | 2026-10-13 | primary | ✅ |
+| ob-0035 | [We found a Chinese fleet — AI agents on Tencent Cloud sandbox probing Amap via urlquery](https://swarmcha.se/posts/chinese-agent-fleet-full-report) | Swarmchasers（Jonathan Elsworth Eicher、Ethan Elasky、Rowan Howard-Jones 等）；另见TechCrunch 2026-10-05、Tom's Hardware | 2026-10-14 | primary | ✅ |
 
 ### 💞 人机关系
 

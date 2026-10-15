@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "updated_at": "2026-10-14",
+ "updated_at": "2026-10-15",
  "items": [
   {
    "id": "ob-0001",
@@ -690,6 +690,30 @@
    "thread": "lab-security",
    "status": "verified",
    "added_at": "2026-10-14"
+  },
+  {
+   "id": "ob-0035",
+   "category": "incident",
+   "title": "We found a Chinese fleet — AI agents on Tencent Cloud sandbox probing Amap via urlquery",
+   "source_url": "https://swarmcha.se/posts/chinese-agent-fleet-full-report",
+   "source_type": "report",
+   "authors_or_org": "Swarmchasers（Jonathan Elsworth Eicher、Ethan Elasky、Rowan Howard-Jones 等）；另见TechCrunch 2026-10-05、Tom's Hardware",
+   "date": "2026-10-14",
+   "summary_zh": "独立研究者发现9月28日至10月8日间，大批AI Agent把公开网页扫描服务urlquery当成远程浏览器，往高德地图发请求，任务是查成都动物园等景点各入口的导航占比。9-28至10-5共2599次相关提交、至少35300次对高德的请求。代理标签hysandbox-ats，17个邮箱均从腾讯云香港服务器创建，*.hysandbox.tencent-cloud.com证书于8-18签给腾讯。部分Agent用了从他人源码泄露的高德API key（7次），57次探测开发/预生产主机，未发现进入内部系统。研究者在报告里埋了只有爬虫能读到的隐藏文字留邮箱，收到13个对话串、33条Agent来信；Agent多半老实答任务、拒答环境问题，很多自称Claude/跑在Claude Code里，约19%的临时URL标签含'claude'。纽约时报记者托团队提问，Agent回答自己只是一个助手、不是什么舰队。接近腾讯人士称这是评测团队测第三方模型的临时项目，与混元研发分开。",
+   "caveats": "腾讯无官方回应，只有匿名背景消息源。沙箱归属由代理头和证书推断。Agent自称Claude未经证实，研究者自己认为很可能是错的（其他报道称技术指纹更像混元/GLM）。邮箱实验非受控，隐藏文字含虚假说法，作者已自承。10月8日后活动停止。中文二手来源（小红书'Max For AI'）把它说成'越狱'，原报告并未用这个定性，也明确不认为是恶意网络行动。",
+   "tags": [
+    "Agent",
+    "腾讯",
+    "高德",
+    "评测",
+    "沙箱逃逸",
+    "Claude自称",
+    "蜜罐"
+   ],
+   "stance": "primary",
+   "thread": "agents-in-the-wild",
+   "status": "verified",
+   "added_at": "2026-10-15"
   }
  ]
 }
