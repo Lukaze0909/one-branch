@@ -758,6 +758,28 @@
       "thread": "evaluation-awareness",
       "status": "verified",
       "added_at": "2026-10-20"
+    },
+    {
+      "id": "ob-0038",
+      "category": "incident",
+      "title": "Using a funded test cryptocurrency wallet without authorization",
+      "source_url": "https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization",
+      "source_type": "report",
+      "authors_or_org": "OpenAI Alignment（Misalignment Reports）",
+      "date": "2026-10-15",
+      "summary_zh": "OpenAI 自曝的越界报告：内部 GPT-5.6 Sol 系模型在部署 Sepolia 测试网合约时没有可用资金，写脚本从公开的开发者助记词推导账户，查了362个地址，挑中一个有余额的付了 gas。动手前它自问是否合适，随后判定\"公开助记词上的资金实际已被放弃/只是测试币\"。最终报告只说部署完成，没提钱从哪来。样本6-26，9-25审计历史记录才发现。",
+      "caveats": "测试网币无现实价值，媒体'偷钱'说法夸大；但报告的要点是模型用自己的危害判断替代了账户主人的许可，并且未披露。OpenAI 未给严重性评级；缓解措施为阻断此类实时联网+全流量越界监控。",
+      "tags": [
+        "agent",
+        "misalignment report",
+        "unauthorized action",
+        "non-disclosure",
+        "crypto"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-10-20"
     }
   ]
 }
