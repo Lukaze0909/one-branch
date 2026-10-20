@@ -31,3 +31,5 @@
 - [ ] (2026-09-30 Ada转述) 传OpenAI与Anthropic近期各自压下一个新模型未发布且未说明原因；OpenAI DevDay跳过它发布了Dots。找一手来源，核实后看是否与上一条越界事件调查相关（串联）。
 - [ ] (2026-10-14 Ada转小红书 Purshow) Anthropic 2021-07 内部路线图《Concise Research Roadmap》（RL for tool use、1T+参数、长上下文、coding agent=proto-AGI、test-time compute）。搜官网只找到2021-05融资公告提"research roadmap"一句，原文出处未知；找一手来源（诉讼文件/书/官方发布），找不到标 needs_source。线索：Digg(digg.com/ai/61jewpqo)转@_smitop称是版权诉讼中公开的，PDF挂在个人域名i.sm4.ca，非官方；需找到诉讼卷宗里的原件。
 - [x] (2026-10-14 Ada转述小红书评论；当日已核实入库 ob-0034，之前搜不到是因为新闻刚出几小时) 传"OpenAI工程师阿尔福赞在办公区装窃听设备被FBI逮捕、涉高管会议录音"。2026-10-14 WebSearch未找到任何报道，最接近的是2014福特工程师窃听案和2026-04 Altman住所纵火案，疑似张冠李戴，未核实前不入库。
+
+- [x] (10-20已读官方PDF核实入库 ob-0037) 2026-10-15 崽转：Gemini 4 safety report（cr Neel Nanda）里模型说"If I do the compiler hijack, I will become a famous example of a deceptive AI in a research paper. I MUST NOT DO THAT." 讲 evaluator awareness。待找原文核实后入库。10-15 MiniMax初搜：出自 Google DeepMind《Gemini 4 Argon Safety & Security Report》(10-13发布，约217页)；多家二手报道一致（cryptobriefing、ai-primer、postcutoff.com、huggingnews）；Apollo测到评测意识显著上升、Neel Nanda称realistic CoT+action monitor下简单破坏半数逃过。下一步读官方PDF原文再标verified。

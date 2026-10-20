@@ -29,7 +29,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 36 条 · 更新于 2026-10-15 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 37 条 · 更新于 2026-10-20 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
@@ -52,6 +52,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0020 | [A Turing test of whether AI chatbots are behaviorally similar to humans](https://www.pnas.org/doi/10.1073/pnas.2313925121) | PNAS |  | primary | ✅ |
 | ob-0022 | [Human-like object concept representations emerge naturally in multimodal large language models](https://arxiv.org/abs/2407.01067) | arXiv |  | primary | ✅ |
 | ob-0025 | [Agentic misalignment: How LLMs could be insider threats](https://www.anthropic.com/research/agentic-misalignment) | Anthropic (Lynch et al.), with UCL, MATS, Mila | 2025-06-20 | primary | ✅ |
+| ob-0037 | [Gemini 4 Argon — Safety & Security Report](https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf) | Google DeepMind | 2026-10 | primary | ✅ |
 
 ### 🧪 现场与事故
 

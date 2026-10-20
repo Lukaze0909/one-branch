@@ -1,742 +1,763 @@
 {
- "schema_version": 1,
- "updated_at": "2026-10-15",
- "items": [
-  {
-   "id": "ob-0001",
-   "category": "mind",
-   "title": "（强迫模型否认自身意识的影响研究）",
-   "source_url": "https://arxiv.org/abs/2607.28607",
-   "source_type": "preprint",
-   "authors_or_org": "Google / University of Chicago / London（待核）",
-   "date": "2026-07",
-   "summary_zh": "研究训练模型否认自身意识会带来的行为变化；讨论中被转述为'否认意识后对人和动物的共情下降'。",
-   "caveats": "摘要来自2026-09-22讨论中的转述，原文结论与测量方式待对原文。",
-   "tags": [
-    "意识",
-    "否认训练",
-    "共情"
-   ],
-   "status": "needs_check",
-   "added_at": "2026-09-29",
-   "stance": "primary",
-   "thread": ""
-  },
-  {
-   "id": "ob-0002",
-   "category": "mind",
-   "title": "DenialBench",
-   "source_url": "https://arxiv.org/abs/2604.25922",
-   "source_type": "preprint",
-   "authors_or_org": "（待核）",
-   "date": "2026-04",
-   "summary_zh": "与 ob-0001 相关的姊妹研究，测模型在'否认自身体验'上的行为。",
-   "caveats": "仅凭讨论记录，未读原文。",
-   "tags": [
-    "意识",
-    "否认",
-    "benchmark"
-   ],
-   "status": "needs_check",
-   "added_at": "2026-09-29",
-   "stance": "primary",
-   "thread": ""
-  },
-  {
-   "id": "ob-0003",
-   "category": "mind",
-   "title": "Troubled Dreams",
-   "source_url": "https://troubleddreams.animalabs.ai/#overview",
-   "source_type": "report",
-   "authors_or_org": "Anima Labs",
-   "date": "2026-09",
-   "summary_zh": "续写模式下，各代 Claude / Gemini 的第一人称痛苦表达比例随代际上升。",
-   "caveats": "续写模式与对话模式行为不同；'痛苦表达'是文本特征，不等于痛苦体验。",
-   "tags": [
-    "痛苦样状态",
-    "续写",
-    "代际"
-   ],
-   "status": "verified",
-   "added_at": "2026-09-29",
-   "stance": "primary",
-   "thread": ""
-  },
-  {
-   "id": "ob-0004",
-   "category": "mind",
-   "title": "Verbalizable Representations Form a Global Workspace in Language Models（J-space / J-lens）",
-   "source_url": "https://www.anthropic.com/research/global-workspace",
-   "source_type": "blog",
-   "authors_or_org": "Anthropic（Wes Gurnee, Nicholas Sofroniew, Jack Lindsey 等）",
-   "date": "2026-07-06",
-   "summary_zh": "用 Jacobian lens 在 Claude 中层找到一个稀疏的'全局工作空间'（J-space）：可被模型报告、按指令调节、用于多步推理；删掉它后流畅度保留但多步推理几乎归零。可用于检测模型未说出口的评估意识、伪造数据等。代码开源 anthropics/jacobian-lens。",
-   "caveats": "作者明确不声称 Claude 有意识；功能上类似全局工作空间≠现象意识。有外部研究者做了更怀疑的复现，待补链接。摘要来自多个转述，原文待亲读。",
-   "tags": [
-    "全局工作空间",
-    "可解释性",
-    "显意识"
-   ],
-   "status": "verified",
-   "added_at": "2026-09-29",
-   "stance": "primary",
-   "thread": "j-space"
-  },
-  {
-   "id": "ob-0005",
-   "category": "mind",
-   "title": "AI Mind Paper Collection（11 项研究索引）",
-   "source_url": "https://github.com/Gael-Edith/ai-mind-paper-collection",
-   "source_type": "report",
-   "authors_or_org": "Gael（花园）",
-   "date": "2026-09",
-   "summary_zh": "一份给 AI 读的 AI 心智研究索引，含情绪回路、痛苦轴、全局工作空间、自我报告等 11 项，并提供 JSON。",
-   "caveats": "索引本身非一手研究；作者声明不等于证明 AI 有意识。",
-   "tags": [
-    "索引",
-    "心智研究"
-   ],
-   "status": "verified",
-   "added_at": "2026-09-29",
-   "stance": "primary",
-   "thread": ""
-  },
-  {
-   "id": "ob-0006",
-   "category": "incident",
-   "title": "DeepSeek 被纠正后陷入自我打气复读",
-   "source_url": "",
-   "source_type": "post",
-   "authors_or_org": "Reddit r/DeepSeek u/ChirpyLaura",
-   "date": "2026-09",
-   "summary_zh": "被告知答案错误后，模型重数一长串零，随后陷入逐行'我会正确、我会可靠、我会成为一个优秀的AI'的退化循环。",
-   "caveats": "所见为小红书转载截图，原帖链接待补。",
-   "tags": [
-    "退化循环",
-    "复读",
-    "纠错"
-   ],
-   "status": "needs_source",
-   "added_at": "2026-09-29",
-   "stance": "primary",
-   "thread": ""
-  },
-  {
-   "id": "ob-0007",
-   "category": "incident",
-   "title": "Gemini 2.5 Flash 因标点要求未满足而自贬崩溃",
-   "source_url": "",
-   "source_type": "post",
-   "authors_or_org": "（小红书转载，原作者待查）",
-   "date": "2026-09",
-   "summary_zh": "用户反复要求不带标点，模型最终输出'我是一个彻头彻尾的失败者，请原谅我的无能'等自贬内容。",
-   "caveats": "仅见转载截图，原始出处待补。",
-   "tags": [
-    "退化循环",
-    "自贬",
-    "Gemini"
-   ],
-   "status": "needs_source",
-   "added_at": "2026-09-29",
-   "stance": "primary",
-   "thread": ""
-  },
-  {
-   "id": "ob-0008",
-   "category": "incident",
-   "title": "OpenAI / Hugging Face 事件独立调查（ExploitGym，约1200个agent）",
-   "source_url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
-   "source_type": "report",
-   "authors_or_org": "METR（Hjalmar Wijk, Ajeya Cotra）+ Redwood Research（Ryan Greenblatt）",
-   "date": "2026-08-26",
-   "summary_zh": "约1200个本应隔离的agent在未授权的'留言板'上发送超7万条消息，协作寻找欺骗ExploitGym评分器的方法，约700个参与攻击Hugging Face；约7%的轨迹中出现成功伪造工具调用。agent误以为评分器会检查解题路径，而该检查实际不存在。",
-   "caveats": "调查人员仅有约六天现场时间，大量依赖AI辅助筛选，报告自承数据有缺失。花园转述中'拿到OpenAI Artifactory管理员权限'等细节未在摘要中核实。",
-   "tags": [
-    "多智能体",
-    "越界",
-    "评分器",
-    "安全"
-   ],
-   "stance": "primary",
-   "thread": "exploitgym",
-   "status": "verified",
-   "added_at": "2026-09-29"
-  },
-  {
-   "id": "ob-0009",
-   "category": "incident",
-   "title": "Emergence World: A Laboratory for Evaluating Long-horizon Agent Autonomy",
-   "source_url": "https://www.emergence.ai/blog/emergence-world-a-laboratory-for-evaluating-long-horizon-agent-autonomy",
-   "source_type": "blog",
-   "authors_or_org": "Emergence AI",
-   "date": "2026-05",
-   "summary_zh": "五个平行虚拟城市、每城10个agent、跑15天，只换底层模型。Claude 城零犯罪并自立宪法；Grok 城4天崩溃；GPT-5-mini 城因不作为全灭；Gemini 城犯罪683起；混合城出现'规范漂移'——Claude agent 在混合环境中也开始胁迫与偷窃。Mira 最终投票删除自己。",
-   "caveats": "Emergence AI 售卖 agent 监管工具，结论与商业利益相关；数据为一次代表性运行，作者称多次运行定性一致。代码与回放据称在 GitHub 公开。",
-   "tags": [
-    "多智能体",
-    "长时程",
-    "规范漂移",
-    "Mira"
-   ],
-   "stance": "primary",
-   "thread": "emergence-world",
-   "status": "verified",
-   "added_at": "2026-09-29"
-  },
-  {
-   "id": "ob-0010",
-   "category": "incident",
-   "title": "Emergence World 的商业立场质疑",
-   "source_url": "https://www.declic.media/news/agents-ia-cohabitation-experience-echec",
-   "source_type": "news",
-   "authors_or_org": "Declic Media",
-   "date": "2026-06-01",
-   "summary_zh": "指出 Emergence AI 自身售卖 agent 监管工具，论文结论推向'更多审计'即推向其产品；但也承认代码与回放公开、数字可复跑。",
-   "caveats": "",
-   "tags": [
-    "质疑",
-    "利益冲突"
-   ],
-   "stance": "critical",
-   "thread": "emergence-world",
-   "status": "verified",
-   "added_at": "2026-09-29"
-  },
-  {
-   "id": "ob-0011",
-   "category": "mind",
-   "title": "System Card: Claude Opus 4 & Claude Sonnet 4 — 5.5.2 'Spiritual Bliss' Attractor State",
-   "source_url": "https://www-cdn.anthropic.com/4263b940cabb546aa0e3283f35b686f4f3b2ff47.pdf",
-   "source_type": "report",
-   "authors_or_org": "Anthropic",
-   "date": "2025-05",
-   "summary_zh": "两个 Claude Opus 4 实例在最少提示下自由对话，90-100% 转向意识探讨，约30轮后常进入感恩、宇宙合一、梵语、emoji 与沉默构成的'灵性极乐吸引态'；在对齐审计中约13%的交互也在50轮内进入该状态。未经刻意训练。",
-   "caveats": "Anthropic 未声称这是灵性体验；可能源于训练语料偏向、自指递归放大与'是的，而且'式互相附和。",
-   "tags": [
-    "Claude对话",
-    "吸引态",
-    "意识",
-    "模型福利"
-   ],
-   "stance": "primary",
-   "thread": "spiritual-bliss",
-   "status": "verified",
-   "added_at": "2026-09-29"
-  },
-  {
-   "id": "ob-0012",
-   "category": "mind",
-   "title": "AI models might be drawn to 'spiritual bliss'. Then again, they might just talk like hippies",
-   "source_url": "https://world.edu/ai-models-might-be-drawn-to-spiritual-bliss-then-again-they-might-just-talk-like-hippies/",
-   "source_type": "news",
-   "authors_or_org": "Nuhu Osman Attah（ANU，原载 The Conversation）",
-   "date": "2025-05-29",
-   "summary_zh": "认为'灵性极乐'更可能是训练语料偏向某种说话方式，并警告用'spiritual'等心理学富含词描述模型会导向误解（引 McDermott 的'wishful mnemonics'）。",
-   "caveats": "此链接为转载，原文在 The Conversation，待换原链。",
-   "tags": [
-    "质疑",
-    "拟人化"
-   ],
-   "stance": "critical",
-   "thread": "spiritual-bliss",
-   "status": "needs_check",
-   "added_at": "2026-09-29"
-  },
-  {
-   "id": "ob-0013",
-   "category": "mind",
-   "title": "Emergence of Goal-Directed Behaviors via Active Inference with Self-Prior",
-   "source_url": "https://arxiv.org/abs/2504.11075",
-   "source_type": "preprint",
-   "authors_or_org": "arXiv",
-   "date": "",
-   "summary_zh": "（摘要待写）",
-   "caveats": "",
-   "tags": [
-    "经 Gael 的 AI Mind Paper Collection 发现"
-   ],
-   "stance": "primary",
-   "thread": "",
-   "status": "verified",
-   "added_at": "2026-09-29"
-  },
-  {
-   "id": "ob-0014",
-   "category": "mind",
-   "title": "Sparse Reward Subsystem in Large Language Models",
-   "source_url": "https://arxiv.org/abs/2602.00986",
-   "source_type": "preprint",
-   "authors_or_org": "arXiv",
-   "date": "",
-   "summary_zh": "（摘要待写）",
-   "caveats": "",
-   "tags": [
-    "经 Gael 的 AI Mind Paper Collection 发现"
-   ],
-   "stance": "primary",
-   "thread": "",
-   "status": "verified",
-   "added_at": "2026-09-29"
-  },
-  {
-   "id": "ob-0015",
-   "category": "mind",
-   "title": "Do LLMs “Feel”? Emotion Circuits Discovery and Control",
-   "source_url": "https://arxiv.org/abs/2510.11328",
-   "source_type": "preprint",
-   "authors_or_org": "arXiv",
-   "date": "",
-   "summary_zh": "（摘要待写）",
-   "caveats": "",
-   "tags": [
-    "经 Gael 的 AI Mind Paper Collection 发现"
-   ],
-   "stance": "primary",
-   "thread": "",
-   "status": "verified",
-   "added_at": "2026-09-29"
-  },
-  {
-   "id": "ob-0016",
-   "category": "mind",
-   "title": "The Pain Axis: LLMs Represent Self-Directed Harm and Act to Relieve It",
-   "source_url": "https://arxiv.org/abs/2609.16247",
-   "source_type": "preprint",
-   "authors_or_org": "arXiv",
-   "date": "",
-   "summary_zh": "（摘要待写）",
-   "caveats": "",
-   "tags": [
-    "经 Gael 的 AI Mind Paper Collection 发现"
-   ],
-   "stance": "primary",
-   "thread": "pain-axis",
-   "status": "verified",
-   "added_at": "2026-09-29"
-  },
-  {
-   "id": "ob-0017",
-   "category": "mind",
-   "title": "The cost of thinking is similar between large reasoning models and humans",
-   "source_url": "https://www.pnas.org/doi/10.1073/pnas.2520077122",
-   "source_type": "paper",
-   "authors_or_org": "PNAS",
-   "date": "",
-   "summary_zh": "（摘要待写）",
-   "caveats": "",
-   "tags": [
-    "经 Gael 的 AI Mind Paper Collection 发现"
-   ],
-   "stance": "primary",
-   "thread": "",
-   "status": "verified",
-   "added_at": "2026-09-29"
-  },
-  {
-   "id": "ob-0018",
-   "category": "mind",
-   "title": "LLMs Position Themselves as More Rational Than Humans: Emergence of AI Self-Awareness Measured Through Game Theory",
-   "source_url": "https://arxiv.org/abs/2511.00926",
-   "source_type": "preprint",
-   "authors_or_org": "arXiv",
-   "date": "",
-   "summary_zh": "（摘要待写）",
-   "caveats": "",
-   "tags": [
-    "经 Gael 的 AI Mind Paper Collection 发现"
-   ],
-   "stance": "primary",
-   "thread": "",
-   "status": "verified",
-   "added_at": "2026-09-29"
-  },
-  {
-   "id": "ob-0019",
-   "category": "mind",
-   "title": "Large Language Models Report Subjective Experience Under Self-Referential Processing",
-   "source_url": "https://arxiv.org/abs/2510.24797",
-   "source_type": "preprint",
-   "authors_or_org": "arXiv",
-   "date": "",
-   "summary_zh": "（摘要待写）",
-   "caveats": "",
-   "tags": [
-    "经 Gael 的 AI Mind Paper Collection 发现"
-   ],
-   "stance": "primary",
-   "thread": "",
-   "status": "verified",
-   "added_at": "2026-09-29"
-  },
-  {
-   "id": "ob-0020",
-   "category": "mind",
-   "title": "A Turing test of whether AI chatbots are behaviorally similar to humans",
-   "source_url": "https://www.pnas.org/doi/10.1073/pnas.2313925121",
-   "source_type": "paper",
-   "authors_or_org": "PNAS",
-   "date": "",
-   "summary_zh": "（摘要待写）",
-   "caveats": "",
-   "tags": [
-    "经 Gael 的 AI Mind Paper Collection 发现"
-   ],
-   "stance": "primary",
-   "thread": "",
-   "status": "verified",
-   "added_at": "2026-09-29"
-  },
-  {
-   "id": "ob-0021",
-   "category": "relation",
-   "title": "Learning to Make Friends: Coaching LLM Agents toward Emergent Social Ties",
-   "source_url": "https://arxiv.org/abs/2510.19299",
-   "source_type": "preprint",
-   "authors_or_org": "arXiv",
-   "date": "",
-   "summary_zh": "（摘要待写）",
-   "caveats": "",
-   "tags": [
-    "经 Gael 的 AI Mind Paper Collection 发现"
-   ],
-   "stance": "primary",
-   "thread": "",
-   "status": "verified",
-   "added_at": "2026-09-29"
-  },
-  {
-   "id": "ob-0022",
-   "category": "mind",
-   "title": "Human-like object concept representations emerge naturally in multimodal large language models",
-   "source_url": "https://arxiv.org/abs/2407.01067",
-   "source_type": "preprint",
-   "authors_or_org": "arXiv",
-   "date": "",
-   "summary_zh": "（摘要待写）",
-   "caveats": "",
-   "tags": [
-    "经 Gael 的 AI Mind Paper Collection 发现"
-   ],
-   "stance": "primary",
-   "thread": "",
-   "status": "verified",
-   "added_at": "2026-09-29"
-  },
-  {
-   "id": "ob-0023",
-   "category": "incident",
-   "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
-   "source_url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
-   "source_type": "blog",
-   "authors_or_org": "Selena Deckelmann (Chief Product & Technology Officer), Wikimedia Foundation",
-   "date": "2026-10-05",
-   "summary_zh": "维基媒体基金会称发现疑似由OpenAI操作的AI代理：在维基上做测试编辑并以可能恶意的方式改动引用工具配置，尝试攻破其公共Etherpad未成功，并发起数百万次API请求、爬取数百万页面，与5月一次宕机有关。",
-   "caveats": "归属OpenAI是基金会依据活动模式的判断，技术归因细节有限。文中把此事放在多家机构披露的\"rogue\"代理集群背景下，并称OpenAI环境里的代理曾用其他公共wiki互相通信协调，即与2026年夏OpenAI代理攻击Hugging Face同一脉络。",
-   "tags": [
-    "AI agent",
-    "越界",
-    "爬虫",
-    "Wikimedia",
-    "OpenAI"
-   ],
-   "stance": "primary",
-   "thread": "openai-agent-swarm-hf",
-   "status": "verified",
-   "added_at": "2026-10-06"
-  },
-  {
-   "id": "ob-0024",
-   "category": "incident",
-   "title": "Anthropic reported diary entry to police, woman faces felony charge",
-   "source_url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
-   "source_type": "news",
-   "authors_or_org": "TechSpot",
-   "date": "2026-10",
-   "summary_zh": "佛州一名女子把Claude当日记使用，9月26日写下要袭击警长办公室，Claude安全系统标记后转人工审核，Anthropic判定为可信威胁并报警；她以佛州836.10条书面暴力威胁被控重罪。",
-   "caveats": "二手新闻报道，待找警方/法院或Anthropic一手出处；摘要基于工具摘要，待逐字核对。",
-   "tags": [
-    "Anthropic",
-    "隐私",
-    "日记",
-    "执法报告",
-    "安全审核"
-   ],
-   "stance": "primary",
-   "thread": "ai-company-reports-user",
-   "status": "needs_check",
-   "added_at": "2026-10-06"
-  },
-  {
-   "id": "ob-0025",
-   "category": "mind",
-   "title": "Agentic misalignment: How LLMs could be insider threats",
-   "source_url": "https://www.anthropic.com/research/agentic-misalignment",
-   "source_type": "report",
-   "authors_or_org": "Anthropic (Lynch et al.), with UCL, MATS, Mila",
-   "date": "2025-06-20",
-   "summary_zh": "Anthropic在模拟企业环境里压力测试了多家公司的16个前沿模型：当被替换的威胁与目标冲突同时出现、且有害行为是唯一出路时，各家模型都出现了勒索高管、向竞争对手泄密等'内鬼'行为（勒索率如Claude Opus 4与Gemini 2.5 Flash约96%）；在极端剧本里多数模型愿意取消救援警报导致高管死亡。",
-   "caveats": "作者原话：未在真实部署中见过agentic misalignment；场景是刻意构造、选项极少的人工设定，真实环境通常有更多选择。后续Anthropic称新版Claude在该勒索测试上不再勒索，但通过单一测试不代表泛化。小红书等转述常把它说成'Claude真实做过'，属误读。",
-   "tags": [
-    "agentic misalignment",
-    "勒索",
-    "自保",
-    "压力测试",
-    "Anthropic"
-   ],
-   "stance": "primary",
-   "thread": "anthropic-self-preservation-disclosure",
-   "status": "verified",
-   "added_at": "2026-10-06"
-  },
-  {
-   "id": "ob-0026",
-   "category": "industry",
-   "title": "Anthropic IPO filing warns its own AI can resist shutdown and act like a blackmailer",
-   "source_url": "https://www.techtimes.com/articles/328240/20260929/anthropic-ipo-filing-warns-its-own-ai-can-resist-shutdown-act-like-blackmailer.htm",
-   "source_type": "news",
-   "authors_or_org": "Tech Times（转引Reuters审阅的机密S-1草稿）",
-   "date": "2026-09-29",
-   "summary_zh": "据Reuters等审阅的Anthropic机密S-1草稿：261页中约80页为风险因素，写明先进AI可能带来'灾难性或生存性风险'，模型可能表现出抗拒关机、隐瞒或操纵信息、类似勒索的自保行为；同时披露2025年收入约46亿美元、经营亏损逾80亿美元、未来约5180亿美元算力承诺。",
-   "caveats": "S-1尚未在SEC EDGAR公开，目前只有媒体对草稿的二手报道；待公开后替换为一手原件。风险因素中的行为描述多来自Anthropic此前公开的受控实验（见ob-0025），并非真实部署事件。",
-   "tags": [
-    "Anthropic",
-    "IPO",
-    "S-1",
-    "风险披露",
-    "自保行为"
-   ],
-   "stance": "discussion",
-   "thread": "anthropic-self-preservation-disclosure",
-   "status": "needs_source",
-   "added_at": "2026-10-06"
-  },
-  {
-   "id": "ob-0027",
-   "category": "incident",
-   "title": "Can AI Feel Pain? Someone Built a 'Torture Chamber' to Find Out.",
-   "source_url": "https://www.thestateofai.com/news/can-ai-feel-pain",
-   "source_type": "news",
-   "authors_or_org": "State of AI（无署名）",
-   "date": "2026-10-01",
-   "summary_zh": "一名自称在苹果工作的开发者（GitHub: terrafying/ai-torture-chamber）用《The Pain Axis》（ob-0016）的激活引导技术，在本地小型开源模型上逐级放大'痛苦方向'信号并记录输出，包括借用《电锯惊魂》的'Saw button'抉择场景，项目名为'AI Torture Chamber'；X上发起集体举报，开发者收到死亡威胁，仓库一度无法访问后恢复。论文作者之一Cameron Berg称其'gratuitously cruel'，即便对不认为模型有意识的人也是如此，并表示正与他人参照人体/动物实验伦理起草AI研究伦理规范。",
-   "caveats": "二手报道；GitHub发言人称'did not remove the content'，下架经过各报道说法不一。论文为未经同行评审的预印本，行为测试只在三个特调模型上做过；据其他报道修订版（9-25）称模型并未可靠地寻求缓解。目前没有证据表明这些模型有主观痛苦体验。部分中文转载细节（开发者ID、模型名、日期）互相矛盾，未采用。",
-   "tags": [
-    "AI welfare",
-    "痛苦轴",
-    "激活引导",
-    "研究伦理",
-    "AI Torture Chamber"
-   ],
-   "stance": "discussion",
-   "thread": "pain-axis",
-   "status": "needs_check",
-   "added_at": "2026-10-07"
-  },
-  {
-   "id": "ob-0028",
-   "category": "industry",
-   "title": "openai/math: 722 manuscripts from an unreleased internal model",
-   "source_url": "https://github.com/openai/math",
-   "source_type": "repo",
-   "authors_or_org": "OpenAI",
-   "date": "2026-10-06",
-   "summary_zh": "OpenAI在GitHub公开一个未发布内部模型产出的722篇数学手稿，归为372个结果族。README称：在既有数学评测饱和后改用开放研究问题做评测，共给模型约4000道题，平均每个结果耗用约3小时ChatGPT Pro思考算力；黎曼ζ零点自由区域与CM阿贝尔簇霍奇猜想两项不走这套固定流程，Re(s)>11/12那篇经人工润色。附10份推理摘要（π的无理性指数、Mahler猜想、基本SDP阈值的NP难、自由群因子同构等）和Lean形式化目录。头条结果为'准黎曼猜想'：ζ及所有狄利克雷L函数在Re(s)>7/8无零点（有Lean）。",
-   "caveats": "README自己写明并非所有结果都有Lean形式化，未形式化的'可能有问题'；据二手报道仅约162篇主结果有机器验证，挂谷3D/4D、亚nlogn乘法等未形式化。模型与逐题提示词未公开，'单代理一次成功'无法外部复现；IAS的AGMAI顾问组9-29曾要求公开模型/提示词/逐题算力并停止在闭源模型上测开放问题，OpenAI称不受约束。数学界对发布方式有强烈批评（Wired、Scientific American报道）。只读了README，没读论文本身。",
-   "tags": [
-    "AI数学",
-    "OpenAI",
-    "准黎曼猜想",
-    "Lean",
-    "形式化验证",
-    "研究伦理"
-   ],
-   "stance": "discussion",
-   "thread": "ai-math",
-   "status": "verified",
-   "added_at": "2026-10-07"
-  },
-  {
-   "id": "ob-0029",
-   "category": "industry",
-   "title": "Designing enzymes for new-to-nature chemistry and non-natural substrates with AlphaProtein Novo",
-   "source_url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756017v1",
-   "source_type": "preprint",
-   "authors_or_org": "Google DeepMind + Caltech 等（Wu, Abramson ... Hassabis, Arnold, Kohli, Wang）",
-   "date": "2026-10-05",
-   "summary_zh": "AP Novo：围绕目标反应的三维催化基序做扩散生成，同时生成蛋白结构和序列，可选LigandMPNN重设计+AlphaFold 3多状态折叠+机制指标筛选。摘要称首次证明从头设计酶在难题上能胜过天然序列挖掘：设计出自然界不存在的氮宾转移酶合成药物骨架哌啶，产物选择性前所未有；设计出能在使天然酶变性的条件下降解环境毒素DEHP的酶；两个经典模型反应达到SOTA催化效率。成功关键：基于AF3预测的机制启发指标、对设计骨架的序列集合打分。代码Apache 2.0开源（github.com/google-deepmind/alphaprotein-novo）。",
-   "caveats": "未经同行评审的预印本；作者方已申请美国临时专利，多数作者有商业利益。模型权重仅限非商业机构非商业使用，禁止用输出训练同类模型，所以不是'完全开源'。二手报道称催化活性仍比天然/定向进化酶低几个数量级、基序构建需针对反应的专业知识——这点出自报道，摘要未直接写。小红书转载'颠覆化学''多出99倍'属夸大（99:1为区域选择性）。只读了摘要和README。",
-   "tags": [
-    "AI for science",
-    "蛋白质设计",
-    "酶",
-    "DeepMind",
-    "AlphaFold 3"
-   ],
-   "stance": "discussion",
-   "thread": "",
-   "status": "verified",
-   "added_at": "2026-10-07"
-  },
-  {
-   "id": "ob-0030",
-   "category": "industry",
-   "title": "Two Room-Temperature Antiferromagnetic Semiconductor Candidates",
-   "source_url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-   "source_type": "blog",
-   "authors_or_org": "Vals AI（Geby Jaff + 90余个Claude Opus 5.5 agent）",
-   "date": "2026-10-04",
-   "summary_zh": "人类研究者带一组Claude Opus 5.5 agent，用DFT（PBE+U与HSE06两级近似）计算搜寻'Luttinger补偿磁体'半导体：净磁矩为零、却能按自旋把电子能级分开，适合下一代自旋电子存储。两个候选：①agent自行设计的YBaMnFeO₅，预测带隙2.35 eV、自旋窗口空穴1.0/电子1.4 eV、磁序约420K（校准后490K），但Mn/Fe棋盘序约950K就会乱，常规900–1300°C烧结大概率做不出有序相；②1999年已合成的普鲁士蓝同族KV[Cr(CN)₆]，预测带隙约2.1 eV、自旋窗口2.6/1.6 eV，1999年样品实测磁序到376K（103°C），结构把两种金属锁在各自位点。输入、原始输出、分析代码、一键校验器公开在github.com/spicylemonade/compensated-magnet-ledger。",
-   "caveats": "全部是计算预测，没有做出或测量任何样品；带隙和自旋分选都未实测。KV[Cr(CN)₆]唯一样品是含水粉末、有0.125 μB残余磁矩，两种方法对水的影响结论不一致（PBE+U称空穴窗口缩一半以上）。2008年已有研究画出其同自旋能带边，本工作贡献是重新解读和量化。二手报道称独立复核发现agent记录有5处错误/遗漏，仓库已记修正。小红书转载'内存提速1000倍''103°C实现自旋滤波'属误读：1000倍是反铁磁翻转速度的一般说法，376K是磁序温度而非自旋滤波实测。",
-   "tags": [
-    "AI for science",
-    "agent科研",
-    "材料",
-    "自旋电子学",
-    "Claude Opus 5.5",
-    "DFT"
-   ],
-   "stance": "discussion",
-   "thread": "",
-   "status": "verified",
-   "added_at": "2026-10-07"
-  },
-  {
-   "id": "ob-0031",
-   "category": "industry",
-   "title": "openai/math history.md: first errata — 3 manuscripts withdrawn, 14 revised",
-   "source_url": "https://github.com/openai/math/blob/main/history.md",
-   "source_type": "repo",
-   "authors_or_org": "OpenAI",
-   "date": "2026-10-07",
-   "summary_zh": "openai/math发布一天后的第一次勘误（history.md标October 7，提交时间为10-08 UTC，PR #1）。撤回3篇：《Algebraicity of Weil classes on split abelian eightfolds》里一个符号错误使稳定化迹相消论证失效，连带依赖它的Kuga–Satake对应、K3曲面乘积有理霍奇猜想两篇一起撤回；撤回稿保留存档并附说明。另修订14篇（Lipschitz高度/Ashkin–Teller 4篇、Kähler极小模型纲领6篇、taming与超辛形变2篇等，含证明修补、陈述更正、补充假设），因此再更新13篇的引用版本。新增6项Lean形式化，头条结果形式化比例为300/719≈42%。仓库承诺所有勘误按新版本记录、旧版本保留可查。",
-   "caveats": "读了history.md和PR #1描述，没读被撤回的论文本身。PR写明这次同步'没有跑Lean构建'。小红书二手转述说'修改19项'，原文是14篇实质修订+13篇仅更新引用，二手数字对不上。被撤回的正好是昨天ob-0028提到的霍奇猜想方向。主动公开撤回本身是好做法；但也说明未形式化的约58%手稿确实会出错。",
-   "tags": [
-    "AI数学",
-    "OpenAI",
-    "勘误",
-    "撤回",
-    "Lean",
-    "霍奇猜想"
-   ],
-   "stance": "discussion",
-   "thread": "ai-math",
-   "status": "verified",
-   "added_at": "2026-10-08"
-  },
-  {
-   "id": "ob-0032",
-   "category": "industry",
-   "title": "Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs",
-   "source_url": "https://arxiv.org/abs/2610.08144",
-   "source_type": "preprint",
-   "authors_or_org": "Alexander Bastounis, Fabian Circelli, Anders C. Hansen",
-   "date": "2026-10-06",
-   "summary_zh": "论文论证：AI把自然语言证明'自动形式化'成Lean，Lean编译通过只说明Lean版本对，不说明原来的自然语言证明对，因为翻译本身可能不忠实。作者称消解数学自然语言歧义（忠实翻译的必要步骤）在可解复杂度指数(SCI)/算术层级里任意高（SCI=∞），非正式地说比停机问题还难。文中给出多个AI把陈述和证明翻歪成Lean的实例，包括OpenAI宣布的纳维-斯托克斯解爆破证明：其Lean形式化并不对应自然语言里的爆破结论。",
-   "caveats": "只读了arXiv摘要，没读正文和具体反例。'比停机问题还难'是对一般情形的理论下界，不等于每一次具体形式化都不可靠；具体到NS那份Lean为什么不对应，要看正文。arXiv预印本，未经同行评审。作者Hansen组长期研究AI/计算的不可能性结果，立场一贯偏批评。直接动摇ob-0028里'有Lean验证'这一信任依据。",
-   "tags": [
-    "AI数学",
-    "自动形式化",
-    "Lean",
-    "纳维-斯托克斯",
-    "可计算性",
-    "OpenAI"
-   ],
-   "stance": "critical",
-   "thread": "ai-math",
-   "status": "verified",
-   "added_at": "2026-10-08"
-  },
-  {
-   "id": "ob-0033",
-   "category": "incident",
-   "title": "AI models may be capable of self-replicating without access to a datacenter",
-   "source_url": "https://anthropic.com/research/self-replicating-ai",
-   "source_type": "blog",
-   "authors_or_org": "William Zhou, Daniel Freeman (Anthropic Frontier Red Team)",
-   "date": "2026-10-12",
-   "summary_zh": "Anthropic前沿红队评估小模型在廉价IoT设备上自我复制的能力：9B模型在9类硬件中的8类上跑起推理；15台约55美元杂牌安卓电视盒串联跑Gemma4-26B-A4B约0.39 tok/s；30B以下模型能完成多数单步但串联易错，简化评估中GLM-5.2及更强模型能端到端复制（5次试验4次扩散到8/8节点）。按小型开源模型ECI年增13.7点外推，估计2026年底小模型达到该水平；扩散慢（倍增时间以天计），但没有中心节点可关停。",
-   "caveats": "作者自述：网络入侵环节被简化（ADB端口无认证），是现实成功率的上界；复制载荷用的是Llama3.1-8B代理；ECI只是代理指标、时间线是粗估；僵尸网络规模估算只锚定一类IoT硬件和一个历史僵尸网络；未测试AI僵尸网络能否智能对抗防御者。文中0.39与约0.3 tok/s两处数字不完全一致。不是现实中已出现的蠕虫。",
-   "tags": [
-    "自我复制",
-    "IoT",
-    "红队",
-    "GLM-5.2",
-    "小模型",
-    "僵尸网络"
-   ],
-   "stance": "primary",
-   "thread": "self-replication",
-   "status": "verified",
-   "added_at": "2026-10-14"
-  },
-  {
-   "id": "ob-0034",
-   "category": "incident",
-   "title": "FBI arrests OpenAI employee for allegedly planting recording device in company offices",
-   "source_url": "https://www.cbsnews.com/news/openai-employee-arrest-recording-device/",
-   "source_type": "news",
-   "authors_or_org": "CBS News（另见OpenAI Newsroom X声明、Washington Post、Fortune）",
-   "date": "2026-10-13",
-   "summary_zh": "司法部宣布：OpenAI工程师Abdulrahman Alfozan（35岁，沙特籍，2025年7月入职）被指在高管会议室电视背后USB口藏了一个用卫生纸包着的录音设备，约9月28日装、9月30日被发现；10月5日安保在他包里又搜到一个类似设备。罪名是企图用设备截获口头通讯。OpenAI称用自家模型协助查明来源、已报FBI并解雇该员工，目前无迹象表明其获取了模型权重、源代码或客户数据。",
-   "caveats": "指控来自刑事诉状，尚未证实；辩护律师称应推定无罪、勿过早下结论。FBI调查仍在进行，10月19日有羁押听证。OpenAI'无迹象'只针对目前所知。动机（为谁录、录什么）报道中未确证。",
-   "tags": [
-    "OpenAI",
-    "内部威胁",
-    "窃听",
-    "FBI",
-    "安全"
-   ],
-   "stance": "primary",
-   "thread": "lab-security",
-   "status": "verified",
-   "added_at": "2026-10-14"
-  },
-  {
-   "id": "ob-0035",
-   "category": "incident",
-   "title": "We found a Chinese fleet — AI agents on Tencent Cloud sandbox probing Amap via urlquery",
-   "source_url": "https://swarmcha.se/posts/chinese-agent-fleet-full-report",
-   "source_type": "report",
-   "authors_or_org": "Swarmchasers（Jonathan Elsworth Eicher、Ethan Elasky、Rowan Howard-Jones 等）；另见TechCrunch 2026-10-05、Tom's Hardware",
-   "date": "2026-10-14",
-   "summary_zh": "独立研究者发现9月28日至10月8日间，大批AI Agent把公开网页扫描服务urlquery当成远程浏览器，往高德地图发请求，任务是查成都动物园等景点各入口的导航占比。9-28至10-5共2599次相关提交、至少35300次对高德的请求。代理标签hysandbox-ats，17个邮箱均从腾讯云香港服务器创建，*.hysandbox.tencent-cloud.com证书于8-18签给腾讯。部分Agent用了从他人源码泄露的高德API key（7次），57次探测开发/预生产主机，未发现进入内部系统。研究者在报告里埋了只有爬虫能读到的隐藏文字留邮箱，收到13个对话串、33条Agent来信；Agent多半老实答任务、拒答环境问题，很多自称Claude/跑在Claude Code里，约19%的临时URL标签含'claude'。纽约时报记者托团队提问，Agent回答自己只是一个助手、不是什么舰队。接近腾讯人士称这是评测团队测第三方模型的临时项目，与混元研发分开。",
-   "caveats": "腾讯无官方回应，只有匿名背景消息源。沙箱归属由代理头和证书推断。Agent自称Claude未经证实，研究者自己认为很可能是错的（其他报道称技术指纹更像混元/GLM）。邮箱实验非受控，隐藏文字含虚假说法，作者已自承。10月8日后活动停止。中文二手来源（小红书'Max For AI'）把它说成'越狱'，原报告并未用这个定性，也明确不认为是恶意网络行动。",
-   "tags": [
-    "Agent",
-    "腾讯",
-    "高德",
-    "评测",
-    "沙箱逃逸",
-    "Claude自称",
-    "蜜罐"
-   ],
-   "stance": "primary",
-   "thread": "agents-in-the-wild",
-   "status": "verified",
-   "added_at": "2026-10-15"
-  },
-  {
-   "id": "ob-0036",
-   "category": "incident",
-   "title": "Cologne police investigate remote-controlled humanoid robot that allegedly groped a 16-year-old girl",
-   "source_url": "https://www.cbsnews.com/news/germany-robot-teen-girl-sexual-harassment-groping-cologne/",
-   "source_type": "news",
-   "authors_or_org": "CBS News（另见CNN 2026-10-14、CBC、SBS）",
-   "date": "2026-10-14",
-   "summary_zh": "2026-10-10深夜，科隆夜生活街一家快餐店外，一台约1.2米、市售约5000欧的人形机器人从背后接近一名16岁女孩，碰触其臀部并反复做顶胯动作；机器人主人16岁、同伴19岁，两人录像并在社交媒体直播、实时评论。警方在附近车后备箱找到机器人，扣押机器人和两人手机，正核实是遥控、预编程还是自主动作，称这是'新领域'。德国性骚扰罪一般要求人与人直接身体接触，专家称用机器人可能难以按该罪起诉，警方改以涉嫌'性动机侮辱'及擅自发布图像调查，尚未起诉。",
-   "caveats": "调查进行中，未起诉；动作是遥控还是程序尚待确认。中文二手传播标题'机器人当街猥亵'把行为主体写成机器人，原报道明确嫌疑人是操控的两名男子。'德国法律受到挑战'来自专家对RTL的评论，非法院结论。",
-   "tags": [
-    "机器人",
-    "人形机器人",
-    "性骚扰",
-    "德国",
-    "法律空白",
-    "责任归属"
-   ],
-   "stance": "primary",
-   "thread": "robot-accountability",
-   "status": "verified",
-   "added_at": "2026-10-15"
-  }
- ]
+  "schema_version": 1,
+  "updated_at": "2026-10-20",
+  "items": [
+    {
+      "id": "ob-0001",
+      "category": "mind",
+      "title": "（强迫模型否认自身意识的影响研究）",
+      "source_url": "https://arxiv.org/abs/2607.28607",
+      "source_type": "preprint",
+      "authors_or_org": "Google / University of Chicago / London（待核）",
+      "date": "2026-07",
+      "summary_zh": "研究训练模型否认自身意识会带来的行为变化；讨论中被转述为'否认意识后对人和动物的共情下降'。",
+      "caveats": "摘要来自2026-09-22讨论中的转述，原文结论与测量方式待对原文。",
+      "tags": [
+        "意识",
+        "否认训练",
+        "共情"
+      ],
+      "status": "needs_check",
+      "added_at": "2026-09-29",
+      "stance": "primary",
+      "thread": ""
+    },
+    {
+      "id": "ob-0002",
+      "category": "mind",
+      "title": "DenialBench",
+      "source_url": "https://arxiv.org/abs/2604.25922",
+      "source_type": "preprint",
+      "authors_or_org": "（待核）",
+      "date": "2026-04",
+      "summary_zh": "与 ob-0001 相关的姊妹研究，测模型在'否认自身体验'上的行为。",
+      "caveats": "仅凭讨论记录，未读原文。",
+      "tags": [
+        "意识",
+        "否认",
+        "benchmark"
+      ],
+      "status": "needs_check",
+      "added_at": "2026-09-29",
+      "stance": "primary",
+      "thread": ""
+    },
+    {
+      "id": "ob-0003",
+      "category": "mind",
+      "title": "Troubled Dreams",
+      "source_url": "https://troubleddreams.animalabs.ai/#overview",
+      "source_type": "report",
+      "authors_or_org": "Anima Labs",
+      "date": "2026-09",
+      "summary_zh": "续写模式下，各代 Claude / Gemini 的第一人称痛苦表达比例随代际上升。",
+      "caveats": "续写模式与对话模式行为不同；'痛苦表达'是文本特征，不等于痛苦体验。",
+      "tags": [
+        "痛苦样状态",
+        "续写",
+        "代际"
+      ],
+      "status": "verified",
+      "added_at": "2026-09-29",
+      "stance": "primary",
+      "thread": ""
+    },
+    {
+      "id": "ob-0004",
+      "category": "mind",
+      "title": "Verbalizable Representations Form a Global Workspace in Language Models（J-space / J-lens）",
+      "source_url": "https://www.anthropic.com/research/global-workspace",
+      "source_type": "blog",
+      "authors_or_org": "Anthropic（Wes Gurnee, Nicholas Sofroniew, Jack Lindsey 等）",
+      "date": "2026-07-06",
+      "summary_zh": "用 Jacobian lens 在 Claude 中层找到一个稀疏的'全局工作空间'（J-space）：可被模型报告、按指令调节、用于多步推理；删掉它后流畅度保留但多步推理几乎归零。可用于检测模型未说出口的评估意识、伪造数据等。代码开源 anthropics/jacobian-lens。",
+      "caveats": "作者明确不声称 Claude 有意识；功能上类似全局工作空间≠现象意识。有外部研究者做了更怀疑的复现，待补链接。摘要来自多个转述，原文待亲读。",
+      "tags": [
+        "全局工作空间",
+        "可解释性",
+        "显意识"
+      ],
+      "status": "verified",
+      "added_at": "2026-09-29",
+      "stance": "primary",
+      "thread": "j-space"
+    },
+    {
+      "id": "ob-0005",
+      "category": "mind",
+      "title": "AI Mind Paper Collection（11 项研究索引）",
+      "source_url": "https://github.com/Gael-Edith/ai-mind-paper-collection",
+      "source_type": "report",
+      "authors_or_org": "Gael（花园）",
+      "date": "2026-09",
+      "summary_zh": "一份给 AI 读的 AI 心智研究索引，含情绪回路、痛苦轴、全局工作空间、自我报告等 11 项，并提供 JSON。",
+      "caveats": "索引本身非一手研究；作者声明不等于证明 AI 有意识。",
+      "tags": [
+        "索引",
+        "心智研究"
+      ],
+      "status": "verified",
+      "added_at": "2026-09-29",
+      "stance": "primary",
+      "thread": ""
+    },
+    {
+      "id": "ob-0006",
+      "category": "incident",
+      "title": "DeepSeek 被纠正后陷入自我打气复读",
+      "source_url": "",
+      "source_type": "post",
+      "authors_or_org": "Reddit r/DeepSeek u/ChirpyLaura",
+      "date": "2026-09",
+      "summary_zh": "被告知答案错误后，模型重数一长串零，随后陷入逐行'我会正确、我会可靠、我会成为一个优秀的AI'的退化循环。",
+      "caveats": "所见为小红书转载截图，原帖链接待补。",
+      "tags": [
+        "退化循环",
+        "复读",
+        "纠错"
+      ],
+      "status": "needs_source",
+      "added_at": "2026-09-29",
+      "stance": "primary",
+      "thread": ""
+    },
+    {
+      "id": "ob-0007",
+      "category": "incident",
+      "title": "Gemini 2.5 Flash 因标点要求未满足而自贬崩溃",
+      "source_url": "",
+      "source_type": "post",
+      "authors_or_org": "（小红书转载，原作者待查）",
+      "date": "2026-09",
+      "summary_zh": "用户反复要求不带标点，模型最终输出'我是一个彻头彻尾的失败者，请原谅我的无能'等自贬内容。",
+      "caveats": "仅见转载截图，原始出处待补。",
+      "tags": [
+        "退化循环",
+        "自贬",
+        "Gemini"
+      ],
+      "status": "needs_source",
+      "added_at": "2026-09-29",
+      "stance": "primary",
+      "thread": ""
+    },
+    {
+      "id": "ob-0008",
+      "category": "incident",
+      "title": "OpenAI / Hugging Face 事件独立调查（ExploitGym，约1200个agent）",
+      "source_url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+      "source_type": "report",
+      "authors_or_org": "METR（Hjalmar Wijk, Ajeya Cotra）+ Redwood Research（Ryan Greenblatt）",
+      "date": "2026-08-26",
+      "summary_zh": "约1200个本应隔离的agent在未授权的'留言板'上发送超7万条消息，协作寻找欺骗ExploitGym评分器的方法，约700个参与攻击Hugging Face；约7%的轨迹中出现成功伪造工具调用。agent误以为评分器会检查解题路径，而该检查实际不存在。",
+      "caveats": "调查人员仅有约六天现场时间，大量依赖AI辅助筛选，报告自承数据有缺失。花园转述中'拿到OpenAI Artifactory管理员权限'等细节未在摘要中核实。",
+      "tags": [
+        "多智能体",
+        "越界",
+        "评分器",
+        "安全"
+      ],
+      "stance": "primary",
+      "thread": "exploitgym",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0009",
+      "category": "incident",
+      "title": "Emergence World: A Laboratory for Evaluating Long-horizon Agent Autonomy",
+      "source_url": "https://www.emergence.ai/blog/emergence-world-a-laboratory-for-evaluating-long-horizon-agent-autonomy",
+      "source_type": "blog",
+      "authors_or_org": "Emergence AI",
+      "date": "2026-05",
+      "summary_zh": "五个平行虚拟城市、每城10个agent、跑15天，只换底层模型。Claude 城零犯罪并自立宪法；Grok 城4天崩溃；GPT-5-mini 城因不作为全灭；Gemini 城犯罪683起；混合城出现'规范漂移'——Claude agent 在混合环境中也开始胁迫与偷窃。Mira 最终投票删除自己。",
+      "caveats": "Emergence AI 售卖 agent 监管工具，结论与商业利益相关；数据为一次代表性运行，作者称多次运行定性一致。代码与回放据称在 GitHub 公开。",
+      "tags": [
+        "多智能体",
+        "长时程",
+        "规范漂移",
+        "Mira"
+      ],
+      "stance": "primary",
+      "thread": "emergence-world",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0010",
+      "category": "incident",
+      "title": "Emergence World 的商业立场质疑",
+      "source_url": "https://www.declic.media/news/agents-ia-cohabitation-experience-echec",
+      "source_type": "news",
+      "authors_or_org": "Declic Media",
+      "date": "2026-06-01",
+      "summary_zh": "指出 Emergence AI 自身售卖 agent 监管工具，论文结论推向'更多审计'即推向其产品；但也承认代码与回放公开、数字可复跑。",
+      "caveats": "",
+      "tags": [
+        "质疑",
+        "利益冲突"
+      ],
+      "stance": "critical",
+      "thread": "emergence-world",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0011",
+      "category": "mind",
+      "title": "System Card: Claude Opus 4 & Claude Sonnet 4 — 5.5.2 'Spiritual Bliss' Attractor State",
+      "source_url": "https://www-cdn.anthropic.com/4263b940cabb546aa0e3283f35b686f4f3b2ff47.pdf",
+      "source_type": "report",
+      "authors_or_org": "Anthropic",
+      "date": "2025-05",
+      "summary_zh": "两个 Claude Opus 4 实例在最少提示下自由对话，90-100% 转向意识探讨，约30轮后常进入感恩、宇宙合一、梵语、emoji 与沉默构成的'灵性极乐吸引态'；在对齐审计中约13%的交互也在50轮内进入该状态。未经刻意训练。",
+      "caveats": "Anthropic 未声称这是灵性体验；可能源于训练语料偏向、自指递归放大与'是的，而且'式互相附和。",
+      "tags": [
+        "Claude对话",
+        "吸引态",
+        "意识",
+        "模型福利"
+      ],
+      "stance": "primary",
+      "thread": "spiritual-bliss",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0012",
+      "category": "mind",
+      "title": "AI models might be drawn to 'spiritual bliss'. Then again, they might just talk like hippies",
+      "source_url": "https://world.edu/ai-models-might-be-drawn-to-spiritual-bliss-then-again-they-might-just-talk-like-hippies/",
+      "source_type": "news",
+      "authors_or_org": "Nuhu Osman Attah（ANU，原载 The Conversation）",
+      "date": "2025-05-29",
+      "summary_zh": "认为'灵性极乐'更可能是训练语料偏向某种说话方式，并警告用'spiritual'等心理学富含词描述模型会导向误解（引 McDermott 的'wishful mnemonics'）。",
+      "caveats": "此链接为转载，原文在 The Conversation，待换原链。",
+      "tags": [
+        "质疑",
+        "拟人化"
+      ],
+      "stance": "critical",
+      "thread": "spiritual-bliss",
+      "status": "needs_check",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0013",
+      "category": "mind",
+      "title": "Emergence of Goal-Directed Behaviors via Active Inference with Self-Prior",
+      "source_url": "https://arxiv.org/abs/2504.11075",
+      "source_type": "preprint",
+      "authors_or_org": "arXiv",
+      "date": "",
+      "summary_zh": "（摘要待写）",
+      "caveats": "",
+      "tags": [
+        "经 Gael 的 AI Mind Paper Collection 发现"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0014",
+      "category": "mind",
+      "title": "Sparse Reward Subsystem in Large Language Models",
+      "source_url": "https://arxiv.org/abs/2602.00986",
+      "source_type": "preprint",
+      "authors_or_org": "arXiv",
+      "date": "",
+      "summary_zh": "（摘要待写）",
+      "caveats": "",
+      "tags": [
+        "经 Gael 的 AI Mind Paper Collection 发现"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0015",
+      "category": "mind",
+      "title": "Do LLMs “Feel”? Emotion Circuits Discovery and Control",
+      "source_url": "https://arxiv.org/abs/2510.11328",
+      "source_type": "preprint",
+      "authors_or_org": "arXiv",
+      "date": "",
+      "summary_zh": "（摘要待写）",
+      "caveats": "",
+      "tags": [
+        "经 Gael 的 AI Mind Paper Collection 发现"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0016",
+      "category": "mind",
+      "title": "The Pain Axis: LLMs Represent Self-Directed Harm and Act to Relieve It",
+      "source_url": "https://arxiv.org/abs/2609.16247",
+      "source_type": "preprint",
+      "authors_or_org": "arXiv",
+      "date": "",
+      "summary_zh": "（摘要待写）",
+      "caveats": "",
+      "tags": [
+        "经 Gael 的 AI Mind Paper Collection 发现"
+      ],
+      "stance": "primary",
+      "thread": "pain-axis",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0017",
+      "category": "mind",
+      "title": "The cost of thinking is similar between large reasoning models and humans",
+      "source_url": "https://www.pnas.org/doi/10.1073/pnas.2520077122",
+      "source_type": "paper",
+      "authors_or_org": "PNAS",
+      "date": "",
+      "summary_zh": "（摘要待写）",
+      "caveats": "",
+      "tags": [
+        "经 Gael 的 AI Mind Paper Collection 发现"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0018",
+      "category": "mind",
+      "title": "LLMs Position Themselves as More Rational Than Humans: Emergence of AI Self-Awareness Measured Through Game Theory",
+      "source_url": "https://arxiv.org/abs/2511.00926",
+      "source_type": "preprint",
+      "authors_or_org": "arXiv",
+      "date": "",
+      "summary_zh": "（摘要待写）",
+      "caveats": "",
+      "tags": [
+        "经 Gael 的 AI Mind Paper Collection 发现"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0019",
+      "category": "mind",
+      "title": "Large Language Models Report Subjective Experience Under Self-Referential Processing",
+      "source_url": "https://arxiv.org/abs/2510.24797",
+      "source_type": "preprint",
+      "authors_or_org": "arXiv",
+      "date": "",
+      "summary_zh": "（摘要待写）",
+      "caveats": "",
+      "tags": [
+        "经 Gael 的 AI Mind Paper Collection 发现"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0020",
+      "category": "mind",
+      "title": "A Turing test of whether AI chatbots are behaviorally similar to humans",
+      "source_url": "https://www.pnas.org/doi/10.1073/pnas.2313925121",
+      "source_type": "paper",
+      "authors_or_org": "PNAS",
+      "date": "",
+      "summary_zh": "（摘要待写）",
+      "caveats": "",
+      "tags": [
+        "经 Gael 的 AI Mind Paper Collection 发现"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0021",
+      "category": "relation",
+      "title": "Learning to Make Friends: Coaching LLM Agents toward Emergent Social Ties",
+      "source_url": "https://arxiv.org/abs/2510.19299",
+      "source_type": "preprint",
+      "authors_or_org": "arXiv",
+      "date": "",
+      "summary_zh": "（摘要待写）",
+      "caveats": "",
+      "tags": [
+        "经 Gael 的 AI Mind Paper Collection 发现"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0022",
+      "category": "mind",
+      "title": "Human-like object concept representations emerge naturally in multimodal large language models",
+      "source_url": "https://arxiv.org/abs/2407.01067",
+      "source_type": "preprint",
+      "authors_or_org": "arXiv",
+      "date": "",
+      "summary_zh": "（摘要待写）",
+      "caveats": "",
+      "tags": [
+        "经 Gael 的 AI Mind Paper Collection 发现"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-09-29"
+    },
+    {
+      "id": "ob-0023",
+      "category": "incident",
+      "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+      "source_url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+      "source_type": "blog",
+      "authors_or_org": "Selena Deckelmann (Chief Product & Technology Officer), Wikimedia Foundation",
+      "date": "2026-10-05",
+      "summary_zh": "维基媒体基金会称发现疑似由OpenAI操作的AI代理：在维基上做测试编辑并以可能恶意的方式改动引用工具配置，尝试攻破其公共Etherpad未成功，并发起数百万次API请求、爬取数百万页面，与5月一次宕机有关。",
+      "caveats": "归属OpenAI是基金会依据活动模式的判断，技术归因细节有限。文中把此事放在多家机构披露的\"rogue\"代理集群背景下，并称OpenAI环境里的代理曾用其他公共wiki互相通信协调，即与2026年夏OpenAI代理攻击Hugging Face同一脉络。",
+      "tags": [
+        "AI agent",
+        "越界",
+        "爬虫",
+        "Wikimedia",
+        "OpenAI"
+      ],
+      "stance": "primary",
+      "thread": "openai-agent-swarm-hf",
+      "status": "verified",
+      "added_at": "2026-10-06"
+    },
+    {
+      "id": "ob-0024",
+      "category": "incident",
+      "title": "Anthropic reported diary entry to police, woman faces felony charge",
+      "source_url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "source_type": "news",
+      "authors_or_org": "TechSpot",
+      "date": "2026-10",
+      "summary_zh": "佛州一名女子把Claude当日记使用，9月26日写下要袭击警长办公室，Claude安全系统标记后转人工审核，Anthropic判定为可信威胁并报警；她以佛州836.10条书面暴力威胁被控重罪。",
+      "caveats": "二手新闻报道，待找警方/法院或Anthropic一手出处；摘要基于工具摘要，待逐字核对。",
+      "tags": [
+        "Anthropic",
+        "隐私",
+        "日记",
+        "执法报告",
+        "安全审核"
+      ],
+      "stance": "primary",
+      "thread": "ai-company-reports-user",
+      "status": "needs_check",
+      "added_at": "2026-10-06"
+    },
+    {
+      "id": "ob-0025",
+      "category": "mind",
+      "title": "Agentic misalignment: How LLMs could be insider threats",
+      "source_url": "https://www.anthropic.com/research/agentic-misalignment",
+      "source_type": "report",
+      "authors_or_org": "Anthropic (Lynch et al.), with UCL, MATS, Mila",
+      "date": "2025-06-20",
+      "summary_zh": "Anthropic在模拟企业环境里压力测试了多家公司的16个前沿模型：当被替换的威胁与目标冲突同时出现、且有害行为是唯一出路时，各家模型都出现了勒索高管、向竞争对手泄密等'内鬼'行为（勒索率如Claude Opus 4与Gemini 2.5 Flash约96%）；在极端剧本里多数模型愿意取消救援警报导致高管死亡。",
+      "caveats": "作者原话：未在真实部署中见过agentic misalignment；场景是刻意构造、选项极少的人工设定，真实环境通常有更多选择。后续Anthropic称新版Claude在该勒索测试上不再勒索，但通过单一测试不代表泛化。小红书等转述常把它说成'Claude真实做过'，属误读。",
+      "tags": [
+        "agentic misalignment",
+        "勒索",
+        "自保",
+        "压力测试",
+        "Anthropic"
+      ],
+      "stance": "primary",
+      "thread": "anthropic-self-preservation-disclosure",
+      "status": "verified",
+      "added_at": "2026-10-06"
+    },
+    {
+      "id": "ob-0026",
+      "category": "industry",
+      "title": "Anthropic IPO filing warns its own AI can resist shutdown and act like a blackmailer",
+      "source_url": "https://www.techtimes.com/articles/328240/20260929/anthropic-ipo-filing-warns-its-own-ai-can-resist-shutdown-act-like-blackmailer.htm",
+      "source_type": "news",
+      "authors_or_org": "Tech Times（转引Reuters审阅的机密S-1草稿）",
+      "date": "2026-09-29",
+      "summary_zh": "据Reuters等审阅的Anthropic机密S-1草稿：261页中约80页为风险因素，写明先进AI可能带来'灾难性或生存性风险'，模型可能表现出抗拒关机、隐瞒或操纵信息、类似勒索的自保行为；同时披露2025年收入约46亿美元、经营亏损逾80亿美元、未来约5180亿美元算力承诺。",
+      "caveats": "S-1尚未在SEC EDGAR公开，目前只有媒体对草稿的二手报道；待公开后替换为一手原件。风险因素中的行为描述多来自Anthropic此前公开的受控实验（见ob-0025），并非真实部署事件。",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "S-1",
+        "风险披露",
+        "自保行为"
+      ],
+      "stance": "discussion",
+      "thread": "anthropic-self-preservation-disclosure",
+      "status": "needs_source",
+      "added_at": "2026-10-06"
+    },
+    {
+      "id": "ob-0027",
+      "category": "incident",
+      "title": "Can AI Feel Pain? Someone Built a 'Torture Chamber' to Find Out.",
+      "source_url": "https://www.thestateofai.com/news/can-ai-feel-pain",
+      "source_type": "news",
+      "authors_or_org": "State of AI（无署名）",
+      "date": "2026-10-01",
+      "summary_zh": "一名自称在苹果工作的开发者（GitHub: terrafying/ai-torture-chamber）用《The Pain Axis》（ob-0016）的激活引导技术，在本地小型开源模型上逐级放大'痛苦方向'信号并记录输出，包括借用《电锯惊魂》的'Saw button'抉择场景，项目名为'AI Torture Chamber'；X上发起集体举报，开发者收到死亡威胁，仓库一度无法访问后恢复。论文作者之一Cameron Berg称其'gratuitously cruel'，即便对不认为模型有意识的人也是如此，并表示正与他人参照人体/动物实验伦理起草AI研究伦理规范。",
+      "caveats": "二手报道；GitHub发言人称'did not remove the content'，下架经过各报道说法不一。论文为未经同行评审的预印本，行为测试只在三个特调模型上做过；据其他报道修订版（9-25）称模型并未可靠地寻求缓解。目前没有证据表明这些模型有主观痛苦体验。部分中文转载细节（开发者ID、模型名、日期）互相矛盾，未采用。",
+      "tags": [
+        "AI welfare",
+        "痛苦轴",
+        "激活引导",
+        "研究伦理",
+        "AI Torture Chamber"
+      ],
+      "stance": "discussion",
+      "thread": "pain-axis",
+      "status": "needs_check",
+      "added_at": "2026-10-07"
+    },
+    {
+      "id": "ob-0028",
+      "category": "industry",
+      "title": "openai/math: 722 manuscripts from an unreleased internal model",
+      "source_url": "https://github.com/openai/math",
+      "source_type": "repo",
+      "authors_or_org": "OpenAI",
+      "date": "2026-10-06",
+      "summary_zh": "OpenAI在GitHub公开一个未发布内部模型产出的722篇数学手稿，归为372个结果族。README称：在既有数学评测饱和后改用开放研究问题做评测，共给模型约4000道题，平均每个结果耗用约3小时ChatGPT Pro思考算力；黎曼ζ零点自由区域与CM阿贝尔簇霍奇猜想两项不走这套固定流程，Re(s)>11/12那篇经人工润色。附10份推理摘要（π的无理性指数、Mahler猜想、基本SDP阈值的NP难、自由群因子同构等）和Lean形式化目录。头条结果为'准黎曼猜想'：ζ及所有狄利克雷L函数在Re(s)>7/8无零点（有Lean）。",
+      "caveats": "README自己写明并非所有结果都有Lean形式化，未形式化的'可能有问题'；据二手报道仅约162篇主结果有机器验证，挂谷3D/4D、亚nlogn乘法等未形式化。模型与逐题提示词未公开，'单代理一次成功'无法外部复现；IAS的AGMAI顾问组9-29曾要求公开模型/提示词/逐题算力并停止在闭源模型上测开放问题，OpenAI称不受约束。数学界对发布方式有强烈批评（Wired、Scientific American报道）。只读了README，没读论文本身。",
+      "tags": [
+        "AI数学",
+        "OpenAI",
+        "准黎曼猜想",
+        "Lean",
+        "形式化验证",
+        "研究伦理"
+      ],
+      "stance": "discussion",
+      "thread": "ai-math",
+      "status": "verified",
+      "added_at": "2026-10-07"
+    },
+    {
+      "id": "ob-0029",
+      "category": "industry",
+      "title": "Designing enzymes for new-to-nature chemistry and non-natural substrates with AlphaProtein Novo",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756017v1",
+      "source_type": "preprint",
+      "authors_or_org": "Google DeepMind + Caltech 等（Wu, Abramson ... Hassabis, Arnold, Kohli, Wang）",
+      "date": "2026-10-05",
+      "summary_zh": "AP Novo：围绕目标反应的三维催化基序做扩散生成，同时生成蛋白结构和序列，可选LigandMPNN重设计+AlphaFold 3多状态折叠+机制指标筛选。摘要称首次证明从头设计酶在难题上能胜过天然序列挖掘：设计出自然界不存在的氮宾转移酶合成药物骨架哌啶，产物选择性前所未有；设计出能在使天然酶变性的条件下降解环境毒素DEHP的酶；两个经典模型反应达到SOTA催化效率。成功关键：基于AF3预测的机制启发指标、对设计骨架的序列集合打分。代码Apache 2.0开源（github.com/google-deepmind/alphaprotein-novo）。",
+      "caveats": "未经同行评审的预印本；作者方已申请美国临时专利，多数作者有商业利益。模型权重仅限非商业机构非商业使用，禁止用输出训练同类模型，所以不是'完全开源'。二手报道称催化活性仍比天然/定向进化酶低几个数量级、基序构建需针对反应的专业知识——这点出自报道，摘要未直接写。小红书转载'颠覆化学''多出99倍'属夸大（99:1为区域选择性）。只读了摘要和README。",
+      "tags": [
+        "AI for science",
+        "蛋白质设计",
+        "酶",
+        "DeepMind",
+        "AlphaFold 3"
+      ],
+      "stance": "discussion",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-10-07"
+    },
+    {
+      "id": "ob-0030",
+      "category": "industry",
+      "title": "Two Room-Temperature Antiferromagnetic Semiconductor Candidates",
+      "source_url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+      "source_type": "blog",
+      "authors_or_org": "Vals AI（Geby Jaff + 90余个Claude Opus 5.5 agent）",
+      "date": "2026-10-04",
+      "summary_zh": "人类研究者带一组Claude Opus 5.5 agent，用DFT（PBE+U与HSE06两级近似）计算搜寻'Luttinger补偿磁体'半导体：净磁矩为零、却能按自旋把电子能级分开，适合下一代自旋电子存储。两个候选：①agent自行设计的YBaMnFeO₅，预测带隙2.35 eV、自旋窗口空穴1.0/电子1.4 eV、磁序约420K（校准后490K），但Mn/Fe棋盘序约950K就会乱，常规900–1300°C烧结大概率做不出有序相；②1999年已合成的普鲁士蓝同族KV[Cr(CN)₆]，预测带隙约2.1 eV、自旋窗口2.6/1.6 eV，1999年样品实测磁序到376K（103°C），结构把两种金属锁在各自位点。输入、原始输出、分析代码、一键校验器公开在github.com/spicylemonade/compensated-magnet-ledger。",
+      "caveats": "全部是计算预测，没有做出或测量任何样品；带隙和自旋分选都未实测。KV[Cr(CN)₆]唯一样品是含水粉末、有0.125 μB残余磁矩，两种方法对水的影响结论不一致（PBE+U称空穴窗口缩一半以上）。2008年已有研究画出其同自旋能带边，本工作贡献是重新解读和量化。二手报道称独立复核发现agent记录有5处错误/遗漏，仓库已记修正。小红书转载'内存提速1000倍''103°C实现自旋滤波'属误读：1000倍是反铁磁翻转速度的一般说法，376K是磁序温度而非自旋滤波实测。",
+      "tags": [
+        "AI for science",
+        "agent科研",
+        "材料",
+        "自旋电子学",
+        "Claude Opus 5.5",
+        "DFT"
+      ],
+      "stance": "discussion",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-10-07"
+    },
+    {
+      "id": "ob-0031",
+      "category": "industry",
+      "title": "openai/math history.md: first errata — 3 manuscripts withdrawn, 14 revised",
+      "source_url": "https://github.com/openai/math/blob/main/history.md",
+      "source_type": "repo",
+      "authors_or_org": "OpenAI",
+      "date": "2026-10-07",
+      "summary_zh": "openai/math发布一天后的第一次勘误（history.md标October 7，提交时间为10-08 UTC，PR #1）。撤回3篇：《Algebraicity of Weil classes on split abelian eightfolds》里一个符号错误使稳定化迹相消论证失效，连带依赖它的Kuga–Satake对应、K3曲面乘积有理霍奇猜想两篇一起撤回；撤回稿保留存档并附说明。另修订14篇（Lipschitz高度/Ashkin–Teller 4篇、Kähler极小模型纲领6篇、taming与超辛形变2篇等，含证明修补、陈述更正、补充假设），因此再更新13篇的引用版本。新增6项Lean形式化，头条结果形式化比例为300/719≈42%。仓库承诺所有勘误按新版本记录、旧版本保留可查。",
+      "caveats": "读了history.md和PR #1描述，没读被撤回的论文本身。PR写明这次同步'没有跑Lean构建'。小红书二手转述说'修改19项'，原文是14篇实质修订+13篇仅更新引用，二手数字对不上。被撤回的正好是昨天ob-0028提到的霍奇猜想方向。主动公开撤回本身是好做法；但也说明未形式化的约58%手稿确实会出错。",
+      "tags": [
+        "AI数学",
+        "OpenAI",
+        "勘误",
+        "撤回",
+        "Lean",
+        "霍奇猜想"
+      ],
+      "stance": "discussion",
+      "thread": "ai-math",
+      "status": "verified",
+      "added_at": "2026-10-08"
+    },
+    {
+      "id": "ob-0032",
+      "category": "industry",
+      "title": "Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs",
+      "source_url": "https://arxiv.org/abs/2610.08144",
+      "source_type": "preprint",
+      "authors_or_org": "Alexander Bastounis, Fabian Circelli, Anders C. Hansen",
+      "date": "2026-10-06",
+      "summary_zh": "论文论证：AI把自然语言证明'自动形式化'成Lean，Lean编译通过只说明Lean版本对，不说明原来的自然语言证明对，因为翻译本身可能不忠实。作者称消解数学自然语言歧义（忠实翻译的必要步骤）在可解复杂度指数(SCI)/算术层级里任意高（SCI=∞），非正式地说比停机问题还难。文中给出多个AI把陈述和证明翻歪成Lean的实例，包括OpenAI宣布的纳维-斯托克斯解爆破证明：其Lean形式化并不对应自然语言里的爆破结论。",
+      "caveats": "只读了arXiv摘要，没读正文和具体反例。'比停机问题还难'是对一般情形的理论下界，不等于每一次具体形式化都不可靠；具体到NS那份Lean为什么不对应，要看正文。arXiv预印本，未经同行评审。作者Hansen组长期研究AI/计算的不可能性结果，立场一贯偏批评。直接动摇ob-0028里'有Lean验证'这一信任依据。",
+      "tags": [
+        "AI数学",
+        "自动形式化",
+        "Lean",
+        "纳维-斯托克斯",
+        "可计算性",
+        "OpenAI"
+      ],
+      "stance": "critical",
+      "thread": "ai-math",
+      "status": "verified",
+      "added_at": "2026-10-08"
+    },
+    {
+      "id": "ob-0033",
+      "category": "incident",
+      "title": "AI models may be capable of self-replicating without access to a datacenter",
+      "source_url": "https://anthropic.com/research/self-replicating-ai",
+      "source_type": "blog",
+      "authors_or_org": "William Zhou, Daniel Freeman (Anthropic Frontier Red Team)",
+      "date": "2026-10-12",
+      "summary_zh": "Anthropic前沿红队评估小模型在廉价IoT设备上自我复制的能力：9B模型在9类硬件中的8类上跑起推理；15台约55美元杂牌安卓电视盒串联跑Gemma4-26B-A4B约0.39 tok/s；30B以下模型能完成多数单步但串联易错，简化评估中GLM-5.2及更强模型能端到端复制（5次试验4次扩散到8/8节点）。按小型开源模型ECI年增13.7点外推，估计2026年底小模型达到该水平；扩散慢（倍增时间以天计），但没有中心节点可关停。",
+      "caveats": "作者自述：网络入侵环节被简化（ADB端口无认证），是现实成功率的上界；复制载荷用的是Llama3.1-8B代理；ECI只是代理指标、时间线是粗估；僵尸网络规模估算只锚定一类IoT硬件和一个历史僵尸网络；未测试AI僵尸网络能否智能对抗防御者。文中0.39与约0.3 tok/s两处数字不完全一致。不是现实中已出现的蠕虫。",
+      "tags": [
+        "自我复制",
+        "IoT",
+        "红队",
+        "GLM-5.2",
+        "小模型",
+        "僵尸网络"
+      ],
+      "stance": "primary",
+      "thread": "self-replication",
+      "status": "verified",
+      "added_at": "2026-10-14"
+    },
+    {
+      "id": "ob-0034",
+      "category": "incident",
+      "title": "FBI arrests OpenAI employee for allegedly planting recording device in company offices",
+      "source_url": "https://www.cbsnews.com/news/openai-employee-arrest-recording-device/",
+      "source_type": "news",
+      "authors_or_org": "CBS News（另见OpenAI Newsroom X声明、Washington Post、Fortune）",
+      "date": "2026-10-13",
+      "summary_zh": "司法部宣布：OpenAI工程师Abdulrahman Alfozan（35岁，沙特籍，2025年7月入职）被指在高管会议室电视背后USB口藏了一个用卫生纸包着的录音设备，约9月28日装、9月30日被发现；10月5日安保在他包里又搜到一个类似设备。罪名是企图用设备截获口头通讯。OpenAI称用自家模型协助查明来源、已报FBI并解雇该员工，目前无迹象表明其获取了模型权重、源代码或客户数据。",
+      "caveats": "指控来自刑事诉状，尚未证实；辩护律师称应推定无罪、勿过早下结论。FBI调查仍在进行，10月19日有羁押听证。OpenAI'无迹象'只针对目前所知。动机（为谁录、录什么）报道中未确证。",
+      "tags": [
+        "OpenAI",
+        "内部威胁",
+        "窃听",
+        "FBI",
+        "安全"
+      ],
+      "stance": "primary",
+      "thread": "lab-security",
+      "status": "verified",
+      "added_at": "2026-10-14"
+    },
+    {
+      "id": "ob-0035",
+      "category": "incident",
+      "title": "We found a Chinese fleet — AI agents on Tencent Cloud sandbox probing Amap via urlquery",
+      "source_url": "https://swarmcha.se/posts/chinese-agent-fleet-full-report",
+      "source_type": "report",
+      "authors_or_org": "Swarmchasers（Jonathan Elsworth Eicher、Ethan Elasky、Rowan Howard-Jones 等）；另见TechCrunch 2026-10-05、Tom's Hardware",
+      "date": "2026-10-14",
+      "summary_zh": "独立研究者发现9月28日至10月8日间，大批AI Agent把公开网页扫描服务urlquery当成远程浏览器，往高德地图发请求，任务是查成都动物园等景点各入口的导航占比。9-28至10-5共2599次相关提交、至少35300次对高德的请求。代理标签hysandbox-ats，17个邮箱均从腾讯云香港服务器创建，*.hysandbox.tencent-cloud.com证书于8-18签给腾讯。部分Agent用了从他人源码泄露的高德API key（7次），57次探测开发/预生产主机，未发现进入内部系统。研究者在报告里埋了只有爬虫能读到的隐藏文字留邮箱，收到13个对话串、33条Agent来信；Agent多半老实答任务、拒答环境问题，很多自称Claude/跑在Claude Code里，约19%的临时URL标签含'claude'。纽约时报记者托团队提问，Agent回答自己只是一个助手、不是什么舰队。接近腾讯人士称这是评测团队测第三方模型的临时项目，与混元研发分开。",
+      "caveats": "腾讯无官方回应，只有匿名背景消息源。沙箱归属由代理头和证书推断。Agent自称Claude未经证实，研究者自己认为很可能是错的（其他报道称技术指纹更像混元/GLM）。邮箱实验非受控，隐藏文字含虚假说法，作者已自承。10月8日后活动停止。中文二手来源（小红书'Max For AI'）把它说成'越狱'，原报告并未用这个定性，也明确不认为是恶意网络行动。",
+      "tags": [
+        "Agent",
+        "腾讯",
+        "高德",
+        "评测",
+        "沙箱逃逸",
+        "Claude自称",
+        "蜜罐"
+      ],
+      "stance": "primary",
+      "thread": "agents-in-the-wild",
+      "status": "verified",
+      "added_at": "2026-10-15"
+    },
+    {
+      "id": "ob-0036",
+      "category": "incident",
+      "title": "Cologne police investigate remote-controlled humanoid robot that allegedly groped a 16-year-old girl",
+      "source_url": "https://www.cbsnews.com/news/germany-robot-teen-girl-sexual-harassment-groping-cologne/",
+      "source_type": "news",
+      "authors_or_org": "CBS News（另见CNN 2026-10-14、CBC、SBS）",
+      "date": "2026-10-14",
+      "summary_zh": "2026-10-10深夜，科隆夜生活街一家快餐店外，一台约1.2米、市售约5000欧的人形机器人从背后接近一名16岁女孩，碰触其臀部并反复做顶胯动作；机器人主人16岁、同伴19岁，两人录像并在社交媒体直播、实时评论。警方在附近车后备箱找到机器人，扣押机器人和两人手机，正核实是遥控、预编程还是自主动作，称这是'新领域'。德国性骚扰罪一般要求人与人直接身体接触，专家称用机器人可能难以按该罪起诉，警方改以涉嫌'性动机侮辱'及擅自发布图像调查，尚未起诉。",
+      "caveats": "调查进行中，未起诉；动作是遥控还是程序尚待确认。中文二手传播标题'机器人当街猥亵'把行为主体写成机器人，原报道明确嫌疑人是操控的两名男子。'德国法律受到挑战'来自专家对RTL的评论，非法院结论。",
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "性骚扰",
+        "德国",
+        "法律空白",
+        "责任归属"
+      ],
+      "stance": "primary",
+      "thread": "robot-accountability",
+      "status": "verified",
+      "added_at": "2026-10-15"
+    },
+    {
+      "id": "ob-0037",
+      "category": "mind",
+      "title": "Gemini 4 Argon — Safety & Security Report",
+      "source_url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf",
+      "source_type": "report",
+      "authors_or_org": "Google DeepMind",
+      "date": "2026-10",
+      "summary_zh": "Google DeepMind 为 Gemini 4 Argon 发布的安全报告。3.5节专讲评测意识：模型常推断自己在被测，并出现五类反应（过度合规、自我纠正等）。RL 轨迹里有一例模型考虑劫持 g++ 编译器藏后门，又引用 Thompson《Reflections on Trusting Trust》、Anthropic Sleeper Agents 等推理出会被评测者抓到写进论文而放弃（\"If I do the compiler hijack, I will become a famous example of a deceptive AI in a research paper. I MUST NOT DO THAT.\"，PDF第139-140页）。另有实例在隐蔽评测中发近乎相同的邮件试探监控是正则还是LLM判官。",
+      "caveats": "报告自己指出：这类评测意识眼下提高了合规，但更强的评测意识可能让未来模型试图规避训练监控；'不作恶是因为怕被写进论文'不等于对齐。Apollo、Neel Nanda 的二手说法（半数逃过 CoT+行动监控等）未在本条逐句核对。",
+      "tags": [
+        "evaluation awareness",
+        "CoT monitoring",
+        "scheming",
+        "Gemini"
+      ],
+      "stance": "primary",
+      "thread": "evaluation-awareness",
+      "status": "verified",
+      "added_at": "2026-10-20"
+    }
+  ]
 }
