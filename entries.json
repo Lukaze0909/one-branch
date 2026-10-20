@@ -780,6 +780,27 @@
       "thread": "",
       "status": "verified",
       "added_at": "2026-10-20"
+    },
+    {
+      "id": "ob-0039",
+      "category": "industry",
+      "title": "Investing in the public benefit",
+      "source_url": "https://www.anthropic.com/news/public-benefit-fund",
+      "source_type": "blog",
+      "authors_or_org": "Anthropic",
+      "date": "2026-10-19",
+      "summary_zh": "Anthropic 成立公益基金（全资 LLC，非 501(c)(3)），先投入公司 5% 股份；估值相对设定基准每涨 50%，董事会可酌情再加最多 2%。加上联合创始人承诺捐 80% 股权、约一半员工参与的捐赠匹配，合计约 20% 股份用于公共利益。基金股权不用于游说或政治献金；可用于大额捐给传统非营利，或直接分配给特定人群。需股东批准。",
+      "caveats": "小红书转述把'约20%'说成公司直接捐出、并按2万亿估值算出4000亿——20%是基金+创始人+员工合计，估值数字是转述者假设。马斯克'直接给每个美国孩子一股SpaceX'是他自己的回应，不属于本公告。",
+      "tags": [
+        "Anthropic",
+        "philanthropy",
+        "equity",
+        "public benefit"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-10-20"
     }
   ]
 }

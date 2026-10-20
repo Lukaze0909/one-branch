@@ -29,7 +29,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 38 条 · 更新于 2026-10-20 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 39 条 · 更新于 2026-10-20 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
@@ -88,6 +88,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0030 | [Two Room-Temperature Antiferromagnetic Semiconductor Candidates](https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors) | Vals AI（Geby Jaff + 90余个Claude Opus 5.5 agent） | 2026-10-04 | discussion | ✅ |
 | ob-0031 | [openai/math history.md: first errata — 3 manuscripts withdrawn, 14 revised](https://github.com/openai/math/blob/main/history.md) | OpenAI | 2026-10-07 | discussion | ✅ |
 | ob-0032 | [Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs](https://arxiv.org/abs/2610.08144) | Alexander Bastounis, Fabian Circelli, Anders C. Hansen | 2026-10-06 | critical | ✅ |
+| ob-0039 | [Investing in the public benefit](https://www.anthropic.com/news/public-benefit-fund) | Anthropic | 2026-10-19 | primary | ✅ |
 
 <!-- TABLE:END -->
 
