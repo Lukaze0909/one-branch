@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-20",
+  "updated_at": "2026-10-23",
   "items": [
     {
       "id": "ob-0001",
@@ -801,6 +801,50 @@
       "thread": "",
       "status": "verified",
       "added_at": "2026-10-20"
+    },
+    {
+      "id": "ob-0040",
+      "category": "incident",
+      "title": "Jailbreaking the Switch 2",
+      "source_url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+      "source_type": "blog",
+      "authors_or_org": "Sammy Hajhamid (pepsipu)",
+      "date": "2026-10",
+      "summary_zh": "作者发布 Switch 2（固件 23.0.1）纯软件、需连线的越狱 ns2jb。漏洞链第一环——Switch 1 游戏 SmileBASIC 里的整数溢出（越界读写内存）——是一个 AI agent 找到的；之后人工串到文件系统模块的缓冲区溢出，拿到完整内存访问，再伪造能通过签名校验的程序。",
+      "caveats": "摘要依据 WebFetch 读到的原文要点，待对原文全文；AI agent 具体参与到哪一步、人做了多少，需以原文为准。",
+      "tags": [
+        "AI漏洞发现",
+        "agent",
+        "Nintendo Switch 2",
+        "jailbreak",
+        "安全"
+      ],
+      "stance": "primary",
+      "thread": "ai-found-vulns-2026-10",
+      "status": "needs_check",
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "ob-0041",
+      "category": "mind",
+      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "source_url": "https://simedw.com/2026/10/21/world-model-terminal/",
+      "source_type": "blog",
+      "authors_or_org": "Simon Edwardsson (simedw)",
+      "date": "2026-10-21",
+      "summary_zh": "作者微调一个 3.6 亿参数模型扮演终端：背后没有真 shell，每次按键都由模型预测屏幕变化，能建文件、跑 vim/tmux、玩贪吃蛇，跨会话写入的值 13 次里回忆对 9 次（提示词基线 2、3 次）。拿掉其中一层后，下一词预测准确率几乎不变，但记忆读回从 64/64 掉到 0/64。",
+      "caveats": "个人博客实验，小模型、小样本；'记忆集中在某一层'是单次消融结果，未见复现。摘要依据 WebFetch 要点，待对原文。",
+      "tags": [
+        "world model",
+        "消融",
+        "记忆",
+        "小模型",
+        "终端模拟"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "needs_check",
+      "added_at": "2026-10-23"
     }
   ]
 }
