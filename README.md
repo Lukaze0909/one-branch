@@ -29,7 +29,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 41 条 · 更新于 2026-10-23 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 42 条 · 更新于 2026-10-23 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
@@ -54,6 +54,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0025 | [Agentic misalignment: How LLMs could be insider threats](https://www.anthropic.com/research/agentic-misalignment) | Anthropic (Lynch et al.), with UCL, MATS, Mila | 2025-06-20 | primary | ✅ |
 | ob-0037 | [Gemini 4 Argon — Safety & Security Report](https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf) | Google DeepMind | 2026-10 | primary | ✅ |
 | ob-0041 | [WorldTUI: I trained a 360M model to pretend to be a terminal](https://simedw.com/2026/10/21/world-model-terminal/) | Simon Edwardsson (simedw) | 2026-10-21 | primary | ✅ |
+| ob-0042 | [Sparse Reward Subsystem in Large Language Models](https://arxiv.org/abs/2602.00986) | Guowei Xu (Tsinghua), Mert Yuksekgonul, James Zou (Stanford) | 2026-02-01 | primary | ✅ |
 
 ### 🧪 现场与事故
 

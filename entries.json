@@ -845,6 +845,29 @@
       "thread": "",
       "status": "verified",
       "added_at": "2026-10-23"
+    },
+    {
+      "id": "ob-0042",
+      "category": "mind",
+      "title": "Sparse Reward Subsystem in Large Language Models",
+      "source_url": "https://arxiv.org/abs/2602.00986",
+      "source_type": "preprint",
+      "authors_or_org": "Guowei Xu (Tsinghua), Mert Yuksekgonul, James Zou (Stanford)",
+      "date": "2026-02-01",
+      "summary_zh": "作者用简单探针发现：LLM 隐藏状态里与奖励相关的信息集中在一小撮神经元上——'价值神经元'的激活能预测当前状态的价值（答对的可能），'多巴胺神经元'的激活编码逐步的时序差分误差（比预期好就升、差就降）；名字是借神经科学类比。在 Qwen-2.5-7B（RL 训练过）上，单层清零 1% 的价值神经元，MATH500 平均从 75.2% 掉到 20.3%（随机清零 1% 只掉 0.6）；价值神经元跨数据集、跨模型、跨架构可迁移，还能当置信度预测器。",
+      "caveats": "小红书转述把它说成'完美模仿人脑''没人编程自然浮现''切掉多巴胺让 AI 抑郁、推理崩溃'——原文没有这些说法，用的是'类比''类似'。被清零导致崩的是价值神经元，多巴胺神经元没做消融，作者承认其证据'主要来自个案研究'。主要实验模型是经过 RL 训练的 Qwen 系列，'奖励子系统'可能与 RL 训练有关，不等于所有模型天然都有。",
+      "tags": [
+        "可解释性",
+        "奖励",
+        "价值神经元",
+        "多巴胺类比",
+        "消融",
+        "RL"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-10-23"
     }
   ]
 }
