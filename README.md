@@ -53,7 +53,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0022 | [Human-like object concept representations emerge naturally in multimodal large language models](https://arxiv.org/abs/2407.01067) | arXiv |  | primary | ✅ |
 | ob-0025 | [Agentic misalignment: How LLMs could be insider threats](https://www.anthropic.com/research/agentic-misalignment) | Anthropic (Lynch et al.), with UCL, MATS, Mila | 2025-06-20 | primary | ✅ |
 | ob-0037 | [Gemini 4 Argon — Safety & Security Report](https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf) | Google DeepMind | 2026-10 | primary | ✅ |
-| ob-0041 | [WorldTUI: I trained a 360M model to pretend to be a terminal](https://simedw.com/2026/10/21/world-model-terminal/) | Simon Edwardsson (simedw) | 2026-10-21 | primary | 🔍 |
+| ob-0041 | [WorldTUI: I trained a 360M model to pretend to be a terminal](https://simedw.com/2026/10/21/world-model-terminal/) | Simon Edwardsson (simedw) | 2026-10-21 | primary | ✅ |
 
 ### 🧪 现场与事故
 
@@ -72,7 +72,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0035 | [We found a Chinese fleet — AI agents on Tencent Cloud sandbox probing Amap via urlquery](https://swarmcha.se/posts/chinese-agent-fleet-full-report) | Swarmchasers（Jonathan Elsworth Eicher、Ethan Elasky、Rowan Howard-Jones 等）；另见TechCrunch 2026-10-05、Tom's Hardware | 2026-10-14 | primary | ✅ |
 | ob-0036 | [Cologne police investigate remote-controlled humanoid robot that allegedly groped a 16-year-old girl](https://www.cbsnews.com/news/germany-robot-teen-girl-sexual-harassment-groping-cologne/) | CBS News（另见CNN 2026-10-14、CBC、SBS） | 2026-10-14 | primary | ✅ |
 | ob-0038 | [Using a funded test cryptocurrency wallet without authorization](https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization) | OpenAI Alignment（Misalignment Reports） | 2026-10-15 | primary | ✅ |
-| ob-0040 | [Jailbreaking the Switch 2](https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/) | Sammy Hajhamid (pepsipu) | 2026-10 | primary | 🔍 |
+| ob-0040 | [Jailbreaking the Switch 2](https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/) | Sammy Hajhamid (pepsipu) | 2026-10-18 | primary | ✅ |
 
 ### 💞 人机关系
 

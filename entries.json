@@ -809,9 +809,9 @@
       "source_url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
       "source_type": "blog",
       "authors_or_org": "Sammy Hajhamid (pepsipu)",
-      "date": "2026-10",
-      "summary_zh": "作者发布 Switch 2（固件 23.0.1）纯软件、需连线的越狱 ns2jb。漏洞链第一环——Switch 1 游戏 SmileBASIC 里的整数溢出（越界读写内存）——是一个 AI agent 找到的；之后人工串到文件系统模块的缓冲区溢出，拿到完整内存访问，再伪造能通过签名校验的程序。",
-      "caveats": "摘要依据 WebFetch 读到的原文要点，待对原文全文；AI agent 具体参与到哪一步、人做了多少，需以原文为准。",
+      "date": "2026-10-18",
+      "summary_zh": "作者发布 Switch 2（固件 23.0.1）纯软件、需连线（tethered）的越狱 ns2jb，前后约两周。漏洞链第一环由 AI 找到：\"Codex found a useful 32-bit integer overflow in the interpreter\"（Switch 1 游戏 SmileBASIC 的解释器）；该 agent 也在作者的 Switch 1 上推进利用。作者选定目标、主导整体，并亲手完成后续链路（扫内存定位连接对象等），串到文件系统模块拿到完整内存访问。附带的马里奥赛车魔改是\"一天 vibecode 出来的\"。",
+      "caveats": "原文没说清 agent 独立完成到哪一步（\"After some time, it got ROP\" 未注明是谁）；agent 驱动的 WebKit 方向尝试失败了。\"make no mistakes\" 是配图玩笑，不是真实 prompt。",
       "tags": [
         "AI漏洞发现",
         "agent",
@@ -821,7 +821,7 @@
       ],
       "stance": "primary",
       "thread": "ai-found-vulns-2026-10",
-      "status": "needs_check",
+      "status": "verified",
       "added_at": "2026-10-23"
     },
     {
@@ -832,8 +832,8 @@
       "source_type": "blog",
       "authors_or_org": "Simon Edwardsson (simedw)",
       "date": "2026-10-21",
-      "summary_zh": "作者微调一个 3.6 亿参数模型扮演终端：背后没有真 shell，每次按键都由模型预测屏幕变化，能建文件、跑 vim/tmux、玩贪吃蛇，跨会话写入的值 13 次里回忆对 9 次（提示词基线 2、3 次）。拿掉其中一层后，下一词预测准确率几乎不变，但记忆读回从 64/64 掉到 0/64。",
-      "caveats": "个人博客实验，小模型、小样本；'记忆集中在某一层'是单次消融结果，未见复现。摘要依据 WebFetch 要点，待对原文。",
+      "summary_zh": "作者把 Qwen2.5-Coder-0.5B（裁掉大部分词表后约 3.6 亿参数，int4 后 208MB）微调成\"终端\"：背后没有真 shell，每次按键由模型预测屏幕变化。文件写入后跨会话读回 13 次对 9 次（同尺寸模型提示词基线 2/13、3/13），作者称记忆是最大差别。消融：不重训直接去掉第 7 层，下一词准确率只从 99.3% 降到 98.9%，但精确记忆读回从 64/64 掉到 0/64（用真实历史测，不是误差累积）。",
+      "caveats": "作者自评\"a pretty weak world model\"、\"far from a reliable filesystem\"：组合命令会坏、嵌套目录会丢路径、Python 稍难就像 GPT-3 时代的幻觉。单次消融、单人博客，未见复现。",
       "tags": [
         "world model",
         "消融",
@@ -843,7 +843,7 @@
       ],
       "stance": "primary",
       "thread": "",
-      "status": "needs_check",
+      "status": "verified",
       "added_at": "2026-10-23"
     }
   ]
