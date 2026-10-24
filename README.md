@@ -29,7 +29,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 42 条 · 更新于 2026-10-23 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 43 条 · 更新于 2026-10-24 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
@@ -92,6 +92,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0031 | [openai/math history.md: first errata — 3 manuscripts withdrawn, 14 revised](https://github.com/openai/math/blob/main/history.md) | OpenAI | 2026-10-07 | discussion | ✅ |
 | ob-0032 | [Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs](https://arxiv.org/abs/2610.08144) | Alexander Bastounis, Fabian Circelli, Anders C. Hansen | 2026-10-06 | critical | ✅ |
 | ob-0039 | [Investing in the public benefit](https://www.anthropic.com/news/public-benefit-fund) | Anthropic | 2026-10-19 | primary | ✅ |
+| ob-0043 | [bitcoin-0.1-rebuilt: Bitcoin 0.1 bitcoin.exe rebuilt byte for byte](https://github.com/t4t5/bitcoin-0.1-rebuilt) | t4t5 | 2026-10 | primary | 🔍 |
 
 <!-- TABLE:END -->
 
