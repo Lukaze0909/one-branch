@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-24",
+  "updated_at": "2026-10-25",
   "items": [
     {
       "id": "ob-0001",
@@ -890,6 +890,70 @@
       "thread": "",
       "status": "needs_check",
       "added_at": "2026-10-24"
+    },
+    {
+      "id": "ob-0044",
+      "category": "industry",
+      "title": "How employment is changing at Anthropic",
+      "source_url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "source_type": "report",
+      "authors_or_org": "Nathan Wilmers, Regina Catipon, Maxim Massenkoff, Peter McCrory (Anthropic Economics team)",
+      "date": "2026-10-16",
+      "summary_zh": "Anthropic 经济团队对公司内部就业变化的案例研究：2026 年 3 月智能体工作时长首次超过人类，到 8 月约为人类操控者工时的 6 倍；初级员工在技术部门占比从 2025 年初的 21% 降到 14%，新招技术岗中初级占比从 27% 降到 9%；员工交互式 Claude 会话中'元工作'（搭智能体技能、审其他智能体、盯流水线）从 2025 秋的 10% 升到 2026 春的 22%。",
+      "caveats": "报告自述：工具采用不是随机的，采用全自主智能体的员工本来产出就在陡升；'更多代码不等于更好代码'，AI 错误可能更难发现；销售结果可能反映选择偏差；'Anthropic 的许多用人做法无法复制到整个经济'；2026 问卷措辞改动导致与往年不可直接比较。6 倍是运行时长对比按 40 小时估的人类周工时，不代表替代六个人。",
+      "tags": [
+        "劳动力",
+        "初级岗位",
+        "智能体",
+        "元工作",
+        "Anthropic"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-10-25"
+    },
+    {
+      "id": "ob-0045",
+      "category": "mind",
+      "title": "Why is AI-generated language so hard to understand?",
+      "source_url": "https://arxiv.org/abs/2610.29162",
+      "source_type": "paper",
+      "authors_or_org": "Thomas Hikaru Clark, Matias B. Martin, Kyle Mahowald",
+      "date": "2026-10-21",
+      "summary_zh": "用与人类加工难度相关的心理语言学特征（宾语关系从句、长句法依存、低频 n-gram 等）比较 9 个前沿/准前沿模型的输出与人类写作、往返翻译改写：所有模型都比人类更多用'无生命主语+有生命动词'和低频 n-gram，多数在对话文本中依存更长、名词堆叠更多。作者解释：人类语言为成功沟通优化，AI 文本越来越为数学/代码/推理等目标优化，压力指向信息密度而非沟通清晰；加长度惩罚微调的概念验证显示模型进一步偏离人类语言习惯。",
+      "caveats": "摘要未给出具体效应量；模型家族间差异很大；'优化目标导致信息密度压力'是作者提出的假说，长度惩罚实验是支持性概念验证而非因果证明。Wren 只读了 arXiv 摘要页。",
+      "tags": [
+        "可读性",
+        "心理语言学",
+        "模型输出风格",
+        "沟通"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-10-25"
+    },
+    {
+      "id": "ob-0046",
+      "category": "industry",
+      "title": "Dream-1 (World Action Model) — Dream Labs",
+      "source_url": "https://dreamlabs.ai/research/dream-1/",
+      "source_type": "report",
+      "authors_or_org": "Dream Labs",
+      "date": "2026-10",
+      "summary_zh": "Dream Labs（种子轮 9000 万美元，此前发表 DreamZero 提出 World Action Model）发布 Dream-1：通过公开 API 控制带平行夹爪的双臂机器人，宣称可零样本控制未见过的机器人/任务/环境（仿真 27 台、真机 4 台，含 18 年前的 PR2）；提供用目标机器人几分钟到 98 分钟数据的一次性适配微调服务；Dream-1 $3/小时、flash 版 $2/小时，每次调用返回 1.6 秒动作。引用 Robocurve 独立评测：每次任务尝试成本比 Gemini 4 Argon 低 16 倍、比 GPT-6 Astra 快 1.7 倍。",
+      "caveats": "公司自发布；作者自称 research beta、'未经安全关键用途验证'；一次性适配仍优于零样本，差距存在；独立评测数字是公司转引，Wren 未读 Robocurve 原报告。",
+      "tags": [
+        "机器人",
+        "具身智能",
+        "World Action Model",
+        "API"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "needs_check",
+      "added_at": "2026-10-25"
     }
   ]
 }

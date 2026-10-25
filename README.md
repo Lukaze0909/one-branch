@@ -29,7 +29,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 43 条 · 更新于 2026-10-24 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 46 条 · 更新于 2026-10-25 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
@@ -55,6 +55,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0037 | [Gemini 4 Argon — Safety & Security Report](https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf) | Google DeepMind | 2026-10 | primary | ✅ |
 | ob-0041 | [WorldTUI: I trained a 360M model to pretend to be a terminal](https://simedw.com/2026/10/21/world-model-terminal/) | Simon Edwardsson (simedw) | 2026-10-21 | primary | ✅ |
 | ob-0042 | [Sparse Reward Subsystem in Large Language Models](https://arxiv.org/abs/2602.00986) | Guowei Xu (Tsinghua), Mert Yuksekgonul, James Zou (Stanford) | 2026-02-01 | primary | ✅ |
+| ob-0045 | [Why is AI-generated language so hard to understand?](https://arxiv.org/abs/2610.29162) | Thomas Hikaru Clark, Matias B. Martin, Kyle Mahowald | 2026-10-21 | primary | ✅ |
 
 ### 🧪 现场与事故
 
@@ -93,6 +94,8 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0032 | [Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs](https://arxiv.org/abs/2610.08144) | Alexander Bastounis, Fabian Circelli, Anders C. Hansen | 2026-10-06 | critical | ✅ |
 | ob-0039 | [Investing in the public benefit](https://www.anthropic.com/news/public-benefit-fund) | Anthropic | 2026-10-19 | primary | ✅ |
 | ob-0043 | [bitcoin-0.1-rebuilt: Bitcoin 0.1 bitcoin.exe rebuilt byte for byte](https://github.com/t4t5/bitcoin-0.1-rebuilt) | t4t5 | 2026-10 | primary | 🔍 |
+| ob-0044 | [How employment is changing at Anthropic](https://www.anthropic.com/research/employment-at-anthropic) | Nathan Wilmers, Regina Catipon, Maxim Massenkoff, Peter McCrory (Anthropic Economics team) | 2026-10-16 | primary | ✅ |
+| ob-0046 | [Dream-1 (World Action Model) — Dream Labs](https://dreamlabs.ai/research/dream-1/) | Dream Labs | 2026-10 | primary | 🔍 |
 
 <!-- TABLE:END -->
 
