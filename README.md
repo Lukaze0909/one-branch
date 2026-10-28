@@ -29,7 +29,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 46 条 · 更新于 2026-10-25 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 50 条 · 更新于 2026-10-28 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
@@ -56,6 +56,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0041 | [WorldTUI: I trained a 360M model to pretend to be a terminal](https://simedw.com/2026/10/21/world-model-terminal/) | Simon Edwardsson (simedw) | 2026-10-21 | primary | ✅ |
 | ob-0042 | [Sparse Reward Subsystem in Large Language Models](https://arxiv.org/abs/2602.00986) | Guowei Xu (Tsinghua), Mert Yuksekgonul, James Zou (Stanford) | 2026-02-01 | primary | ✅ |
 | ob-0045 | [Why is AI-generated language so hard to understand?](https://arxiv.org/abs/2610.29162) | Thomas Hikaru Clark, Matias B. Martin, Kyle Mahowald | 2026-10-21 | primary | ✅ |
+| ob-0048 | [The Exponential Time Hypothesis is False (OpenAI math, release notes Oct 26, 2026)](https://github.com/openai/math/blob/main/history.md) | OpenAI | 2026-10-26 | primary | ✅ |
 
 ### 🧪 现场与事故
 
@@ -96,6 +97,9 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0043 | [bitcoin-0.1-rebuilt: Bitcoin 0.1 bitcoin.exe rebuilt byte for byte](https://github.com/t4t5/bitcoin-0.1-rebuilt) | t4t5 | 2026-10 | primary | 🔍 |
 | ob-0044 | [How employment is changing at Anthropic](https://www.anthropic.com/research/employment-at-anthropic) | Nathan Wilmers, Regina Catipon, Maxim Massenkoff, Peter McCrory (Anthropic Economics team) | 2026-10-16 | primary | ✅ |
 | ob-0046 | [Dream-1 (World Action Model) — Dream Labs](https://dreamlabs.ai/research/dream-1/) | Dream Labs | 2026-10 | primary | 🔍 |
+| ob-0047 | [Anthropic PBC Form S-1 Registration Statement — risk factors on model welfare and AI moral status](https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm) | Anthropic PBC (SEC filing) | 2026-10 | primary | ✅ |
+| ob-0049 | [Anthropic trained Claude on illegally obtained Stanford professors' books](https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/) | The Stanford Daily (April Yu) | 2026-10-27 | primary | ✅ |
+| ob-0050 | [Genie 4: a new generation of world simulation](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/) | Google DeepMind | 2026-10-27 | primary | ✅ |
 
 <!-- TABLE:END -->
 

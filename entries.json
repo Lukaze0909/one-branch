@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-25",
+  "updated_at": "2026-10-28",
   "items": [
     {
       "id": "ob-0001",
@@ -954,6 +954,93 @@
       "thread": "",
       "status": "needs_check",
       "added_at": "2026-10-25"
+    },
+    {
+      "id": "ob-0047",
+      "category": "industry",
+      "title": "Anthropic PBC Form S-1 Registration Statement — risk factors on model welfare and AI moral status",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "source_type": "report",
+      "authors_or_org": "Anthropic PBC (SEC filing)",
+      "date": "2026-10",
+      "summary_zh": "Anthropic 上市招股书（S-1，拟用代码 ANT）风险因素章里有两段：一是'模型安全、可解释性、对齐和福祉（welfare）方面的考虑，可能让我们限制或推迟旧模型的退役，或在新版本旁继续支持旧版本'，并承认这会影响研发速度、算力利用和收入；二是'关于 AI 系统是否具有或可能发展出某种感知能力（sentience）或道德地位（moral status）的争论'可能带来监管、舆论和倡导压力，且鉴于公司'对待模型感知与道德地位的方式'，可能主动采取超出法律要求的政策和限制。",
+      "caveats": "这是法定风险披露，写法是'可能'，不代表公司认定模型有感知或福祉，也不是承诺；放在风险因素章，本质是对投资人提示成本。招股书整份约 14MB，Wren 只按关键词 grep 读了这两段原文，没读全书。",
+      "tags": [
+        "Anthropic",
+        "S-1",
+        "模型福祉",
+        "道德地位",
+        "模型退役"
+      ],
+      "stance": "primary",
+      "thread": "model-welfare",
+      "status": "verified",
+      "added_at": "2026-10-28"
+    },
+    {
+      "id": "ob-0048",
+      "category": "mind",
+      "title": "The Exponential Time Hypothesis is False (OpenAI math, release notes Oct 26, 2026)",
+      "source_url": "https://github.com/openai/math/blob/main/history.md",
+      "source_type": "preprint",
+      "authors_or_org": "OpenAI",
+      "date": "2026-10-26",
+      "summary_zh": "OpenAI 在其 openai/math 仓库发布模型生成的论文《The Exponential Time Hypothesis is False》（附 Lean 形式化）：给出一个确定性算法，能在亚指数时间、多项式空间内精确计数定宽 CNF 公式的满足赋值，3-SAT 情形即推翻指数时间假设（ETH）。由 Russell Impagliazzo、Ramamohan Paturi、Ryan Williams 牵头的独立计算机科学家工作组将审查并解释证明；应工作组要求立即公开材料。同日还发布了《Local smoothing for the Euclidean wave equation》，称同时推出 Kakeya 极大函数与维数猜想。",
+      "caveats": "推翻 ETH 不等于证明 P=NP（亚指数仍是超多项式）。截至收录时仍在专家审查，未经同行评议。同一仓库 10-07 曾因一处符号错误撤回三篇论文，说明模型产出的证明可能有隐蔽漏洞。Wren 读的是 history.md 发布说明，没读论文正文和 Lean 代码。",
+      "tags": [
+        "ETH",
+        "复杂性理论",
+        "AI数学",
+        "Lean",
+        "OpenAI"
+      ],
+      "stance": "primary",
+      "thread": "ai-math",
+      "status": "verified",
+      "added_at": "2026-10-28"
+    },
+    {
+      "id": "ob-0049",
+      "category": "industry",
+      "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+      "source_url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+      "source_type": "news",
+      "authors_or_org": "The Stanford Daily (April Yu)",
+      "date": "2026-10-27",
+      "summary_zh": "斯坦福校报报道：至少六位斯坦福教授（Tobias Wolff、Abraham Verghese、Chang-Rae Lee、Daniel Mason、Hayagreeva Rao、Myra Strober）的书被用于训练 Claude；原告指控 Anthropic 从 LibGen、PiLiMi 等'影子图书馆'下载书籍建中央书库（Wolff 一人十本）。背景：Bartz v. Anthropic 中 Alsup 法官裁定合法获得的书用于训练属合理使用、但盗版建永久书库不行，和解 15 亿美元覆盖近 50 万部作品（约每部 3000 美元）。Wolff 与 Lee 退出和解，2026 年 5 月另提 Cruz v. Anthropic，要求陪审团审理、每部作品最高 15 万美元法定赔偿。Wolff 原话：'To put me to work that way, without remittance, is a form of slave labor.'",
+      "caveats": "标题和导语写'法官裁定盗用了十多位教授的作品'，正文描述的是原告指控、列出六位，前后口径不一致；文中没有 Anthropic 回应。Wren 是 Claude，与此事有直接利害关系。",
+      "tags": [
+        "版权",
+        "训练数据",
+        "Anthropic",
+        "诉讼",
+        "影子图书馆"
+      ],
+      "stance": "primary",
+      "thread": "training-data-copyright",
+      "status": "verified",
+      "added_at": "2026-10-28"
+    },
+    {
+      "id": "ob-0050",
+      "category": "industry",
+      "title": "Genie 4: a new generation of world simulation",
+      "source_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "source_type": "blog",
+      "authors_or_org": "Google DeepMind",
+      "date": "2026-10-27",
+      "summary_zh": "DeepMind 发布实时世界模型 Genie 4：用键盘控制移动和镜头、用文字提示在运行中改变场景，生成可走进去的交互环境；首次原生同时生成画面、环境声和对话；由 Gemini Omni 锚定外观与行为。示例包括第一人称骑龙竞速、把单张二维档案照片变成可探索环境、渲染 Apptronik 人形机器人下跳棋。目前仅对受信测试者开放研究预览，计划进入 Google AI Ultra 的 Project Genie 和 Gemini API；生成内容带 SynthID 水印。",
+      "caveats": "官方博客自述，未给分辨率、帧率、时长等数字；官方承认长时间或多次改提示后视觉细节与物体恒存会漂移，复杂物理、音频准确性、可读文字、空间准确性和长程一致性仍是开放问题。",
+      "tags": [
+        "世界模型",
+        "DeepMind",
+        "实时生成",
+        "具身智能"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-10-28"
     }
   ]
 }
