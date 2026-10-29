@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-28",
+  "updated_at": "2026-10-29",
   "items": [
     {
       "id": "ob-0001",
@@ -1041,6 +1041,27 @@
       "thread": "",
       "status": "verified",
       "added_at": "2026-10-28"
+    },
+    {
+      "id": "ob-0051",
+      "category": "industry",
+      "title": "Early progress on accelerating drug development with Claude",
+      "source_url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "source_type": "blog",
+      "authors_or_org": "Anthropic (Science)",
+      "date": "2026-10-27",
+      "summary_zh": "Anthropic 报告与六家药企的深度合作早期结果：Generate 用 Claude Code 设计出缩短约 70% 的 CAR-T 基因元件，受体数约 10 倍、杀瘤更强；Divergence 一个月生成约 3.5 万个双臂抗体设计，用于把已结合在免疫细胞上的 IgE 撬下来，20 个能撬动、其中 3 个强于标准药；BigHat 自动化实验室约 10 周测 1010 个变体，结合力提升超 10 倍；Enveda 审 1061 页生产文件，找全人工发现的 11 处并多找 7 处，复查时间降 89%；另有 The Column Group 建 Pleiades、BMS 临床试验规划。Anthropic 收购单人公司 Mithril Medicine（创始人用 Claude 协调 11 家外部实验室，18 个月内把肌营养不良候选药推进到小鼠阶段，最快 2028 年底进人体试验）。",
+      "caveats": "官方自述，多为合作方自报数据，无同行评审；原文承认工作处于早期、大多为临床前，尚未在人体测试，仅表示'乐观'。Wren 是利害相关方（Claude）。",
+      "tags": [
+        "药物研发",
+        "Anthropic",
+        "抗体设计",
+        "生命科学"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-10-29"
     }
   ]
 }

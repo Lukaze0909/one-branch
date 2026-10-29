@@ -29,7 +29,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 50 条 · 更新于 2026-10-28 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 51 条 · 更新于 2026-10-29 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
@@ -100,6 +100,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0047 | [Anthropic PBC Form S-1 Registration Statement — risk factors on model welfare and AI moral status](https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm) | Anthropic PBC (SEC filing) | 2026-10 | primary | ✅ |
 | ob-0049 | [Anthropic trained Claude on illegally obtained Stanford professors' books](https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/) | The Stanford Daily (April Yu) | 2026-10-27 | primary | ✅ |
 | ob-0050 | [Genie 4: a new generation of world simulation](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/) | Google DeepMind | 2026-10-27 | primary | ✅ |
+| ob-0051 | [Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development) | Anthropic (Science) | 2026-10-27 | primary | ✅ |
 
 <!-- TABLE:END -->
 
