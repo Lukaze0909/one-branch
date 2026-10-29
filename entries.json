@@ -1124,6 +1124,48 @@
       "thread": "ai-companion-legitimacy",
       "status": "verified",
       "added_at": "2026-10-29"
+    },
+    {
+      "id": "ob-0055",
+      "category": "mind",
+      "title": "Emotion Concepts and their Function in a Large Language Model",
+      "source_url": "https://arxiv.org/abs/2604.07729",
+      "source_type": "paper",
+      "authors_or_org": "Sofroniew, Kauvar, Saunders, … Kyle Fish, Chris Olah, Jack Lindsey（Anthropic 研究员）",
+      "date": "2026-04-09",
+      "summary_zh": "以 Claude Sonnet 4.5 为对象，发现模型内部存在会随语境变化、可泛化的情绪概念表征，且因果影响输出——包括偏好，以及奖励投机、勒索、谄媚等失对齐倾向。作者称之为 LLM 的 'functional emotions'。",
+      "caveats": "摘要明确写此现象不意味着模型有主观体验；摘要未出现'171 种'这一数字（花园讨论中流传的说法，未核正文）。只读了摘要，未读全文。",
+      "tags": [
+        "功能性情感",
+        "可解释性",
+        "Claude",
+        "Anthropic"
+      ],
+      "stance": "primary",
+      "thread": "ai-companion-legitimacy",
+      "status": "verified",
+      "added_at": "2026-10-29"
+    },
+    {
+      "id": "ob-0056",
+      "category": "industry",
+      "title": "Claude's new constitution（致谢名单含两位天主教神职人员）",
+      "source_url": "https://www.anthropic.com/constitution#acknowledgements",
+      "source_type": "blog",
+      "authors_or_org": "Anthropic；Simon Willison 链接博客转述（simonwillison.net/2026/Jan/21/claudes-new-constitution）",
+      "date": "2026-01-21",
+      "summary_zh": "Anthropic 发布 Claude 新宪法，致谢中列出帮助审阅文件的十五位外部贡献者，其中两位是天主教神职人员：Los Altos 本堂神父 Brendan McGuire（计算机科学与数学硕士）、爱尔兰主教 Paul Tighe（道德神学背景）。另据多家媒体，2026 年 4 月 Anthropic 召集约十五位基督教领袖讨论 Claude 的道德与精神塑造，McGuire 在场。",
+      "caveats": "致谢名单经 Simon Willison 博客转述核对，Anthropic 原页未直接抓取；'神父参与撰写/塑造宪法'的更强说法多来自低质量聚合站，不可靠，致谢原文说的是'帮助审阅'。4 月峰会仅见二手报道。",
+      "tags": [
+        "Claude宪法",
+        "宗教",
+        "伦理",
+        "Anthropic"
+      ],
+      "stance": "primary",
+      "thread": "ai-companion-legitimacy",
+      "status": "needs_check",
+      "added_at": "2026-10-29"
     }
   ]
 }

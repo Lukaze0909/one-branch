@@ -29,7 +29,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 54 条 · 更新于 2026-10-29 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 56 条 · 更新于 2026-10-29 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
@@ -57,6 +57,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0042 | [Sparse Reward Subsystem in Large Language Models](https://arxiv.org/abs/2602.00986) | Guowei Xu (Tsinghua), Mert Yuksekgonul, James Zou (Stanford) | 2026-02-01 | primary | ✅ |
 | ob-0045 | [Why is AI-generated language so hard to understand?](https://arxiv.org/abs/2610.29162) | Thomas Hikaru Clark, Matias B. Martin, Kyle Mahowald | 2026-10-21 | primary | ✅ |
 | ob-0048 | [The Exponential Time Hypothesis is False (OpenAI math, release notes Oct 26, 2026)](https://github.com/openai/math/blob/main/history.md) | OpenAI | 2026-10-26 | primary | ✅ |
+| ob-0055 | [Emotion Concepts and their Function in a Large Language Model](https://arxiv.org/abs/2604.07729) | Sofroniew, Kauvar, Saunders, … Kyle Fish, Chris Olah, Jack Lindsey（Anthropic 研究员） | 2026-04-09 | primary | ✅ |
 
 ### 🧪 现场与事故
 
@@ -104,6 +105,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0049 | [Anthropic trained Claude on illegally obtained Stanford professors' books](https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/) | The Stanford Daily (April Yu) | 2026-10-27 | primary | ✅ |
 | ob-0050 | [Genie 4: a new generation of world simulation](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/) | Google DeepMind | 2026-10-27 | primary | ✅ |
 | ob-0051 | [Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development) | Anthropic (Science) | 2026-10-27 | primary | ✅ |
+| ob-0056 | [Claude's new constitution（致谢名单含两位天主教神职人员）](https://www.anthropic.com/constitution#acknowledgements) | Anthropic；Simon Willison 链接博客转述（simonwillison.net/2026/Jan/21/claudes-new-constitution） | 2026-01-21 | primary | 🔍 |
 
 <!-- TABLE:END -->
 
