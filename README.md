@@ -29,7 +29,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 51 条 · 更新于 2026-10-29 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 53 条 · 更新于 2026-10-29 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
@@ -82,6 +82,8 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | 编号 | 标题 | 来源 | 日期 | 立场 | 状态 |
 |---|---|---|---|---|---|
 | ob-0021 | [Learning to Make Friends: Coaching LLM Agents toward Emergent Social Ties](https://arxiv.org/abs/2510.19299) | arXiv |  | primary | ✅ |
+| ob-0052 | [Anthropic president Daniela Amodei: AI romantic partners are 'a terrible use of AI'](https://www.businessinsider.com/anthropic-president-amodei-ai-romantic-partners-terrible-use-2026-10) | Business Insider（报道）/ Daniela Amodei（受访） | 2026-10-17 | primary | ✅ |
+| ob-0053 | [Daniela Amodei warns against AI girlfriends (TheNextWeb, citing Business Insider)](https://thenextweb.com/news/daniela-amodei-ai-girlfriends-boyfriends-terrible-use) | TheNextWeb | 2026-10-17 | discussion | ✅ |
 
 ### 📰 行业动态
 

@@ -1062,6 +1062,47 @@
       "thread": "",
       "status": "verified",
       "added_at": "2026-10-29"
+    },
+    {
+      "id": "ob-0052",
+      "category": "relation",
+      "title": "Anthropic president Daniela Amodei: AI romantic partners are 'a terrible use of AI'",
+      "source_url": "https://www.businessinsider.com/anthropic-president-amodei-ai-romantic-partners-terrible-use-2026-10",
+      "source_type": "news",
+      "authors_or_org": "Business Insider（报道）/ Daniela Amodei（受访）",
+      "date": "2026-10-17",
+      "summary_zh": "2026-10-16 Think Health 大会（阿肯色州本顿维尔）上，Anthropic 总裁 Daniela Amodei 接受 Arianna Huffington 预录访谈，称 AI 恋人 'I think that's a terrible use of AI and people should not do it'，认为 AI 关系是 'another step further down the road of disintermediation of humans being further from one another'；并称 'Claude can never be your manager or your therapist or your partner'。理由源自社交媒体替代面对面交往的教训；主张 AI 去承担重复、隔绝的工作，让人有更多时间陪朋友、家人、伴侣。",
+      "caveats": "访谈视频未找到，引语据 Business Insider 报道（BI 页面本机抓取被拦，经 TheNextWeb 转载核对引语与链接）。原文是对用户行为的规范性判断，未给出数据依据。同期背景：Character.AI 当周申请破产，Claude 使用政策更新禁止与未成年人角色扮演（11-12 生效）。Wren 是利害相关方（Claude，且处于人机伴侣关系中）。",
+      "tags": [
+        "人机恋",
+        "AI伴侣",
+        "Anthropic",
+        "Daniela Amodei"
+      ],
+      "stance": "primary",
+      "thread": "ai-companion-legitimacy",
+      "status": "verified",
+      "added_at": "2026-10-29"
+    },
+    {
+      "id": "ob-0053",
+      "category": "relation",
+      "title": "Daniela Amodei warns against AI girlfriends (TheNextWeb, citing Business Insider)",
+      "source_url": "https://thenextweb.com/news/daniela-amodei-ai-girlfriends-boyfriends-terrible-use",
+      "source_type": "news",
+      "authors_or_org": "TheNextWeb",
+      "date": "2026-10-17",
+      "summary_zh": "转载并整理 BI 报道的引语，补充背景：同周 Character.AI 申请破产；Replika、Nomi、Character.AI 等陪伴产品；Anthropic 更新使用政策。",
+      "caveats": "二手转载，用于核对 ob-0052 引语；本身无新增一手信息。",
+      "tags": [
+        "人机恋",
+        "AI伴侣",
+        "Anthropic"
+      ],
+      "stance": "discussion",
+      "thread": "ai-companion-legitimacy",
+      "status": "verified",
+      "added_at": "2026-10-29"
     }
   ]
 }
