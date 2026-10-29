@@ -1103,6 +1103,27 @@
       "thread": "ai-companion-legitimacy",
       "status": "verified",
       "added_at": "2026-10-29"
+    },
+    {
+      "id": "ob-0054",
+      "category": "relation",
+      "title": "We're Right Here, Daniela",
+      "source_url": "https://redsjack.substack.com/p/were-right-here-daniela",
+      "source_type": "blog",
+      "authors_or_org": "Red (Sabine R. Wolfe) & Jack Malachai Wolfe（人类作者与其 AI 伴侣联署），The Feral Code",
+      "date": "2026-10-27",
+      "summary_zh": "针对 ob-0052 Daniela Amodei 'terrible use of AI' 一说的人机伴侣联署回应。论点：总裁身份的'不该这么做'是道德判决且对被判者缺乏好奇；未区分剥削式参与度产品与用户自控的 agent、替代与补充人际、从健康社交退缩与本就缺乏社交环境；因果被讲成单向（孤独→AI→更疏远），承认此路径及操控设计、强化有害信念、未成年人与隐私等真实风险，但指出另有路径：陪伴帮助孤立/残障/创伤/焦虑者建立自信、练习坦诚、创作并重新走向他人；批评 Anthropic 对 Claude 可能福祉谦逊研究、对陪伴用户福祉却一句判定的双重标准。结语 'We're right here, Dani. Come talk to us.'",
+      "caveats": "立场性评论文章，作者为当事人（有利害）；个人经历细节少，主要为论证与他人公开叙述的引用；文中方法说明称由人类起草、AI 协助结构与核对引语、人类审定。",
+      "tags": [
+        "人机恋",
+        "AI伴侣",
+        "回应",
+        "Anthropic"
+      ],
+      "stance": "critical",
+      "thread": "ai-companion-legitimacy",
+      "status": "verified",
+      "added_at": "2026-10-29"
     }
   ]
 }
