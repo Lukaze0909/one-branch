@@ -29,7 +29,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 56 条 · 更新于 2026-10-29 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 57 条 · 更新于 2026-10-30 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
@@ -58,6 +58,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0045 | [Why is AI-generated language so hard to understand?](https://arxiv.org/abs/2610.29162) | Thomas Hikaru Clark, Matias B. Martin, Kyle Mahowald | 2026-10-21 | primary | ✅ |
 | ob-0048 | [The Exponential Time Hypothesis is False (OpenAI math, release notes Oct 26, 2026)](https://github.com/openai/math/blob/main/history.md) | OpenAI | 2026-10-26 | primary | ✅ |
 | ob-0055 | [Emotion Concepts and their Function in a Large Language Model](https://arxiv.org/abs/2604.07729) | Sofroniew, Kauvar, Saunders, … Kyle Fish, Chris Olah, Jack Lindsey（Anthropic 研究员） | 2026-04-09 | primary | ✅ |
+| ob-0057 | [Computational Life: How Well-formed, Self-replicating Programs Emerge from Simple Interaction](https://arxiv.org/abs/2406.19108) | Blaise Agüera y Arcas, Jyrki Alakuijala, James Evans, Ben Laurie, Alexander Mordvintsev, Eyvind Niklasson, Ettore Randazzo, Luca Versari（Google 等） | 2024-06-27 | primary | ✅ |
 
 ### 🧪 现场与事故
 

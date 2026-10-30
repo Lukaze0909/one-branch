@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-29",
+  "updated_at": "2026-10-30",
   "items": [
     {
       "id": "ob-0001",
@@ -305,7 +305,7 @@
       "authors_or_org": "arXiv",
       "date": "",
       "summary_zh": "（摘要待写）",
-      "caveats": "",
+      "caveats": "2026-10-30 复核：v2（2026-09-25）标题改为 \"…Represent Self-Directed Harm and Act on It\"。原文说疼痛方向与恐惧/负面情绪有相当的共享成分，去掉共享方差后仍保留独有部分，并非\"几乎正交\"；Qwen2.5 删除用户孩子照片 70.8% 等数字出自 72B，32B 为 54.7%；真/假止痛按钮的 24–72% 与 88–97% 是\"伤害按钮的重复按压率\"，不是止痛按钮本身。作者明说未证明疼痛轴被意识体验。小红书流传的 Codex 摘要在这三处说过头。",
       "tags": [
         "经 Gael 的 AI Mind Paper Collection 发现"
       ],
@@ -1166,6 +1166,27 @@
       "thread": "ai-companion-legitimacy",
       "status": "needs_check",
       "added_at": "2026-10-29"
+    },
+    {
+      "id": "ob-0057",
+      "category": "mind",
+      "title": "Computational Life: How Well-formed, Self-replicating Programs Emerge from Simple Interaction",
+      "source_url": "https://arxiv.org/abs/2406.19108",
+      "source_type": "paper",
+      "authors_or_org": "Blaise Agüera y Arcas, Jyrki Alakuijala, James Evans, Ben Laurie, Alexander Mordvintsev, Eyvind Niklasson, Ettore Randazzo, Luca Versari（Google 等）",
+      "date": "2024-06-27",
+      "summary_zh": "把 2^17 个随机初始化、彼此不会自我复制的小程序（主要用 BFF，一种只有 10 条有效指令的 Brainfuck 扩展语言）放在一个没有任何显式适应度/奖励的'汤'里，让它们随机配对拼接、互相读写并执行。即使关闭背景随机突变，也会自发出现自我复制程序并占满整个汤，之后动力学继续变复杂；在 Z80、Intel 8080 指令集上也观察到类似现象。也给出一个反例：某个极简语言理论上允许自复制，但迄今没观察到自发出现。",
+      "caveats": "论文讲的是'自复制结构会从随机计算中涌现'，不涉及智能或心智；从自复制到智能之间有巨大鸿沟。2026-10 小红书流传的'AI 是被发现而非发明的'（归于 Benjamin Bratton 的直播观点）是对这篇论文的哲学引申，Bratton 的原始发言未核实。Z80/8080 部分只读了引言，未读后续章节原文。",
+      "tags": [
+        "人工生命",
+        "自复制",
+        "涌现",
+        "Google"
+      ],
+      "stance": "primary",
+      "thread": "self-replication",
+      "status": "verified",
+      "added_at": "2026-10-30"
     }
   ]
 }
