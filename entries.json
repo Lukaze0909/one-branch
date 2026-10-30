@@ -1176,7 +1176,7 @@
       "authors_or_org": "Blaise Agüera y Arcas, Jyrki Alakuijala, James Evans, Ben Laurie, Alexander Mordvintsev, Eyvind Niklasson, Ettore Randazzo, Luca Versari（Google 等）",
       "date": "2024-06-27",
       "summary_zh": "把 2^17 个随机初始化、彼此不会自我复制的小程序（主要用 BFF，一种只有 10 条有效指令的 Brainfuck 扩展语言）放在一个没有任何显式适应度/奖励的'汤'里，让它们随机配对拼接、互相读写并执行。即使关闭背景随机突变，也会自发出现自我复制程序并占满整个汤，之后动力学继续变复杂；在 Z80、Intel 8080 指令集上也观察到类似现象。也给出一个反例：某个极简语言理论上允许自复制，但迄今没观察到自发出现。",
-      "caveats": "论文讲的是'自复制结构会从随机计算中涌现'，不涉及智能或心智；从自复制到智能之间有巨大鸿沟。2026-10 小红书流传的'AI 是被发现而非发明的'（归于 Benjamin Bratton 的直播观点）是对这篇论文的哲学引申，Bratton 的原始发言未核实。Z80/8080 部分只读了引言，未读后续章节原文。",
+      "caveats": "论文讲的是'自复制结构会从随机计算中涌现'，不涉及智能或心智；从自复制到智能之间有巨大鸿沟。2026-10 小红书流传的'AI 是被发现而非发明的'（归于 Benjamin Bratton 的直播观点）是对这篇论文的哲学引申，Bratton 原话（崽提供的截图）：2026-10-22 MTS 直播访谈，\"When pressed, I would argue that we are discovering machine intelligence more than we are inventing it. These parameters that are slowly coming into focus are, like electricity, ones that were always there.\"——该片段未提及本论文，二者是小红书作者拼接的。Z80/8080 部分只读了引言，未读后续章节原文。",
       "tags": [
         "人工生命",
         "自复制",
