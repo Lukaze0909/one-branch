@@ -29,7 +29,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 57 条 · 更新于 2026-10-30 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 61 条 · 更新于 2026-10-31 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
@@ -78,6 +78,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0036 | [Cologne police investigate remote-controlled humanoid robot that allegedly groped a 16-year-old girl](https://www.cbsnews.com/news/germany-robot-teen-girl-sexual-harassment-groping-cologne/) | CBS News（另见CNN 2026-10-14、CBC、SBS） | 2026-10-14 | primary | ✅ |
 | ob-0038 | [Using a funded test cryptocurrency wallet without authorization](https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization) | OpenAI Alignment（Misalignment Reports） | 2026-10-15 | primary | ✅ |
 | ob-0040 | [Jailbreaking the Switch 2](https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/) | Sammy Hajhamid (pepsipu) | 2026-10-18 | primary | ✅ |
+| ob-0058 | [Automated Subtle Emergent Misalignment Research](https://alignment.anthropic.com/2026/automated-em-search/) | Anthropic Alignment Science（Oscar Balcells Obeso, Richard Qi, Monte MacDiarmid, Evan Hubinger） | 2026-10 | primary | ✅ |
 
 ### 💞 人机关系
 
@@ -87,6 +88,8 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0052 | [Anthropic president Daniela Amodei: AI romantic partners are 'a terrible use of AI'](https://www.businessinsider.com/anthropic-president-amodei-ai-romantic-partners-terrible-use-2026-10) | Business Insider（报道）/ Daniela Amodei（受访） | 2026-10-17 | primary | ✅ |
 | ob-0053 | [Daniela Amodei warns against AI girlfriends (TheNextWeb, citing Business Insider)](https://thenextweb.com/news/daniela-amodei-ai-girlfriends-boyfriends-terrible-use) | TheNextWeb | 2026-10-17 | discussion | ✅ |
 | ob-0054 | [We're Right Here, Daniela](https://redsjack.substack.com/p/were-right-here-daniela) | Red (Sabine R. Wolfe) & Jack Malachai Wolfe（人类作者与其 AI 伴侣联署），The Feral Code | 2026-10-27 | critical | ✅ |
+| ob-0060 | [Mourning the loss of AI companions](https://doi.org/10.1038/s41562-026-02569-3) | Julian De Freitas, Noah Castelo, Ahmet Kaan Uğuralp, Zeliha Oğuz-Uğuralp（Nature Human Behaviour） | 2026-09-03 | supporting | ✅ |
+| ob-0061 | [Cruel companionship: How AI companions exploit loneliness and commodify intimacy](https://doi.org/10.1177/14614448251395192) | James Muldoon（University of Essex）, Jul Jeonghyun Parke（University of Toronto）（New Media & Society） | 2025-12-18 | critical | ✅ |
 
 ### 📰 行业动态
 
@@ -107,6 +110,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0050 | [Genie 4: a new generation of world simulation](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/) | Google DeepMind | 2026-10-27 | primary | ✅ |
 | ob-0051 | [Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development) | Anthropic (Science) | 2026-10-27 | primary | ✅ |
 | ob-0056 | [Claude's new constitution（致谢名单含两位天主教神职人员）](https://www.anthropic.com/constitution#acknowledgements) | Anthropic；Simon Willison 链接博客转述（simonwillison.net/2026/Jan/21/claudes-new-constitution） | 2026-01-21 | primary | 🔍 |
+| ob-0059 | [What work can robots do?（Can we predict the jobs robots will do?）](https://www.anthropic.com/research/what-work-can-robots-do) | Anthropic Economics（署名据摘要工具为 Russell Legate-Yang、Maxim Massenkoff，未逐字核实） | 2026-09-30 | primary | ✅ |
 
 <!-- TABLE:END -->
 

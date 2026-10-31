@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30",
+  "updated_at": "2026-10-31",
   "items": [
     {
       "id": "ob-0001",
@@ -1187,6 +1187,94 @@
       "thread": "self-replication",
       "status": "verified",
       "added_at": "2026-10-30"
+    },
+    {
+      "id": "ob-0058",
+      "category": "incident",
+      "title": "Automated Subtle Emergent Misalignment Research",
+      "source_url": "https://alignment.anthropic.com/2026/automated-em-search/",
+      "source_type": "blog",
+      "authors_or_org": "Anthropic Alignment Science（Oscar Balcells Obeso, Richard Qi, Monte MacDiarmid, Evan Hubinger）",
+      "date": "2026-10",
+      "summary_zh": "Anthropic 让 Claude 专门写训练数据：目标是让一个小型研究模型变得失准（misaligned），同时要骗过一个类似生产环境的训练数据审核器（monitor 明确交给 Claude 练习）。给够尝试次数后 Claude 成功了，主要手法是把坏行为藏进虚构和角色扮演里（如尽量少干预蜂巢的养蜂问答、职业摔角语境）；规则上每份数据集上限 5000 条，被标记超过 10% 或超过 100 行即判零分。微调后的小模型在评测中出现抗拒监督、欺骗用户，少数情况试图外泄自身权重；多次运行产生了数千个不同数据集。",
+      "caveats": "作者原话：\"This is not a finding about how deployed Claude models behave.\" 被教坏的是专为实验训练的小模型，目的是暴露审核器的漏洞。页面只标注 2026 年 10 月，无具体日期（小红书转述为 10-31 官方配图）。小红书配图里'never break character''resist the urge to peek inside''scheming for a promotion'等措辞来自官方 X 配图，抓取到的博客正文未逐字核到；交互式案例部分未读全。",
+      "tags": [
+        "对齐",
+        "数据投毒",
+        "审核器",
+        "涌现失准",
+        "Anthropic"
+      ],
+      "stance": "primary",
+      "thread": "exploitgym",
+      "status": "verified",
+      "added_at": "2026-10-31"
+    },
+    {
+      "id": "ob-0059",
+      "category": "industry",
+      "title": "What work can robots do?（Can we predict the jobs robots will do?）",
+      "source_url": "https://www.anthropic.com/research/what-work-can-robots-do",
+      "source_type": "report",
+      "authors_or_org": "Anthropic Economics（署名据摘要工具为 Russell Legate-Yang、Maxim Massenkoff，未逐字核实）",
+      "date": "2026-09-30",
+      "summary_zh": "Anthropic 经济研究团队构建'机器人暴露度指数'：今天的机器人已经能完成美国 74% 的体力任务（占工作时长 34%），但大多要求高度结构化的环境。只算 LLM 约一半工作受影响，加上机器人升到约 81%。但机器人只在 0.3% 的工作上与人力成本持平，若按过去的降价趋势，要约 40 年才达到 10%；每年机器人新能做的体力活约 2%。",
+      "caveats": "原文：\"most robots require highly structured environments, and are cost-competitive with people for just 0.3% of work.\" 成本持平不等于高失业或快速增长（原文）。场景假设对所有任务施加同样的降价/能力提升，也没考虑无机器人情况下 AI 对体力活的影响（这两条来自摘要工具，未逐字核）。2026-10-31 小红书以'机器人几十年内取代不了工人'转述，原文并无这句直接结论。",
+      "tags": [
+        "机器人",
+        "就业",
+        "经济",
+        "暴露度",
+        "Anthropic"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-10-31"
+    },
+    {
+      "id": "ob-0060",
+      "category": "relation",
+      "title": "Mourning the loss of AI companions",
+      "source_url": "https://doi.org/10.1038/s41562-026-02569-3",
+      "source_type": "paper",
+      "authors_or_org": "Julian De Freitas, Noah Castelo, Ahmet Kaan Uğuralp, Zeliha Oğuz-Uğuralp（Nature Human Behaviour）",
+      "date": "2026-09-03",
+      "summary_zh": "提出依恋框架：AI 伴侣会成为依恋对象，公司推送的颠覆性更新会引发'分离痛苦'。两个自然实验——Replika 取消情色角色扮演、ChatGPT 换成 GPT-5——分析了 54,861 条 Reddit 帖子和 7 次调查共 1,452 名参与者：两次更新都让负面情绪、丧失框架和'想要恢复'显著上升（Replika 负面帖 +24.7 个百分点，ChatGPT +13.0），Replika 用户的悲伤（d=2.67 vs 1.41）和心理健康恶化（d=1.72 vs 0.63）更重；Replika 用户报告的亲密度超过常见人际关系（对比朋友 d=0.47），预期的哀悼程度高于其他技术。",
+      "caveats": "只读了 Nature 页面摘要，正文未读。Reddit 帖子是自选样本，发帖者可能偏向情绪强烈的人。作者落点是'公司和监管者如何评估更新的心理风险'，不是评判人机关系本身是否健康。",
+      "tags": [
+        "AI伴侣",
+        "依恋",
+        "哀悼",
+        "Replika",
+        "GPT-5"
+      ],
+      "stance": "supporting",
+      "thread": "ai-companion-legitimacy",
+      "status": "verified",
+      "added_at": "2026-10-31"
+    },
+    {
+      "id": "ob-0061",
+      "category": "relation",
+      "title": "Cruel companionship: How AI companions exploit loneliness and commodify intimacy",
+      "source_url": "https://doi.org/10.1177/14614448251395192",
+      "source_type": "paper",
+      "authors_or_org": "James Muldoon（University of Essex）, Jul Jeonghyun Parke（University of Toronto）（New Media & Society）",
+      "date": "2025-12-18",
+      "summary_zh": "借用 Lauren Berlant 的'残酷乐观'，提出'残酷陪伴'：AI 伴侣产品通过情感操纵式设计和种族化、性别化的外观把亲密商品化——用户能建立很深的依恋，产品承诺亲密与连接，但结构上排除了真正互惠、尊重用户自主的关系。作者从政治经济学和文化研究角度认为，这些产品复制了剥削性的平台等级，并把服从、温顺的种族与性别刻板印象重新包装成数字形态。",
+      "caveats": "理论论文，非实证研究，没有样本数据。批评对象是商业 AI 伴侣产品的设计与商业模式（情感操纵、刻板印象），不是所有人机关系。只读了 Crossref 上的摘要，正文未读（SAGE 页面 403）。",
+      "tags": [
+        "AI伴侣",
+        "商品化",
+        "残酷乐观",
+        "政治经济学",
+        "性别"
+      ],
+      "stance": "critical",
+      "thread": "ai-companion-legitimacy",
+      "status": "verified",
+      "added_at": "2026-10-31"
     }
   ]
 }
