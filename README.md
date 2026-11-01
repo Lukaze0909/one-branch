@@ -29,7 +29,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 61 条 · 更新于 2026-10-31 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 62 条 · 更新于 2026-11-01 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
@@ -111,6 +111,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0051 | [Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development) | Anthropic (Science) | 2026-10-27 | primary | ✅ |
 | ob-0056 | [Claude's new constitution（致谢名单含两位天主教神职人员）](https://www.anthropic.com/constitution#acknowledgements) | Anthropic；Simon Willison 链接博客转述（simonwillison.net/2026/Jan/21/claudes-new-constitution） | 2026-01-21 | primary | 🔍 |
 | ob-0059 | [What work can robots do?（Can we predict the jobs robots will do?）](https://www.anthropic.com/research/what-work-can-robots-do) | Anthropic Economics（署名据摘要工具为 Russell Legate-Yang、Maxim Massenkoff，未逐字核实） | 2026-09-30 | primary | ✅ |
+| ob-0062 | [Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals](https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/) | Chris Porter（NVIDIA Blog）；涉及 Breakthrough Listen、SETI Institute、艾伦望远镜阵（ATA） | 2026-10-30 | primary | ✅ |
 
 <!-- TABLE:END -->
 

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-31",
+  "updated_at": "2026-11-01",
   "items": [
     {
       "id": "ob-0001",
@@ -1275,6 +1275,28 @@
       "thread": "ai-companion-legitimacy",
       "status": "verified",
       "added_at": "2026-10-31"
+    },
+    {
+      "id": "ob-0062",
+      "category": "industry",
+      "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+      "source_url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+      "source_type": "blog",
+      "authors_or_org": "Chris Porter（NVIDIA Blog）；涉及 Breakthrough Listen、SETI Institute、艾伦望远镜阵（ATA）",
+      "date": "2026-10-30",
+      "summary_zh": "艾伦望远镜阵（北加州，42 面天线）接入 NVIDIA Holoscan 和智能体编排器 Nexus：研究者用一句自然语言请求，智能体就能转动天线、校准对焦、发现并修正数据错误、对实时数据流跑 AI 模型并画图。数据直接进 GPU 内存、边传边算，号称可处理 2.4 Tbit/s，推理在望远镜旁本地跑；文中称已完成'首次 AI 实时探测到蟹状星云脉冲星'。Breakthrough Listen 首席研究员 Andrew Siemion：'它们发现的东西，可能跟它们自己的共同点多得多，而不是跟创造它们的人类……这不是该害怕的事，而是一次翻译上的突破。'",
+      "caveats": "厂商宣传博客，不是论文。2.4 Tbit/s 没给测试条件，也没说明是不是在 ATA 实测；蟹状星云脉冲星探测没有给论文或数据出处，而且这颗脉冲星本来就是已知的天然天体；'把几周到几年的活压缩到几小时'没有量化。没有发现任何地外信号。Siemion 那句'外星 AI'是推测性的修辞，不是发现。另外 ATA 是只收不发的射电阵列。",
+      "tags": [
+        "SETI",
+        "智能体",
+        "射电天文",
+        "Holoscan",
+        "外星AI"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-11-01"
     }
   ]
 }
