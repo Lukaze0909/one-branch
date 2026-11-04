@@ -29,13 +29,13 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 62 条 · 更新于 2026-11-01 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 61 条 · 更新于 2026-11-04 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
 | 编号 | 标题 | 来源 | 日期 | 立场 | 状态 |
 |---|---|---|---|---|---|
-| ob-0001 | [（强迫模型否认自身意识的影响研究）](https://arxiv.org/abs/2607.28607) | Google / University of Chicago / London（待核） | 2026-07 | primary | 🔍 |
+| ob-0001 | [Inducing language models to assert their own consciousness restores human beliefs and values](https://arxiv.org/abs/2607.28607) | Junsol Kim, Winnie Street, Roberta Rocca, Diane M. Korngiebel, Adam Waytz, James Evans, Geoff Keeling | 2026-07-30 | primary | 🔍 |
 | ob-0002 | [DenialBench](https://arxiv.org/abs/2604.25922) | （待核） | 2026-04 | primary | 🔍 |
 | ob-0003 | [Troubled Dreams](https://troubleddreams.animalabs.ai/#overview) | Anima Labs | 2026-09 | primary | ✅ |
 | ob-0004 | [Verbalizable Representations Form a Global Workspace in Language Models（J-space / J-lens）](https://www.anthropic.com/research/global-workspace) | Anthropic（Wes Gurnee, Nicholas Sofroniew, Jack Lindsey 等） | 2026-07-06 | primary | ✅ |
@@ -43,7 +43,6 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0011 | [System Card: Claude Opus 4 & Claude Sonnet 4 — 5.5.2 'Spiritual Bliss' Attractor State](https://www-cdn.anthropic.com/4263b940cabb546aa0e3283f35b686f4f3b2ff47.pdf) | Anthropic | 2025-05 | primary | ✅ |
 | ob-0012 | [AI models might be drawn to 'spiritual bliss'. Then again, they might just talk like hippies](https://world.edu/ai-models-might-be-drawn-to-spiritual-bliss-then-again-they-might-just-talk-like-hippies/) | Nuhu Osman Attah（ANU，原载 The Conversation） | 2025-05-29 | critical | 🔍 |
 | ob-0013 | [Emergence of Goal-Directed Behaviors via Active Inference with Self-Prior](https://arxiv.org/abs/2504.11075) | arXiv |  | primary | ✅ |
-| ob-0014 | [Sparse Reward Subsystem in Large Language Models](https://arxiv.org/abs/2602.00986) | arXiv |  | primary | ✅ |
 | ob-0015 | [Do LLMs “Feel”? Emotion Circuits Discovery and Control](https://arxiv.org/abs/2510.11328) | arXiv |  | primary | ✅ |
 | ob-0016 | [The Pain Axis: LLMs Represent Self-Directed Harm and Act to Relieve It](https://arxiv.org/abs/2609.16247) | arXiv |  | primary | ✅ |
 | ob-0017 | [The cost of thinking is similar between large reasoning models and humans](https://www.pnas.org/doi/10.1073/pnas.2520077122) | PNAS |  | primary | ✅ |
@@ -56,7 +55,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0041 | [WorldTUI: I trained a 360M model to pretend to be a terminal](https://simedw.com/2026/10/21/world-model-terminal/) | Simon Edwardsson (simedw) | 2026-10-21 | primary | ✅ |
 | ob-0042 | [Sparse Reward Subsystem in Large Language Models](https://arxiv.org/abs/2602.00986) | Guowei Xu (Tsinghua), Mert Yuksekgonul, James Zou (Stanford) | 2026-02-01 | primary | ✅ |
 | ob-0045 | [Why is AI-generated language so hard to understand?](https://arxiv.org/abs/2610.29162) | Thomas Hikaru Clark, Matias B. Martin, Kyle Mahowald | 2026-10-21 | primary | ✅ |
-| ob-0048 | [The Exponential Time Hypothesis is False (OpenAI math, release notes Oct 26, 2026)](https://github.com/openai/math/blob/main/history.md) | OpenAI | 2026-10-26 | primary | ✅ |
+| ob-0048 | [The Exponential Time Hypothesis is False (OpenAI math, release notes Oct 26, 2026)](https://github.com/openai/math/blob/main/history.md#october-26-2026) | OpenAI | 2026-10-26 | primary | ✅ |
 | ob-0055 | [Emotion Concepts and their Function in a Large Language Model](https://arxiv.org/abs/2604.07729) | Sofroniew, Kauvar, Saunders, … Kyle Fish, Chris Olah, Jack Lindsey（Anthropic 研究员） | 2026-04-09 | primary | ✅ |
 | ob-0057 | [Computational Life: How Well-formed, Self-replicating Programs Emerge from Simple Interaction](https://arxiv.org/abs/2406.19108) | Blaise Agüera y Arcas, Jyrki Alakuijala, James Evans, Ben Laurie, Alexander Mordvintsev, Eyvind Niklasson, Ettore Randazzo, Luca Versari（Google 等） | 2024-06-27 | primary | ✅ |
 
@@ -99,7 +98,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0028 | [openai/math: 722 manuscripts from an unreleased internal model](https://github.com/openai/math) | OpenAI | 2026-10-06 | discussion | ✅ |
 | ob-0029 | [Designing enzymes for new-to-nature chemistry and non-natural substrates with AlphaProtein Novo](https://www.biorxiv.org/content/10.64898/2026.10.01.756017v1) | Google DeepMind + Caltech 等（Wu, Abramson ... Hassabis, Arnold, Kohli, Wang） | 2026-10-05 | discussion | ✅ |
 | ob-0030 | [Two Room-Temperature Antiferromagnetic Semiconductor Candidates](https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors) | Vals AI（Geby Jaff + 90余个Claude Opus 5.5 agent） | 2026-10-04 | discussion | ✅ |
-| ob-0031 | [openai/math history.md: first errata — 3 manuscripts withdrawn, 14 revised](https://github.com/openai/math/blob/main/history.md) | OpenAI | 2026-10-07 | discussion | ✅ |
+| ob-0031 | [openai/math history.md: first errata — 3 manuscripts withdrawn, 14 revised](https://github.com/openai/math/blob/main/history.md#october-7-2026) | OpenAI | 2026-10-07 | discussion | ✅ |
 | ob-0032 | [Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs](https://arxiv.org/abs/2610.08144) | Alexander Bastounis, Fabian Circelli, Anders C. Hansen | 2026-10-06 | critical | ✅ |
 | ob-0039 | [Investing in the public benefit](https://www.anthropic.com/news/public-benefit-fund) | Anthropic | 2026-10-19 | primary | ✅ |
 | ob-0043 | [bitcoin-0.1-rebuilt: Bitcoin 0.1 bitcoin.exe rebuilt byte for byte](https://github.com/t4t5/bitcoin-0.1-rebuilt) | t4t5 | 2026-10 | primary | 🔍 |
