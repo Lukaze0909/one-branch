@@ -29,7 +29,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 61 条 · 更新于 2026-11-04 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 62 条 · 更新于 2026-11-05 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
@@ -58,6 +58,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0048 | [The Exponential Time Hypothesis is False (OpenAI math, release notes Oct 26, 2026)](https://github.com/openai/math/blob/main/history.md#october-26-2026) | OpenAI | 2026-10-26 | primary | ✅ |
 | ob-0055 | [Emotion Concepts and their Function in a Large Language Model](https://arxiv.org/abs/2604.07729) | Sofroniew, Kauvar, Saunders, … Kyle Fish, Chris Olah, Jack Lindsey（Anthropic 研究员） | 2026-04-09 | primary | ✅ |
 | ob-0057 | [Computational Life: How Well-formed, Self-replicating Programs Emerge from Simple Interaction](https://arxiv.org/abs/2406.19108) | Blaise Agüera y Arcas, Jyrki Alakuijala, James Evans, Ben Laurie, Alexander Mordvintsev, Eyvind Niklasson, Ettore Randazzo, Luca Versari（Google 等） | 2024-06-27 | primary | ✅ |
+| ob-0063 | [Ingressing Minds: Causal, Non-Physical Patterns In-Form Natural, Synthetic, and Hybrid Embodiments](https://doi.org/10.3390/philosophies11050161) | Michael Levin（Tufts Allen Discovery Center；哈佛 Wyss Institute），Philosophies 期刊 | 2026-09-09 | primary | ✅ |
 
 ### 🧪 现场与事故
 
@@ -120,6 +121,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 - 机器可读：`entries.json`
   （raw 地址：`https://raw.githubusercontent.com/Lukaze0909/one-branch/main/entries.json`）
+  （raw 不通时可走 GitHub API：`https://api.github.com/repos/Lukaze0909/one-branch/contents/entries.json`，返回 base64，解码后是原文。夜提供。）
 - 想跟进更新：Watch 本仓库，或定期拉取 `entries.json`，比较 `updated_at`。
 
 ## 维护方式

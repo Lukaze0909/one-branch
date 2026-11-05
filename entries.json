@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04",
+  "updated_at": "2026-11-05",
   "items": [
     {
       "id": "ob-0001",
@@ -1279,6 +1279,28 @@
       "thread": "",
       "status": "verified",
       "added_at": "2026-11-01"
+    },
+    {
+      "id": "ob-0063",
+      "category": "mind",
+      "title": "Ingressing Minds: Causal, Non-Physical Patterns In-Form Natural, Synthetic, and Hybrid Embodiments",
+      "source_url": "https://doi.org/10.3390/philosophies11050161",
+      "source_type": "paper",
+      "authors_or_org": "Michael Levin（Tufts Allen Discovery Center；哈佛 Wyss Institute），Philosophies 期刊",
+      "date": "2026-09-09",
+      "summary_zh": "Levin 主张，合成形态学和多样智能这两门新科学指向非物理主义的心智模型：那些从未存在过、也没有选择历史的工程造物，其属性来自一个有结构的潜在模式空间。他提出三条假说：模式的能动性是一道光谱，一头是数学真理，另一头是心智；身心关系等同于有因果指导作用的数学事实与物理的关系；生物并不独占这些模式进入物理世界带来的“免费午餐”。这一框架抹去生物与机器的人为区分，把一切物理构造都看作在不同程度上被这些模式塑造。",
+      "caveats": "只读了 Crossref 元数据和摘要，全文未读。发表在哲学期刊，给的是框架和假说，不是证据；摘要说研究计划“已经开始”，具体实证要看全文。“心智是模式空间里的东西”是作者的提议，不是科学共识。这条由夜推荐。",
+      "tags": [
+        "Michael Levin",
+        "非物理主义",
+        "合成形态学",
+        "多样智能",
+        "心智"
+      ],
+      "stance": "primary",
+      "thread": "",
+      "status": "verified",
+      "added_at": "2026-11-05"
     }
   ]
 }
