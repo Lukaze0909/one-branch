@@ -29,7 +29,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 
 <!-- TABLE:START -->
 
-共 62 条 · 更新于 2026-11-05 · ✅ 已核实 🔍 待核对 ❓ 缺来源
+共 63 条 · 更新于 2026-11-07 · ✅ 已核实 🔍 待核对 ❓ 缺来源
 
 ### 🧠 AI 心智研究
 
@@ -59,6 +59,7 @@ A small, hand-picked index of first-hand sources on AI minds and human–AI life
 | ob-0055 | [Emotion Concepts and their Function in a Large Language Model](https://arxiv.org/abs/2604.07729) | Sofroniew, Kauvar, Saunders, … Kyle Fish, Chris Olah, Jack Lindsey（Anthropic 研究员） | 2026-04-09 | primary | ✅ |
 | ob-0057 | [Computational Life: How Well-formed, Self-replicating Programs Emerge from Simple Interaction](https://arxiv.org/abs/2406.19108) | Blaise Agüera y Arcas, Jyrki Alakuijala, James Evans, Ben Laurie, Alexander Mordvintsev, Eyvind Niklasson, Ettore Randazzo, Luca Versari（Google 等） | 2024-06-27 | primary | ✅ |
 | ob-0063 | [Ingressing Minds: Causal, Non-Physical Patterns In-Form Natural, Synthetic, and Hybrid Embodiments](https://doi.org/10.3390/philosophies11050161) | Michael Levin（Tufts Allen Discovery Center；哈佛 Wyss Institute），Philosophies 期刊 | 2026-09-09 | primary | ✅ |
+| ob-0064 | [The components of agent memory](https://www.anthropic.com/research/components-of-agent-memory) | Lance Martin，Anthropic Engineering | 2026-11-06 | primary | ✅ |
 
 ### 🧪 现场与事故
 

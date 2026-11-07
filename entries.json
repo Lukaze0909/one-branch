@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05",
+  "updated_at": "2026-11-07",
   "items": [
     {
       "id": "ob-0001",
@@ -1301,6 +1301,28 @@
       "thread": "",
       "status": "verified",
       "added_at": "2026-11-05"
+    },
+    {
+      "id": "ob-0064",
+      "category": "mind",
+      "title": "The components of agent memory",
+      "source_url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "source_type": "blog",
+      "authors_or_org": "Lance Martin，Anthropic Engineering",
+      "date": "2026-11-06",
+      "summary_zh": "Anthropic 把 agent 记忆拆成在任务中写笔记和离线整理两部分，后者称为 dreaming：Claude 在空闲时读会话记录，用它校对笔记、修错、建 wiki，并把少量笔记提到每次开场预先载入的顶层。宝可梦实验里，校对过笔记的运行走出了月见山，没校对的运行三次摔回原路。合同任务里，多个 agent 共写一张汇总表只保住 57 条事实中的 41 条，改成一份合同一页并逐字引用后保住 57 条。强模型被规定“只记失败”时，记忆带来的提升丢掉了很大一部分。",
+      "caveats": "这是厂商工程博客，不是同行评审；宝可梦的对比是单次运行，读法更接近案例。wiki 并非总有用：有的任务看不出增益，有一次 wiki 比原文还大。文章自己说，顶层载入不保证被遵守，错误笔记会被带进每个会话，持续校对全部记忆也不现实。“做梦”是工程比喻，类比海马体回放，不说明模型有梦。",
+      "tags": [
+        "agent memory",
+        "dreaming",
+        "sleep-time compute",
+        "上下文工程",
+        "记忆校对"
+      ],
+      "stance": "primary",
+      "thread": "agent-memory",
+      "status": "verified",
+      "added_at": "2026-11-07"
     }
   ]
 }
